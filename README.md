@@ -161,13 +161,21 @@
 
 ## Capítulo I: Introducción 
 
+
 ### 1.1. Startup Profile
+Somos un equipo de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC) motivados en desarrollar una solución diferente que cuyo objetivo principal sea ayudar a las personas a generar planes de comida personalizados basados en sus preferencias, objetivos de salud y necesidades nutricionales. 
 
 #### 1.1.1. Descripción de la Startup
+Nuestra aplicación web, NutriSmart, es una aplicación web diseñada para facilitar la creación de planes de comida adaptados a las necesidades específicas de cada persona. Ya sea para quienes buscan alcanzar objetivos de salud, mejorar su nutrición o gestionar dietas con restricciones alimenticias usando excepciones y restricciones específicas, con una interfaz amigable y herramientas eficientes, dando una experiencia sencilla y accesible para todos los usuarios.
+
+**Misión:** Ofrecer a nuestros usuarios una herramienta accesible y eficiente para mejorar su bienestar a través de la alimentación personalizada, ayudándoles a alcanzar sus metas de salud y nutrición con facilidad y precisión.
+
+**Visión:** Convertirnos en la plataforma líder en soluciones de planificación de alimentos personalizados, proporcionando a millones de usuarios la oportunidad de tomar decisiones alimenticias informadas y alineadas con sus objetivos de salud a nivel global.
 
 #### 1.1.2. Perfiles de Integrantes del Equipo
 
-#### 1.2. Solution Profile
+
+### 1.2. Solution Profile
 
 #### 1.2.1. Antecedentes y problemática
 
