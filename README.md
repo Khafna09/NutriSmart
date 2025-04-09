@@ -309,7 +309,50 @@ Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilid
   <img src="./imagenes/Lean-UX-Canvas.png" alt="Lean UX Canvas" width="850">
 </p>
 
-## 1.3. Segmentos Objetivos
+
+### 1.3. Segmentos Objetivos
+### Segmento Objetivo 1: Jóvenes Adultos
+
+#### Aspectos Demográficos:
+- **Sexo:** Masculino y Femenino
+- **Edades:** Entre 18 y 65 años
+- **Nivel Socioeconómico:** Clases A, B, C, D (media alta, media, media-baja, baja)
+- **Ocupación:** Estudiantes universitarios, profesionales, emprendedores
+- **Ingresos:** Ingresos variables dependiendo de su ocupación, con la posibilidad de tener ingresos fijos o por proyectos
+
+#### Aspectos Geográficos:
+- **Nacionalidad:** Nacional (principalmente en áreas urbanas y suburbanas)
+- **Ubicación Actual:** Principalmente en grandes ciudades, como Lima, Arequipa, Trujillo, Piura
+- **Acceso a Tecnología:** Alta disponibilidad de smartphones y computadoras
+
+#### Aspectos Psicográficos:
+- **Motivaciones:** Búsqueda de una vida más saludable, interés por mejorar su bienestar físico y adoptar hábitos alimenticios más adecuados
+- **Estilo de vida:** Activo, con predisposición a mejorar la alimentación por razones estéticas, deportivas o de salud
+- **Preocupaciones:** La dificultad para gestionar una dieta que se ajuste a sus preferencias, gustos y objetivos personales
+- **Adaptación a la tecnología:** Alta disposición para usar aplicaciones móviles y plataformas digitales para gestionar su salud
+- **Interés por la Personalización:** Gran valor por las soluciones personalizadas que le permitan lograr sus metas de bienestar
+### Segmento Objetivo 2: Profesionales de la Salud (Nutricionistas)
+
+#### Aspectos Demográficos:
+- **Sexo:** Masculino y Femenino
+- **Edades:** Entre 25 y 65 años
+- **Nivel Socioeconómico:** Clases A, B, C (media-alta, media, media-baja)
+- **Ocupación:** Nutricionistas, dietistas, profesionales en salud y bienestar
+- **Educación:** Título universitario en Nutrición o carreras relacionadas con la salud
+- **Ingresos:** Ingresos medios-altos, provenientes de consultas privadas, clínicas o instituciones de salud
+
+#### Aspectos Geográficos:
+- **Nacionalidad:** Nacional
+- **Ubicación Actual:** Áreas urbanas y suburbanas con acceso a clínicas, consultorios y hospitales (mayormente en Lima, Arequipa, Trujillo)
+- **Acceso a Tecnología:** Alta disponibilidad de acceso a internet, computadoras, y uso constante de herramientas digitales para el monitoreo de pacientes
+
+#### Aspectos Psicográficos:
+- **Motivaciones:** Deseo de mejorar la salud y bienestar de sus pacientes, utilizar tecnologías para mejorar la atención nutricional
+- **Estilo de vida:** Profesional enfocado en el bienestar de los demás, trabajando en clínicas, hospitales o en consultas privadas
+- **Preocupaciones:** Necesidad de herramientas que faciliten la gestión de pacientes, hacer seguimiento a sus dietas y mejorar la adherencia de estos a sus planes alimenticios
+- **Adaptación a la tecnología:** Alta disposición para integrar herramientas tecnológicas en su práctica profesional, desde plataformas de gestión de pacientes hasta soluciones móviles para mejorar la experiencia del paciente
+- **Interés por la Personalización:** Interés por soluciones que permitan ajustar las dietas a las necesidades específicas de cada paciente y facilitar el monitoreo en tiempo real de su progreso
+
 
 
 <hr>
