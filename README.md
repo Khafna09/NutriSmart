@@ -376,6 +376,7 @@ Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilid
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
+Descripción de dos personas por segmento
 
 #### 2.3.2. User Task Matrix
 
