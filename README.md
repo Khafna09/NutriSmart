@@ -376,7 +376,13 @@ Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilid
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
-Descripción de dos personas por segmento
+<p align="center">
+  <img src="./imagenes/User-persona1.png" alt="User Persona 1" width="550">
+</p>
+
+<p align="center">
+  <img src="./imagenes/User-persona2.png" alt="User Persona 2" width="550">
+</p>
 
 #### 2.3.2. User Task Matrix
 
