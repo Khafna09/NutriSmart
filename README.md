@@ -452,6 +452,8 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 ### 4.1. Style Guidelines
 
+Prueba 
+
 #### 4.1.1. General Style Guidelines
 
 ### 4.2. Information Architecture
