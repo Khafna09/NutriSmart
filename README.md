@@ -461,6 +461,13 @@ En esta sección hemos decidido establecer ciertas directrices de estilo que pue
 - El logotipo de nuestra marca está compuesto por el nombre NutriSmart y el ícono de una manzana verde con un check integrado en su interior. La manzana, universalmente asociada a la salud y la buena alimentación, representa nuestro enfoque en nutrición balanceada. El check comunica validación, confiabilidad y metas cumplidas, reforzando la idea de que cada plan está aprobado y adaptado a las necesidades del usuario.
 - Este símbolo transmite simplicidad, bienestar y tecnología, tres pilares clave de NutriSmart como plataforma digital para mejorar hábitos alimenticios. El diseño es moderno, minimalista y funcional, lo que permite que el logotipo funcione tanto en interfaces móviles como web.
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <img src="./imagenes/NutriSmart.png" alt="Logo NutriSmart" width="150">
+  <img src="./imagenes/NutriSmart2.png" alt="Logo NutriSmart" width="150">
+</div>
+
+
+
 #### Lenguaje Aplicado
 
 - El lenguaje en NutriSmart será cercano, claro y motivador. Nos dirigimos a personas con distintas metas nutricionales, desde bajar de peso hasta mejorar su energía diaria o controlar alergias alimentarias. Por eso, cada mensaje se construye con empatía y enfoque positivo.
@@ -476,18 +483,39 @@ La identidad visual de NutriSmart se apoya en una paleta fresca y saludable, dis
 
 Esta paleta busca equilibrio emocional: inspira confianza sin saturar, invita a la acción sin generar ansiedad.
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <img src="./imagenes/PaletaVerde.png" alt="Paleta Verde" width="150">
+  <img src="./imagenes/PaletaVerdeclaro.png" alt="Paleta Verde Claro" width="150">
+  <img src="./imagenes/PaletaBlanca.png" alt="Paleta Blanca" width="150">
+</div>
+
 #### Tipografía
 
 La tipografía utilizada en NutriSmart es Poppins, una fuente sans-serif moderna, geométrica y amigable. Esta elección garantiza una excelente legibilidad en cualquier dispositivo, manteniendo una estética profesional y accesible.
 
 - Títulos: Se utilizan en pesos *semibold* o *bold*, aportando fuerza visual a secciones clave como metas, nombres de recetas o categorías de alimentos.
+
+<p align="center">
+  <img src="./imagenes/TipoLetra.png" alt="TipoLetra" width="550">
+</p>
+
 - Texto base: Se emplean pesos *regular* o *light*, lo que permite una lectura fluida en menús, consejos, listas de ingredientes o descripciones.
 
+<p align="center">
+  <img src="./imagenes/TipoLetra2.png" alt="TipoLetra2" width="550">
+</p>
+
 Jerarquía clara: Poppins permite contrastes visuales efectivos sin perder armonía, facilitando una experiencia intuitiva. La combinación de su estilo contemporáneo con su flexibilidad de uso refuerza la identidad tecnológica y saludable de NutriSmart.
+
+
 
 #### Espaciado
 
 Para el espaciado nos basamos en las recomendaciones de especialistas en el diseño de interfaces. Se sugiere que las líneas de los párrafos sean 1.5 veces el tamaño de la letra, para que los textos resulten más fáciles de leer y visualmente respirables.
+
+<p align="center">
+  <img src="./imagenes/Espaciado.png" alt="User Persona 2" width="300">
+</p>
 
 
 #### 4.1.2. Web Style Guidelines
