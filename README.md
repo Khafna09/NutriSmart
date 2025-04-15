@@ -454,6 +454,105 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 #### 4.1.1. General Style Guidelines
 
+En esta sección hemos decidido establecer ciertas directrices de estilo que puedan garantizar la coherencia visual y de comunicación en nuestra aplicación. Para esto detallaremos aspectos clave relacionados al branding, tipografía, colores, spacing y tono de comunicación.
+
+#### Branding
+
+- El logotipo de nuestra marca está compuesto por el nombre NutriSmart y el ícono de una manzana verde con un check integrado en su interior. La manzana, universalmente asociada a la salud y la buena alimentación, representa nuestro enfoque en nutrición balanceada. El check comunica validación, confiabilidad y metas cumplidas, reforzando la idea de que cada plan está aprobado y adaptado a las necesidades del usuario.
+- Este símbolo transmite simplicidad, bienestar y tecnología, tres pilares clave de NutriSmart como plataforma digital para mejorar hábitos alimenticios. El diseño es moderno, minimalista y funcional, lo que permite que el logotipo funcione tanto en interfaces móviles como web.
+
+#### Lenguaje Aplicado
+
+- El lenguaje en NutriSmart será cercano, claro y motivador. Nos dirigimos a personas con distintas metas nutricionales, desde bajar de peso hasta mejorar su energía diaria o controlar alergias alimentarias. Por eso, cada mensaje se construye con empatía y enfoque positivo.
+- Promovemos el cambio sin imposiciones: nuestros textos buscan acompañar, enseñar y animar. Los recordatorios, recomendaciones o mensajes de progreso serán siempre alentadores, evitando tonos técnicos o restrictivos. Queremos que cada usuario sienta que está haciendo un cambio alcanzable, paso a paso, sin juicios y con apoyo.
+
+#### Paleta de Colores
+
+La identidad visual de NutriSmart se apoya en una paleta fresca y saludable, diseñada para generar confianza y estimular hábitos positivos:
+
+- Verde principal (`#63B663`): Representa salud, frescura y crecimiento. Es el color del ícono de la manzana y del check, y sirve para destacar elementos clave.
+- Verde claro (`#CDFFD6`): Refuerza la idea de naturalidad. Ideal para fondos suaves o secciones de apoyo como sugerencias o recetas.
+- Blanco (`#FFFFFF`): Base principal del fondo. Aporta claridad y resalta el contenido. Esencial para una interfaz ordenada y accesible.
+
+Esta paleta busca equilibrio emocional: inspira confianza sin saturar, invita a la acción sin generar ansiedad.
+
+#### Tipografía
+
+La tipografía utilizada en NutriSmart es Poppins, una fuente sans-serif moderna, geométrica y amigable. Esta elección garantiza una excelente legibilidad en cualquier dispositivo, manteniendo una estética profesional y accesible.
+
+- Títulos: Se utilizan en pesos *semibold* o *bold*, aportando fuerza visual a secciones clave como metas, nombres de recetas o categorías de alimentos.
+- Texto base: Se emplean pesos *regular* o *light*, lo que permite una lectura fluida en menús, consejos, listas de ingredientes o descripciones.
+
+Jerarquía clara: Poppins permite contrastes visuales efectivos sin perder armonía, facilitando una experiencia intuitiva. La combinación de su estilo contemporáneo con su flexibilidad de uso refuerza la identidad tecnológica y saludable de NutriSmart.
+
+#### Espaciado
+
+Para el espaciado nos basamos en las recomendaciones de especialistas en el diseño de interfaces. Se sugiere que las líneas de los párrafos sean 1.5 veces el tamaño de la letra, para que los textos resulten más fáciles de leer y visualmente respirables.
+
+
+#### 4.1.2. Web Style Guidelines
+
+
+La página principal de NutriSmart ha sido diseñada para proporcionar una experiencia moderna, clara y adaptable a todo tipo de dispositivos: computadoras de escritorio, laptops, tablets y smartphones. Gracias a su diseño responsivo, cada elemento visual y funcional se ajusta automáticamente para mantener la accesibilidad, la coherencia y la facilidad de uso en cualquier resolución de pantalla.
+
+#### <a name="4121-Estructura-de-la-Página"></a>4.1.2.1 Estructura de la Página
+
+#### Encabezado
+
+El encabezado presenta el logotipo de NutriSmart en la parte izquierda, el cual actúa como enlace directo hacia el inicio. A su derecha, se encuentra un menú de navegación con accesos a secciones como *Inicio*, *Para ti*, *Nuestros usuarios* y *Únete*. También se incluye un botón de registro y de inicio de sesión destacados. El diseño mantiene una estética minimalista con colores suaves, resaltando únicamente los botones clave con un color primario llamativo.
+
+#### Contenido Principal
+
+La sección principal inicia con una imagen de fondo atractiva y un eslogan destacado: “Tu nutrición, de manera inteligente”, acompañado de una breve descripción de lo que ofrece NutriSmart.
+
+Luego, se despliega una sección explicativa con íconos ilustrativos sobre las funcionalidades de NutriSmart, como la evaluación inteligente, planes personalizados, seguimiento en tiempo real y nutrición que se adapta al usuario. Cada bloque incluye una imagen descriptiva y un texto breve, lo que mejora la comprensión inmediata de los beneficios de la app.
+
+Posteriormente, se presenta una sección explicando para quién va dirigida la aplicación junto a la valoración en estrellas de la aplicación que aumenta la confianza en la plataforma.
+
+Finalmente, se muestra una última sección en la que se invita al usuario a comenzar su experiencia en la aplicación junto a íconos de descarga de la app en Google Play y App Store.
+
+#### Pie de Página
+
+El pie de página ofrece enlaces rápidos a redes sociales como *Instagram*, *Youtube* y *Tik Tok*. Además, se muestran enlaces informativos hacia *Políticas de Privacidad*, *Términos de Uso*, *FAQ* y *Contacto*, todos diseñados con una tipografía clara y espaciado adecuado para facilitar su lectura.
+
+#### <a name="4122-Diseño-de-Componentes"></a>4.1.2.2 Diseño de Componentes
+
+#### Botones
+
+Los botones en NutriSmart presentan un diseño redondeado, moderno y accesible, siguiendo la línea de nuestra identidad visual saludable y amigable. Están pensados para facilitar la interacción, ofreciendo claridad, contraste y feedback visual inmediato al usuario.
+
+- Colores: Se basan en la paleta definida. El verde principal (`#63B663`) es el más utilizado en botones primarios.
+- Tamaños: Adaptables a múltiples contextos (móvil, escritorio), con paddings amplios que facilitan el clic y refuerzan la jerarquía visual.
+
+
+
+####  Íconos
+
+Los íconos utilizados en NutriSmart son planos, claros y significativos, priorizando símbolos asociados a:
+
+- Alimentación saludable (platos, verduras, básculas, agua).
+- Hábitos positivos (organismo, uno mismo, progreso).
+
+Todos mantienen una línea gráfica uniforme, alineada con el minimalismo y la simplicidad del sistema visual. Además, están optimizados para verse correctamente en pantallas pequeñas.
+
+#### <a name="4123-Navegación-e-Interacción"></a>4.1.2.3 Navegación e Interacción
+
+#### Menús de navegación
+
+El sistema de navegación de NutriSmart fue diseñado para ser intuitivo, accesible y responsive:
+
+- En versión escritorio, se ubica en la parte superior, destacando las secciones clave como Para ti, Nuestros Usuarios, Únete, inicia sesión y registrarse.
+- En dispositivos móviles, se adapta a un menú tipo *hamburguesa* desplegable, optimizando el espacio sin sacrificar funcionalidad.
+
+Esta estructura permite al usuario explorar la aplicación sin fricciones, manteniendo siempre visible la ruta de navegación actual.
+
+
+#### Interacción de desplazamiento
+
+La navegación en NutriSmart es dinámica y fluida. A medida que el usuario se desplaza:
+
+- Se presentarán diferentes elementos clave aparecerán con transiciones suaves que mantendrá el interés del usuario, este enfoque mejora la percepción de modernidad y movimiento, reforzando el carácter tecnológico de la plataforma y manteniendo el interés del usuario sin restar atención al contenido.
+
 ### 4.2. Information Architecture
 
 #### 4.2.1. Organization Systems
