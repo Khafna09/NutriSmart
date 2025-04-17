@@ -834,14 +834,14 @@ Se han definido etiquetas SEO y Meta Tags estratégicamente para la Landing Page
 - **Title**: NutriSmart | Tu compañero de nutrición inteligente
 - **Meta Description**: Registra tus comidas, recibe recomendaciones saludables personalizadas y alcanza tus metas nutricionales con NutriSmart.
 - **Meta Keywords**: nutrición, salud, dieta, app nutricional, recetas saludables, progreso, alimentación
-- **Meta Author**: Equipo NutriSmart
+- **Meta Author**: NutriVid
 
 #### Web Application
 
 - **Title**: NutriSmart - Panel del usuario
 - **Meta Description**: Accede a tu panel personalizado para registrar alimentos, crear recetas y monitorear tu progreso nutricional.
 - **Meta Keywords**: seguimiento de comidas, registro nutricional, recetas personalizadas, progreso alimenticio
-- **Meta Author**: Equipo NutriSmart
+- **Meta Author**: NutriVid
 
 
 #### 4.2.4. Searching Systems
