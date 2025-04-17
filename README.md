@@ -629,9 +629,27 @@ El equipo confía en que esta estructura permitirá a los usuarios de NutriSmart
 
 #### 4.2.1. Organization Systems
 
-El sistema de información que planea implementar **NutriSmart** permitirá a los usuarios tener una experiencia personalizada, organizada y accesible para gestionar sus planes alimenticios, preferencias y progreso de manera sencilla y motivadora.
+Los contenidos de NutriSmart se organizan utilizando diferentes sistemas según la naturaleza del contenido y el flujo esperado del usuario: 
 
-<br>
+
+#### ▪ Organización Visual del Contenido
+
+| Tipo de organización | Aplicación / Uso concreto | Justificación |
+|----------------------|---------------------------|---------------|
+| Jerárquica (Visual Hierarchy) | Landing Page, pantalla principal de la app | Para destacar las funcionalidades clave y guiar al usuario hacia las acciones más importantes (registro, descarga, exploración de funciones). |
+| Secuencial (Paso a paso) | Registro de usuario, configuración de perfil nutricional, creación de metas | Acompaña al usuario en su primer uso, evitando sobrecarga cognitiva y asegurando una experiencia guiada. |
+| Matricial | Registro de alimentos, historial, progreso nutricional | Permite mostrar múltiples variables en un solo espacio (alimento, cantidad, calorías, fecha), facilitando la comparación y comprensión de datos. |
+
+#### ▪ Esquemas de Categorización de Contenido
+
+| Tipo de esquema | Aplicación / Uso concreto | Justificación |
+|-----------------|---------------------------|---------------|
+| Por tópicos | Secciones de "Inicio", "Progreso", "Recetas", "Configuración" | Permite que el contenido esté agrupado por funcionalidades para un acceso rápido. |
+| Cronológico | Historial de alimentos, resumen semanal, evolución del progreso | Ideal para seguir la evolución del usuario en el tiempo. Facilita la evaluación de hábitos. |
+| Según audiencia (grupos de usuarios) | Recomendaciones personalizadas para usuarios con objetivos distintos (subir/bajar peso, vegetarianos, diabéticos) | El sistema se adapta a las necesidades específicas de cada perfil, ofreciendo contenido relevante. |
+
+
+#### ▪ Secciones Principales de NutriSmart
 
 | Historial de Planes      | Definición                                                                                              |
 |--------------------------|--------------------------------------------------------------------------------------------------------|
@@ -783,15 +801,81 @@ El sistema de información que planea implementar **NutriSmart** permitirá a lo
 | Alternativas             | Opción de ver los resúmenes por días o por metas específicas (ej. calorías, macronutrientes, alimentos probados). |
 | Sugerencias              | Incluir recomendaciones personalizadas para la siguiente semana basadas en el progreso de la semana anterior. |
 
-
-
 #### 4.2.2. Labeling Systems
+
+El sistema de etiquetas en *NutriSmart* ha sido diseñado para ser claro, directo y coherente, facilitando la comprensión de las funcionalidades:
+
+| **Etiqueta**                  | **Descripción** |
+|------------------------------|-----------------|
+| Iniciar sesión / Registrarse | Opción para que el usuario acceda a la app con una cuenta existente o cree una nueva proporcionando datos personales o accediendo con redes como Google. |
+| Inicio                       | Página principal que presenta un resumen del día, acceso rápido a funciones como comidas registradas, progreso nutricional, y sugerencias. |
+| Menú principal               | Área de navegación con accesos a las secciones más importantes: Diario, Recetas, Perfil, Resumen, etc. |
+| Registrar comida             | Función para añadir un alimento consumido, permitiendo elegir por tipo (desayuno, almuerzo, etc.), y registrar porciones, ingredientes o desde una receta personalizada. |
+| Buscar receta                | Herramienta para buscar entre recetas previamente registradas por el usuario u ofrecidas por la app, filtrando por nombre, ingredientes, o tipo de comida. |
+| Crear receta personalizada   | Opción para que el usuario registre un nuevo platillo indicando los ingredientes, cantidades y preparación, y lo guarde para futuras consultas. |
+| Diario alimenticio           | Sección donde se muestran todas las comidas registradas por día, con su valor calórico y distribución de macronutrientes. |
+| Registro por porciones       | Permite al usuario indicar la cantidad exacta de cada ingrediente consumido en una comida. |
+| Buscar alimentos             | Barra de búsqueda que permite encontrar alimentos individuales desde la base de datos general para agregarlos al registro. |
+| Perfil                       | Sección donde se gestionan los datos personales del usuario: nombre, edad, peso, altura, metas, y preferencias. |
+| Configuración                | Área para modificar opciones como idioma, notificaciones, y unidades de medida. |
+| Progreso nutricional         | Muestra gráficos y resúmenes sobre el cumplimiento de metas diarias de calorías, macronutrientes y micronutrientes. |
+| Historial de comidas         | Registro de los alimentos consumidos durante días anteriores para seguimiento o edición. |
+| Resumen semanal              | Informe de las métricas nutricionales acumuladas durante la semana, incluyendo gráficos de calorías, macros y tendencias. |
+| Sugerencias                  | Recomendaciones automáticas de comidas o ajustes, basadas en el historial del usuario y sus objetivos. |
+| Guardar receta               | Opción para almacenar una receta personalizada y poder reutilizarla fácilmente en el futuro. |
+| Buscar recetas guardadas     | Sección donde el usuario puede revisar todas las recetas personalizadas que ha registrado previamente. |
 
 #### 4.2.3. SEO Tags and Meta Tags
 
+Se han definido etiquetas SEO y Meta Tags estratégicamente para la Landing Page y la Web App con el fin de mejorar la visibilidad en motores de búsqueda y optimizar la experiencia en redes sociales y navegadores.
+
+#### Landing Page
+
+- **Title**: NutriSmart | Tu compañero de nutrición inteligente
+- **Meta Description**: Registra tus comidas, recibe recomendaciones saludables personalizadas y alcanza tus metas nutricionales con NutriSmart.
+- **Meta Keywords**: nutrición, salud, dieta, app nutricional, recetas saludables, progreso, alimentación
+- **Meta Author**: Equipo NutriSmart
+
+#### Web Application
+
+- **Title**: NutriSmart - Panel del usuario
+- **Meta Description**: Accede a tu panel personalizado para registrar alimentos, crear recetas y monitorear tu progreso nutricional.
+- **Meta Keywords**: seguimiento de comidas, registro nutricional, recetas personalizadas, progreso alimenticio
+- **Meta Author**: Equipo NutriSmart
+
+
 #### 4.2.4. Searching Systems
 
+Para evitar que los usuarios se pierdan entre el volumen de contenido, *NutriSmart* ofrece múltiples sistemas de búsqueda adaptados a cada contexto:
+
+| **Nombre del Filtro**       | **Descripción** |
+|-----------------------------|-----------------|
+| Buscar alimentos            | Herramienta para encontrar alimentos individuales por nombre o categoría (frutas, carnes, lácteos, etc.) y agregarlos al registro de comidas. |
+| Buscar recetas guardadas    | Permite al usuario buscar entre sus recetas personalizadas por nombre del platillo o ingredientes utilizados previamente. |
+| Buscar por ingredientes     | Posibilidad de escribir uno o varios ingredientes para encontrar recetas que los contengan. |
+| Buscar por tipo de comida   | Filtra recetas o alimentos según la categoría del día: desayuno, almuerzo, cena, snack o postre. |
+| Buscar por historial        | Acceso rápido a alimentos y recetas registradas recientemente por el usuario, para reutilizarlas fácilmente. |
+| Sugerencias inteligentes    | Muestra recomendaciones de recetas o combinaciones de alimentos con base en los patrones previos del usuario y sus metas nutricionales. |
+| Filtros de porciones        | Permite visualizar únicamente aquellas recetas o registros que se ajustan a un rango calórico o cantidad de porciones específicas. |
+| Buscar en diario            | Herramienta para buscar registros pasados por fecha o tipo de comida dentro del diario alimenticio. |
+| Buscar por etiquetas        | Posibilidad de clasificar y encontrar recetas personalizadas con etiquetas como "bajo en calorías", "alto en proteína", "vegetariano", etc. |
+
 #### 4.2.5. Navigation Systems
+
+La navegación en *NutriSmart* está pensada para acompañar al usuario de manera fluida en todas las etapas de uso del producto. Las decisiones incluyen:
+
+| **Nombre**                  | **Descripción** |
+|-----------------------------|-----------------|
+| Inicio                      | Página principal donde el usuario puede ver un resumen de su estado nutricional, acceso rápido a su diario y recomendaciones del día. |
+| Menú principal              | Barra de navegación que da acceso directo a las secciones más importantes: registro, historial, recetas guardadas, progreso y ajustes. |
+| Registro rápido             | Botón destacado que permite al usuario registrar alimentos de forma inmediata desde cualquier parte de la aplicación. |
+| Diario alimenticio          | Acceso al diario donde el usuario puede ver, editar o eliminar sus registros diarios de comidas. |
+| Recetas guardadas           | Sección donde el usuario accede a sus recetas personalizadas o sugeridas, con posibilidad de editarlas o agregarlas al registro. |
+| Historial                   | Permite revisar comidas registradas en días anteriores, junto con los nutrientes y calorías consumidas. |
+| Progreso                   | Visualización de estadísticas como calorías diarias, macronutrientes, metas semanales y evolución del peso. |
+| Buscador general            | Barra de búsqueda que permite encontrar alimentos, recetas o registros por nombre, ingrediente o fecha. |
+| Ajustes                     | Configuraciones generales de la app, como objetivos nutricionales, preferencias alimenticias, unidades de medida y notificaciones. |
+| Accesos rápidos             | Iconos o botones flotantes para acceder a funciones frecuentes como registrar agua, pesar alimentos o escanear códigos de barras. |
 
 ### 4.3. Landing Page UI Design
 
