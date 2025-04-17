@@ -802,8 +802,8 @@ Los contenidos de NutriSmart se organizan utilizando diferentes sistemas según 
 | Sugerencias              | Incluir recomendaciones personalizadas para la siguiente semana basadas en el progreso de la semana anterior. |
 
 #### 4.2.2. Labeling Systems
+El sistema de etiquetado de **NutriSmart** busca transmitir información clara, breve y sin ambigüedades. Se han definido etiquetas simples que faciliten la navegación y comprensión, evitando tecnicismos o redundancias.
 
-El sistema de etiquetas en *NutriSmart* ha sido diseñado para ser claro, directo y coherente, facilitando la comprensión de las funcionalidades:
 
 | **Etiqueta**                  | **Descripción** |
 |------------------------------|-----------------|
@@ -829,6 +829,7 @@ El sistema de etiquetas en *NutriSmart* ha sido diseñado para ser claro, direct
 
 Se han definido etiquetas SEO y Meta Tags estratégicamente para la Landing Page y la Web App con el fin de mejorar la visibilidad en motores de búsqueda y optimizar la experiencia en redes sociales y navegadores.
 
+<<<<<<< HEAD
 #### Landing Page
 
 - **Title**: NutriSmart | Tu compañero de nutrición inteligente
@@ -863,6 +864,44 @@ Para evitar que los usuarios se pierdan entre el volumen de contenido, *NutriSma
 #### 4.2.5. Navigation Systems
 
 La navegación en *NutriSmart* está pensada para acompañar al usuario de manera fluida en todas las etapas de uso del producto. Las decisiones incluyen:
+=======
+####  Landing Page
+
+- **Title**: NutriSmart | Tu compañero de nutrición inteligente
+- **Meta Description**: Registra tus comidas, recibe recomendaciones saludables personalizadas y alcanza tus metas nutricionales con NutriSmart.
+- **Meta Keywords**: Nutrición, salud, dieta, app nutricional, recetas saludables, progreso, alimentación
+- **Meta Author**: NutriVid
+
+####  Web Application
+
+- **Title**: NutriSmart - Panel del usuario
+- **Meta Description**: Accede a tu panel personalizado para registrar alimentos, crear recetas y monitorear tu progreso nutricional.
+- **Meta Keywords**: Seguimiento de comidas, registro nutricional, recetas personalizadas, progreso alimenticio
+- **Meta Author**: NutriVid
+
+---
+
+#### 4.2.4. Searching Systems
+
+NutriSmart implementa un sistema de búsqueda simple pero funcional que permite a los usuarios encontrar contenido relevante rápidamente dentro de la aplicación.
+
+| **Nombre**                  | **Descripción** |
+|-----------------------------|-----------------|
+| Inicio                      | Página principal donde el usuario puede ver un resumen de su estado nutricional, acceso rápido a su diario y recomendaciones del día. |
+| Menú principal              | Barra de navegación que da acceso directo a las secciones más importantes: registro, historial, recetas guardadas, progreso y ajustes. |
+| Registro rápido             | Botón destacado que permite al usuario registrar alimentos de forma inmediata desde cualquier parte de la aplicación. |
+| Diario alimenticio          | Acceso al diario donde el usuario puede ver, editar o eliminar sus registros diarios de comidas. |
+| Recetas guardadas           | Sección donde el usuario accede a sus recetas personalizadas o sugeridas, con posibilidad de editarlas o agregarlas al registro. |
+| Historial                   | Permite revisar comidas registradas en días anteriores, junto con los nutrientes y calorías consumidas. |
+| Progreso                   | Visualización de estadísticas como calorías diarias, macronutrientes, metas semanales y evolución del peso. |
+| Buscador general            | Barra de búsqueda que permite encontrar alimentos, recetas o registros por nombre, ingrediente o fecha. |
+| Ajustes                     | Configuraciones generales de la app, como objetivos nutricionales, preferencias alimenticias, unidades de medida y notificaciones. |
+| Accesos rápidos             | Iconos o botones flotantes para acceder a funciones frecuentes como registrar agua, pesar alimentos o escanear códigos de barras. |
+
+#### 4.2.5. Navigation Systems
+
+El sistema de navegación de NutriSmart guía al usuario a través del contenido con una estructura clara y fluida. Se basa en patrones familiares para reducir la curva de aprendizaje.
+>>>>>>> feature/rodriguez
 
 | **Nombre**                  | **Descripción** |
 |-----------------------------|-----------------|
