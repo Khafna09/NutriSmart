@@ -398,16 +398,36 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 - Frente a competidores como Fitia, Yazio y Noom, NutriSmart debe centrarse en resaltar su nivel de personalización avanzada y adaptabilidad a las necesidades individuales como su principal ventaja competitiva. Estratégicamente, puede posicionarse como la opción más flexible y accesible mediante contenido en redes sociales que muestren casos reales y cómo su plataforma se adapta incluso a dietas complejas. Tácticamente, debe enfocarse en alianzas con nutricionistas locales, gimnasios y marcas saludables para ganar visibilidad, así como ofrecer promociones freemium o planes especiales para profesioanles de la salud. Además, mantener una interfaz intuitiva y actualizaciones constantes garantizará una ventaja sostenida en experiencia de usuario.
 
 
-
-
-
-
-
-
-
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
+# Entrevistas para Validación de RescueNet
+
+###  Preguntas Generales
+1. ¿Qué tan importante consideras la alimentación en tu día a día?     
+
+2. ¿Con qué frecuencia sueles buscar información o herramientas que te ayuden a mejorar tu alimentación?     
+---
+
+### Segmento 1: Jóvenes adultos interesados ne  mejorar su dieta
+
+1. ¿Planificas tus comidas semanalmente? Si lo haces, ¿cómo lo haces actualmente?  
+2. ¿Qué tan seguido comes fuera o pides delivery? ¿Cómo influye esto en tu alimentación?  
+3. ¿Tienes algún objetivo personal relacionado con tu alimentación? (Bajar de peso, ganar masa, mantener salud, etc.)  
+4. ¿Has probado alguna app de nutrición o fitness? ¿Qué te gustó y qué no te gustó?  
+5. ¿Qué haría que una app de nutrición te resulte realmente útil o diferente a lo que ya existe?  
+6. ¿Estarías dispuesto a pagar por una versión premium que te ayude con recetas, seguimiento de progreso y planes avanzados? ¿Por qué?  
+
+---
+
+### Segmento 2: Profesionales de la Salud (nutricionistas)
+
+1. ¿Cómo creas y haces seguimiento de los planes alimenticios que das a tus pacientes? ¿Qué herramientas usas?  
+2. ¿Qué dificultades sueles encontrar al personalizar planes según diagnósticos, alergias o preferencias?  
+3. ¿Cómo verificas que tus pacientes siguen lo que les recomiendas? ¿Te gustaría mejorar ese proceso?  
+4. ¿Qué opinas sobre el uso de apps por parte de los pacientes? ¿Crees que ayudan o dificultan el proceso?  
+5. ¿Qué funcionalidades te gustaría ver en una plataforma que puedas usar junto a tus pacientes?  
+6. ¿Recomendarías NutriSmart si mejora la adherencia y simplifica el trabajo contigo? ¿Qué condiciones tendría que cumplir?  
 
 #### 2.2.2. Registro de entrevistas
 
