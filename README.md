@@ -886,6 +886,49 @@ El sistema de navegación de NutriSmart guía al usuario a través del contenido
 
 #### 4.3.2. Landing Page Mock-up
 
+Desktop:
+<p align="center">
+  <img src="./imagenes/LandingPage1.png" alt="LandingPage1" width="550">
+</p>
+
+<p align="center">
+  <img src="./imagenes/LandingPage2.png" alt="LandingPage2" width="550">
+</p>
+
+<p align="center">
+  <img src="./imagenes/LandingPage3.png" alt="LandingPage3" width="550">
+</p>
+
+<p align="center">
+  <img src="./imagenes/LandingPage4.png" alt="LandingPage4" width="550">
+</p>
+
+<p align="center">
+  <img src="./imagenes/LandingPage5.png" alt="LandingPage5" width="550">
+</p>
+
+Mobile:
+<p align="center">
+  <img src="./imagenes/MLandingPage1.png" alt="MLandingPage2" width="200">
+</p>
+
+<p align="center">
+  <img src="./imagenes/MLandingPage2.png" alt="MLandingPage2" width="200">
+</p>
+
+<p align="center">
+  <img src="./imagenes/MLandingPage3.png" alt="MLandingPage3" width="200">
+</p>
+
+<p align="center">
+  <img src="./imagenes/MLandingPage4.png" alt="MLandingPage4" width="200">
+</p>
+
+<p align="center">
+  <img src="./imagenes/MLandingPage5.png" alt="MLandingPage5" width="200">
+</p>
+
+
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes.
