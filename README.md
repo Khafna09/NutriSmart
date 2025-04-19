@@ -440,34 +440,203 @@ Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilid
 ### 4.6. Domain-Driven Software Architecture
 
 #### 4.6.1. Software Architecture Context Diagrams
+<p align="center">
+  <img src="./imagenes/context-diagram.png" alt="Context Diagram" width="700">
+</p>
 
 #### 4.6.2. Software Architecture Container Diagrams
+<p align="center">
+  <img src="./imagenes/container-diagram.png" alt="Container Diagram" width="700">
+</p>
 
 #### 4.6.3. Software Architecture Components Diagrams
+<p align="center">
+  <img src="./imagenes/components-diagram.png" alt="Component Diagram" width="700">
+</p>
 
 ### 4.7. Software Object-Oriented Design
 
 #### 4.7.1. Class Diagrams
 
+<p align="center">
+  <img src="./imagenes/diagram-class.jpg" alt="Class Diagram" width="700">
+</p>
+
 #### 4.7.2. Class Dictionary
+
+| Clase                | Descripción                                                                                                                            |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `User`               | Representa a cualquier persona registrada en la plataforma. Contiene información básica como email, contraseña y rol de acceso.       |
+| `CustomerProfile`    | Perfil extendido del usuario con rol de cliente. Almacena datos personales, objetivos nutricionales, alergias y restricciones.         |
+| `NutritionistProfile`| Perfil del usuario con rol de nutricionista. Incluye credenciales profesionales y datos necesarios para crear y gestionar planes.      |
+| `MealPlan`           | Plan nutricional semanal personalizado. Contiene los días del plan, comidas asignadas y está relacionado con un perfil de cliente.     |
+| `MealPlanDay`        | Representa un día dentro de un plan nutricional. Incluye una estructura de comidas (desayuno, almuerzo, cena, snacks, etc.)           |
+| `Recipe`             | Receta saludable con nombre, instrucciones, tiempo de preparación, ingredientes y valor nutricional asociado.                          |
+| `Ingredient`         | Ingrediente individual utilizado en una receta. Contiene nombre, cantidad, unidad de medida y valores nutricionales por porción.       |
+| `Macros`             | Información nutricional agrupada: calorías, proteínas, grasas y carbohidratos. Puede pertenecer a recetas o planes de comida.         |
+| `FavoriteRecipe`     | Relación entre un cliente y una receta que ha marcado como favorita. Permite personalizar sugerencias y accesos rápidos.               |
+
 
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagram
+<p align="center">
+  <img src="./imagenes/DiagramDB.png" alt="Database Diagram" width="850">
+</p>
 
 <hr>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1. Software Configuration Management.
-
+Este apartado detalla la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y el proceso de despliegue del sistema web de planificación de comidas inteligentes y personalizadas.
 #### 5.1.1. Software Development Environment Configuration.
+**Diseño UX/UI**
+En esta sección nos centramos en la creación de interfaces atractivas e intuitivas, considerando las necesidades y preferencias de los usuarios. Las herramientas empleadas son:
+- **Figma**: Permite diseñar y compartir interfaces de usuario de manera colaborativa y eficiente.
+
+<p align="center">
+  <img src="./imagenes/Figma.png" alt="Figma Logo" width="250">
+</p>
+
+**Desarrollo de Software**
+Para el proceso de creación y programación del software, utilizamos las siguientes herramientas y tecnologías:
+
+- **IDE para Backend**: Se utilizó IntelliJ IDEA como entorno de desarrollo principal para el backend desarrollado en Java con el framework Spring Boot. Esta herramienta ofrece integración avanzada con Maven/Gradle, control de versiones Git, ejecución de pruebas, autocompletado inteligente y soporte para múltiples frameworks y servicios web.
+
+<p align="center">
+  <img src="./imagenes/IntelliJ_IDEA.png" alt="IntelliJ IDEA" width="250">
+</p>
+
+- **IDE para Frontend**: Para el desarrollo frontend en Angular, se utilizó WebStorm, un IDE especializado de JetBrains que facilita el trabajo con TypeScript, HTML y Tailwind CSS. WebStorm proporciona inspecciones de código, refactorizaciones, vista previa en vivo, y soporte completo para proyectos en Angular.
+
+<p align="center">
+  <img src="./imagenes/webstorm.png" alt="WebStorm IDEA" width="250">
+</p>
+
+- **Github**: Plataforma para alojar el repositorio del proyecto y gestionar el control de versiones del código fuente y la documentación, facilitando la colaboración y el seguimiento de cambios.
+
+<p align="center">
+  <img src="./imagenes/github.png" alt="Github Logo" width="250">
+</p>
+
+**Desarrollo de Software**
+- **Markdown**: Plataforma para alojar el repositorio del proyecto y gestionar el control de versiones del código fuente y la documentación, facilitando la colaboración y el seguimiento de cambios.
+
+<p align="center">
+  <img src="./imagenes/markdown.png" alt="Markdown Logo" width="250">
+</p>
+
+- **StarUML**: Programa para crear diagramas UML y diagramas de flujo, ayudando a representar visualmente la arquitectura y los procesos del proyecto.
+
+<p align="center">
+  <img src="./imagenes/staruml.png" alt="StarUML Logo" width="250">
+</p>
+
+- **Visual Paradigm** Programa para crear diagramas de contexto, de contenedores y la identificación de los Bounded Contexts del proyecto.
+
+<p align="center">
+  <img src="./imagenes/visual-paradigm.png" alt="Visual Paradigm Logo" width="250">
+</p>
 
 #### 5.1.2. Source Code Management
+El proyecto utiliza Git como sistema de control de versiones distribuido. Para asegurar una gestión eficiente del código fuente, se aplicó la estrategia de ramas conocida como Git Flow, que facilita la colaboración entre desarrolladores, la integración de nuevas funcionalidades y el mantenimiento del código en producción.
+
+**Implementación de Git Flow**
+
+Se definieron las siguientes ramas principales:
+- **main**: rama principal que contiene las versiones estables.
+- **develop**: rama donde se integran todas las funcionalidades antes de pasar a producción.
+- **feature/***: ramas individuales para el desarrollo de nuevas funcionalidades.
+- **release/***: ramas para la preparación de nuevas versiones.
+- **hotfix/***: ramas para corregir errores críticos directamente en producción.
+
+**Flujo de Trabajo en Git Flow**
+
+1.	Crear una rama feature/nueva-funcionalidad desde develop.
+2.	Realizar el desarrollo y pruebas en la rama feature.
+3.	Fusionar la rama feature con develop una vez completada.
+4.	Preparar la versión final en una rama release.
+5.	Fusionar release con main y develop.
+6.	Crear una etiqueta (tag) con la versión liberada.
+7.	En caso de errores críticos, crear una hotfix desde main y seguir el flujo correspondiente.
+
+**Convenciones de Commits**
+
+Para mantener un historial de cambios limpio y comprensible, se adoptó una convención de mensajes de commit inspirada en Conventional Commits. Esta convención facilita la automatización en el versionado, el análisis de cambios y el seguimiento del desarrollo.
+
+**Estructura del mensaje**
+
+< tipo >(componente): descripción corta en minúsculas y en infinitivo
+
+**Tipos de Commits permitidos**
+
+| Tipo       | Uso recomendado| 
+|------------|----------------|
+| *feat*     | Nueva funcionalidad para el sistema  |
+| *fix*      | Corrección de errores o bugs  |
+| *docs*     | Cambios en la documentación (README, comentarios, etc.)   |
+| *style*    | Cambios de formato (espacios, comas, punto y coma, etc.) sin afectar la lógica del código  |
+| *refactor* | Refactorización del código sin cambios funcionales ni correcciones  |
+| *test*     | Agregado o modificación de pruebas (unitarias, integradas, etc.)   |
+| *chore*    | Tareas menores que no afectan la lógica (actualización de dependencias, archivos de configuración, etc.)   |
+| *build*    | Cambios relacionados al sistema de construcción, CI/CD o entorno de despliegue   |
+| *perf*     |Cambios orientados a mejorar el rendimiento del sistema   |
+
+**Ejemplos de commits**
+
+- **feat(auth)**: agregar funcionalidad de inicio de sesión con JWT
+- **fix(api)**: corregir error 500 al enviar datos nulos desde el formulario
+- **docs(readme)**: actualizar sección de instalación
+- **style(navbar)**: aplicar espaciado correcto entre íconos
+- **refactor(recipe)**: simplificar lógica de filtrado de ingredientes
+- **test(user)**: agregar pruebas unitarias al componente de registro
+- **chore(deps)**: actualizar dependencias npm
+- **build(deploy)**: configurar script para despliegue automático en GitHub Pages
+
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
+Para garantizar una interfaz visual consistente y mantenible, se establecieron las siguientes convenciones de estilo y desarrollo en el frontend de la aplicación:
+
+**Frontend (Angular):**
+- **Framework de diseño**: Se utiliza Tailwind CSS como sistema de utilidades para estilos, lo que permite crear componentes visuales directamente desde la plantilla HTML mediante clases predefinidas, eliminando la necesidad de archivos CSS personalizados extensos.
+
+- **Estructura de carpetas Angular**: Se sigue una arquitectura basada en módulos, dividiendo la aplicación por funcionalidades. Cada módulo contiene sus propios componentes, servicios y archivos relacionados.
+
+- **Nombres de componentes y clases**:
+
+1. Componentes en PascalCase: UserProfileComponent, PlanGeneratorComponent.
+2. Archivos con nombre en kebab-case: user-profile.component.ts, plan-generator.component.html.
+3. Clases de Tailwind directamente en los elementos HTML, con consistencia en el orden (layout → spacing → typography → colors → others).
+
+
+
+**Backend (Spring Boot):**
+- Convenciones estándar de Java y Spring Boot.
+- Nombres de clases en PascalCase y métodos en camelCase.
+- Uso de anotaciones adecuadas y separación clara de responsabilidades (MVC).
+
+
+
+1. **Estructura del Proyecto**: Mantener una estructura clara y consistente para los módulos, componentes y servicios.
+2. **Nombres de Archivos**: Utilizar el formato kebab-case para nombres de archivos y carpetas.
+3. **Servicios**: Seguir el patrón de inyección de dependencias para gestionar servicios y mantener una alta cohesión y bajo acoplamiento.
+
+
 #### 5.1.4. Software Deployment Configuration
+
+El proceso de despliegue se realizó de forma escalonada, priorizando la visibilidad del frontend para fines de presentación y pruebas de usuario.
+
+**Pasos para despliegue en Github Pages**
+
+1.	Generar la versión productiva del frontend con el comando ng build --configuration production.
+2.	Configurar el archivo angular.json para especificar la carpeta docs como destino del build.
+3.	Subir los archivos generados a la rama main del repositorio en GitHub.
+4.	Activar GitHub Pages desde la configuración del repositorio y seleccionar la carpeta /docs como fuente de publicación.
+5.	Verificar la disponibilidad pública de la aplicación desde la URL generada por GitHub Pages.
+
+El backend no se despliega en GitHub Pages; se prevé su implementación en un entorno de servidor como Render, Railway o Heroku para pruebas funcionales completas. 
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
