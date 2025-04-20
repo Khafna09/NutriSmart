@@ -309,6 +309,7 @@ Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilid
   <img src="./imagenes/Lean-UX-Canvas.png" alt="Lean UX Canvas" width="850">
 </p>
 
+[Visualizar diseño en Canva](https://www.canva.com/design/DAGlJeSBFYU/vHO916op--9i6YxHpOLG8Q/edit?utm_content=DAGlJeSBFYU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### 1.3. Segmentos Objetivos
 ### Segmento Objetivo 1: Jóvenes Adultos
