@@ -958,6 +958,21 @@ Finalmente lo que caracteriza principalmente a la app
 
 
 #### 4.4.4. Web Applications User Flow Diagrams
+<p align="center">
+  <img src="./imagenes/mockups/flows 4.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/flows 5.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/flows 1.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/flows 3.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/flows 2.png" alt="Context Diagram" width="700">
+</p>
 
 ### 4.5. Web Applications Prototyping
 
