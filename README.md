@@ -447,6 +447,12 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 #### 2.3.2. User Task Matrix
 
+<p align="center">
+  <img src="./imagenes/User Task Matrix.png" alt="User Task Matrix" width="700">
+</p>
+
+[Visualizar User Task Matrix](https://www.canva.com/design/DAGlOLciLXI/utH5jmlvVxA7lvUKo_CO5A/edit?utm_content=DAGlOLciLXI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 #### 2.3.3. User Journey Mapping
 
 #### 2.3.4. Empathy Mapping
@@ -955,7 +961,7 @@ Finalmente lo que caracteriza principalmente a la app
 | Se puede ver todo el plan de comida de la semana, los ingredientes, el progreso semanal y ver el menú de cada día y de cada comida, teniendo la opción de ver los ingredientes, generar una nueva receta o descargarla. |
 | <img src="./imagenes/mockups/plan.png" height="600"> |
 
-
+[Visualizar Mock-ups](https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1)
 
 #### 4.4.4. Web Applications User Flow Diagrams
 <p align="center">
@@ -973,6 +979,8 @@ Finalmente lo que caracteriza principalmente a la app
 <p align="center">
   <img src="./imagenes/mockups/flows 2.png" alt="Context Diagram" width="700">
 </p>
+
+[Visualizar User Flow Diagrams](https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1)
 
 ### 4.5. Web Applications Prototyping
 
