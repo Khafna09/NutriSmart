@@ -166,7 +166,7 @@
 Somos un equipo de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC) motivados en desarrollar una solución diferente que cuyo objetivo principal sea ayudar a las personas a generar planes de comida personalizados basados en sus preferencias, objetivos de salud y necesidades nutricionales. 
 
 #### 1.1.1. Descripción de la Startup
-Nuestra aplicación web, NutriSmart, es una aplicación web diseñada para facilitar la creación de planes de comida adaptados a las necesidades específicas de cada persona. Ya sea para quienes buscan alcanzar objetivos de salud, mejorar su nutrición o gestionar dietas con restricciones alimenticias usando excepciones y restricciones específicas, con una interfaz amigable y herramientas eficientes, dando una experiencia sencilla y accesible para todos los usuarios.
+Nuestra startup, NutriVit nace de la necesidad existente de mantener una salud a través de la alimentación y de esta manera facilitar la creación de planes de comida adaptados a las necesidades específicas de cada persona. Ya sea para quienes buscan alcanzar objetivos de salud, mejorar su nutrición o gestionar dietas con restricciones alimenticias usando excepciones y restricciones específicas. Nosotros como NutriVit garantizamos una interfaz amigable y herramientas eficientes, dando una experiencia sencilla y accesible para todos los usuarios.
 
 **Misión:** Ofrecer a nuestros usuarios una herramienta accesible y eficiente para mejorar su bienestar a través de la alimentación personalizada, ayudándoles a alcanzar sus metas de salud y nutrición con facilidad y precisión.
 
@@ -402,7 +402,7 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
-# Entrevistas para Validación de RescueNet
+### Entrevistas para Validación de NutriSmart
 
 ###  Preguntas Generales
 1. ¿Qué tan importante consideras la alimentación en tu día a día?     
@@ -430,9 +430,52 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 5. ¿Qué funcionalidades te gustaría ver en una plataforma que puedas usar junto a tus pacientes?  
 6. ¿Recomendarías NutriSmart si mejora la adherencia y simplifica el trabajo contigo? ¿Qué condiciones tendría que cumplir?  
 
+
 #### 2.2.2. Registro de entrevistas
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevista1.png" alt="User Persona 1" width="400">
+</p>
+
+[Enlace entrevista 1](https://youtu.be/jBluTCX2H-I)
+
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevista2.png" alt="User Persona 1" width="400">
+</p>
+
+[Enlace entrevista 2](https://youtu.be/WNGR6Hxcyec)
+
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevista3.png" alt="User Persona 1" width="400">
+</p>
+
+[Enlace entrevista 3](https://youtu.be/PM159qdyitU)
+
 
 #### 2.2.3. Análisis de entrevistas
+
+####  Entrevista 1  
+- La persona considera **muy importante la alimentación** en su día a día.  
+- **Suele buscar información y herramientas** relacionadas con nutrición.  
+- Tiene como **objetivo principal mantener su salud** a través de una buena alimentación.  
+- Ha probado aplicaciones similares, **le gustaron**, pero las considera **limitadas en funcionalidad**.  
+- Valora especialmente el **acceso rápido a información útil** y herramientas para organizar su alimentación.  
+- Estaría dispuesta a pagar por una **suscripción si esta ofrece planes personalizados y recomendaciones adaptadas** a su estilo de vida.
+
+####  Entrevista 2  
+- Considera que la alimentación es importante, buscando mantener **un balance y horarios adecuados**.  
+- No suele buscar herramientas con frecuencia, pero **se mantiene informado de forma general**.  
+- Su objetivo es **alcanzar un peso saludable y diversificar su dieta**.  
+- **No ha utilizado aplicaciones de nutrición anteriormente**, pero le interesa controlar mejor su alimentación.  
+- Le gustaría contar con herramientas para **controlar calorías, registro de comidas y datos personales**.  
+- Estaría dispuesto a pagar por una suscripción **si incluye acompañamiento profesional o dietas personalizadas**.
+
+####  Entrevista 3  
+- Percibe que la alimentación tiene un impacto importante según su **tipo de vida y rutina diaria**.  
+- Actualmente **no utiliza herramientas ni busca información** relacionada con nutrición.  
+- Su objetivo es **bajar de peso y aumentar masa muscular**.  
+- **No ha probado ninguna aplicación de nutrición** hasta ahora.  
+- Estaría interesado en una plataforma **personalizada**, pero su uso dependería del **tiempo disponible**.  
+- Preferiría **empezar con una versión gratuita**, y si encuentra valor, consideraría pasarse a una versión premium.
 
 ### 2.3. Needfinding
 
