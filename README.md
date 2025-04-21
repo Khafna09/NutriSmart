@@ -502,35 +502,45 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 Este será el lenguaje que se utilizará para distintos elementos de la aplicación, encapsulando funciones clave o permitiendo un mejor reconocimiento del significado.
 
-### User
-Persona joven-adulta interesada en mejorar su bienestar mediante una alimentación personalizada y saludable.
+#### User
+- Persona joven-adulta interesada en mejorar su bienestar mediante una alimentación personalizada y saludable.
 
-### Nutritionist
-Profesional de la salud especializado en nutrición, que utiliza la plataforma para monitorear y personalizar planes nutricionales de sus pacientes.
+#### Nutritionist
+- Profesional de la salud especializado en nutrición, que utiliza la plataforma para monitorear y personalizar planes nutricionales de sus pacientes.
 
-### Plan
-Programa personalizado de alimentación, adaptado a las metas, restricciones y preferencias del usuario.
+#### Plan
+- Programa personalizado de alimentación, adaptado a las metas, restricciones y preferencias del usuario.
 
-### Tracking
-Registro diario de comidas, hábitos, actividad física y progresos que alimenta el sistema de personalización de la app.
+#### Tracking
+- Registro diario de comidas, hábitos, actividad física y progresos que alimenta el sistema de personalización de la app.
 
-### Support
-Asistencia humana o automática disponible para resolver dudas, dar recomendaciones y acompañar el progreso del usuario.
+#### Support
+- Asistencia humana o automática disponible para resolver dudas, dar recomendaciones y acompañar el progreso del usuario.
 
-### Insights
-Análisis automáticos de los datos de tracking, que proporcionan retroalimentación visual sobre avances, áreas de mejora o riesgos potenciales.
+#### Insights
+- Análisis automáticos de los datos de tracking, que proporcionan retroalimentación visual sobre avances, áreas de mejora o riesgos potenciales.
 
-### Membership
-Suscripción premium que desbloquea beneficios adicionales como planes avanzados, consultas con nutricionistas, o recomendaciones basadas en IA.
+#### Membership
+- Suscripción premium que desbloquea beneficios adicionales como planes avanzados, consultas con nutricionistas, o recomendaciones basadas en IA.
 
-### Reward
-Sistema de logros y reconocimientos visuales para motivar el cumplimiento de metas saludables.
+#### Reward
+- Sistema de logros y reconocimientos visuales para motivar el cumplimiento de metas saludables.
 
 <hr>
 
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping
+
+<p align="center">
+  <img src="./imagenes/Scenario To-Be User 1.png" alt="To-Be Scenario Map 1" width="700">
+</p>
+
+<p align="center">
+  <img src="./imagenes/Scenario To-Be User 2.png" alt="To-Be Scenario Map 2" width="700">
+</p>
+
+[Visualizar To-Be Scenario Mapping](https://miro.com/app/board/uXjVIALu3iU=/?share_link_id=13046513899)
 
 ### 3.2. User Stories
 
