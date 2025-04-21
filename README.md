@@ -456,14 +456,22 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 #### 2.3.3. User Journey Mapping
 
 <p align="center">
-  <img src="./imagenes/Journey Map - Usuario 1.png" alt="User Task Matrix" width="700">
+  <img src="./imagenes/Journey Map-Usuario 1.png" alt="User Task Matrix 1" width="700">
 </p>
 
 <p align="center">
-  <img src="./imagenes/Journey Map - Usuario 2.png" alt="User Task Matrix" width="700">
+  <img src="./imagenes/Journey Map-Usuario 2.png" alt="User Task Matrix 2" width="700">
 </p>
 
 #### 2.3.4. Empathy Mapping
+
+<p align="center">
+  <img src="./imagenes/Empathy Map-Usuario 1.png" alt="Empathy Map 1" width="700">
+</p>
+
+<p align="center">
+  <img src="./imagenes/Empathy Map-Usuario 2.png" alt="Empathy Map 2" width="700">
+</p>
 
 #### 2.3.5. As-is Scenario Mapping
 
