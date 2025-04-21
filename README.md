@@ -463,13 +463,13 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 *Segmento 1: Jóvenes Adultos*
 
 <p align="center">
-  <img src="./imagenes/Journey Map-Usuario 1.png" alt="User Task Matrix 1" width="700">
+  <img src="./imagenes/Journey Map-Usuario 1.png" alt="Journey Map 1" width="700">
 </p>
 
 *Segmento 2: Nutricionistas*
 
 <p align="center">
-  <img src="./imagenes/Journey Map-Usuario 2.png" alt="User Task Matrix 2" width="700">
+  <img src="./imagenes/Journey map-Usuario 2.png" alt="Journey Map 2" width="700">
 </p>
 
 #### 2.3.4. Empathy Mapping
@@ -499,6 +499,32 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 [Visualizar As-Is Scenario Mapping](https://miro.com/app/board/uXjVIALnKsE=/?share_link_id=880694224194)
 
 ### 2.4. Ubiquitous Language
+
+Este será el lenguaje que se utilizará para distintos elementos de la aplicación, encapsulando funciones clave o permitiendo un mejor reconocimiento del significado.
+
+### User
+Persona joven-adulta interesada en mejorar su bienestar mediante una alimentación personalizada y saludable.
+
+### Nutritionist
+Profesional de la salud especializado en nutrición, que utiliza la plataforma para monitorear y personalizar planes nutricionales de sus pacientes.
+
+### Plan
+Programa personalizado de alimentación, adaptado a las metas, restricciones y preferencias del usuario.
+
+### Tracking
+Registro diario de comidas, hábitos, actividad física y progresos que alimenta el sistema de personalización de la app.
+
+### Support
+Asistencia humana o automática disponible para resolver dudas, dar recomendaciones y acompañar el progreso del usuario.
+
+### Insights
+Análisis automáticos de los datos de tracking, que proporcionan retroalimentación visual sobre avances, áreas de mejora o riesgos potenciales.
+
+### Membership
+Suscripción premium que desbloquea beneficios adicionales como planes avanzados, consultas con nutricionistas, o recomendaciones basadas en IA.
+
+### Reward
+Sistema de logros y reconocimientos visuales para motivar el cumplimiento de metas saludables.
 
 <hr>
 
