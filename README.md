@@ -437,9 +437,14 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
+
+*Segmento 1: Jóvenes Adultos*
+
 <p align="center">
   <img src="./imagenes/User-persona1.png" alt="User Persona 1" width="550">
 </p>
+
+*Segmento 2: Nutricionistas*
 
 <p align="center">
   <img src="./imagenes/User-persona2.png" alt="User Persona 2" width="550">
@@ -455,9 +460,13 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 #### 2.3.3. User Journey Mapping
 
+*Segmento 1: Jóvenes Adultos*
+
 <p align="center">
   <img src="./imagenes/Journey Map-Usuario 1.png" alt="User Task Matrix 1" width="700">
 </p>
+
+*Segmento 2: Nutricionistas*
 
 <p align="center">
   <img src="./imagenes/Journey Map-Usuario 2.png" alt="User Task Matrix 2" width="700">
@@ -465,15 +474,29 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 #### 2.3.4. Empathy Mapping
 
+*Segmento 1: Jóvenes adultos*
+
 <p align="center">
   <img src="./imagenes/Empathy Map-Usuario 1.png" alt="Empathy Map 1" width="700">
 </p>
+
+*Segmento 2: Nutricionistas*
 
 <p align="center">
   <img src="./imagenes/Empathy Map-Usuario 2.png" alt="Empathy Map 2" width="700">
 </p>
 
 #### 2.3.5. As-is Scenario Mapping
+
+<p align="center">
+  <img src="./imagenes/As-Is Scenario Mapping User 1.png" alt="As-Is Scenario Map 1" width="700">
+</p>
+
+<p align="center">
+  <img src="./imagenes/As-Is Scenario Mapping User 2.png" alt="As-Is Scenario Map 2" width="700">
+</p>
+
+[Visualizar As-Is Scenario Mapping](https://miro.com/app/board/uXjVIALnKsE=/?share_link_id=880694224194)
 
 ### 2.4. Ubiquitous Language
 
