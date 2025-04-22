@@ -655,7 +655,6 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 
 ### 4.1. Style Guidelines
 
-Prueba 
 
 #### 4.1.1. General Style Guidelines
 
@@ -732,21 +731,24 @@ La página principal de NutriSmart ha sido diseñada para proporcionar una exper
 
 #### Encabezado
 
-El encabezado presenta el logotipo de NutriSmart en la parte izquierda, el cual actúa como enlace directo hacia el inicio. A su derecha, se encuentra un menú de navegación con accesos a secciones como *Inicio*, *Para ti*, *Nuestros usuarios* y *Únete*. También se incluye un botón de registro y de inicio de sesión destacados. El diseño mantiene una estética minimalista con colores suaves, resaltando únicamente los botones clave con un color primario llamativo.
+El encabezado presenta el logotipo de NutriSmart en la parte izquierda, el cual actúa como enlace directo hacia el inicio. A su derecha, se encuentra un menú de navegación con accesos a secciones como *Inicio*, *Para ti*, *Nuestros usuarios*, *Cómo funciona* y *Únete*. También se incluye un botón de registro y de inicio de sesión destacados. El diseño mantiene una estética minimalista con colores suaves, resaltando únicamente los botones clave con un color primario llamativo.
 
 #### Contenido Principal
 
-La sección principal inicia con una imagen de fondo atractiva y un eslogan destacado: “Tu nutrición, de manera inteligente”, acompañado de una breve descripción de lo que ofrece NutriSmart.
+La sección principal inicia con una imagen atractiva y un eslogan destacado: “Come bien, vive mejor. Nutrición que te entiende”, acompañado de una breve descripción de lo que ofrece NutriSmart.
 
 Luego, se despliega una sección explicativa con íconos ilustrativos sobre las funcionalidades de NutriSmart, como la evaluación inteligente, planes personalizados, seguimiento en tiempo real y nutrición que se adapta al usuario. Cada bloque incluye una imagen descriptiva y un texto breve, lo que mejora la comprensión inmediata de los beneficios de la app.
 
-Posteriormente, se presenta una sección explicando para quién va dirigida la aplicación junto a la valoración en estrellas de la aplicación que aumenta la confianza en la plataforma.
+Posteriormente, se presenta una sección con reseñas escritas por los usuarios de nuestra plataforma junto a la valoración en estrellas de la aplicación que aumenta la confianza en la plataforma.
+
+Después, se observa la sección de cómo funciona nuestra aplicación. Destacando los pasos a seguir por los usuarios y un mensaje del CEO de NutriSmart.
+
 
 Finalmente, se muestra una última sección en la que se invita al usuario a comenzar su experiencia en la aplicación junto a íconos de descarga de la app en Google Play y App Store.
 
 #### Pie de Página
 
-El pie de página ofrece enlaces rápidos a redes sociales como *Instagram*, *Youtube* y *Tik Tok*. Además, se muestran enlaces informativos hacia *Políticas de Privacidad*, *Términos de Uso*, *FAQ* y *Contacto*, todos diseñados con una tipografía clara y espaciado adecuado para facilitar su lectura.
+El pie de página ofrece enlaces rápidos a redes sociales como *Instagram*, *Youtube* y *Tik Tok*. Además, se muestran enlaces informativos hacia *Políticas de Privacidad*, *Términos y Condiciones*, *Articulos*, *Posts* y *Contacto*, todos diseñados con una tipografía clara y espaciado adecuado para facilitar su lectura.
 
 #### <a name="4122-Diseño-de-Componentes"></a>4.1.2.2 Diseño de Componentes
 
@@ -754,7 +756,7 @@ El pie de página ofrece enlaces rápidos a redes sociales como *Instagram*, *Yo
 
 Los botones en NutriSmart presentan un diseño redondeado, moderno y accesible, siguiendo la línea de nuestra identidad visual saludable y amigable. Están pensados para facilitar la interacción, ofreciendo claridad, contraste y feedback visual inmediato al usuario.
 
-- Colores: Se basan en la paleta definida. El verde principal (`#63B663`) es el más utilizado en botones primarios.
+- Colores: Se basan en la paleta definida. El verde principal (`#63B663`) es el más utilizado en botones primarios y el verde claro (`#CDFFD6`) para los botones secundarios.
 - Tamaños: Adaptables a múltiples contextos (móvil, escritorio), con paddings amplios que facilitan el clic y refuerzan la jerarquía visual.
 
 
@@ -764,7 +766,7 @@ Los botones en NutriSmart presentan un diseño redondeado, moderno y accesible, 
 Los íconos utilizados en NutriSmart son planos, claros y significativos, priorizando símbolos asociados a:
 
 - Alimentación saludable (platos, verduras, básculas, agua).
-- Hábitos positivos (organismo, uno mismo, progreso).
+- Hábitos positivos (seguimiento, persona, progreso).
 
 Todos mantienen una línea gráfica uniforme, alineada con el minimalismo y la simplicidad del sistema visual. Además, están optimizados para verse correctamente en pantallas pequeñas.
 
@@ -774,7 +776,7 @@ Todos mantienen una línea gráfica uniforme, alineada con el minimalismo y la s
 
 El sistema de navegación de NutriSmart fue diseñado para ser intuitivo, accesible y responsive:
 
-- En versión escritorio, se ubica en la parte superior, destacando las secciones clave como Para ti, Nuestros Usuarios, Únete, inicia sesión y registrarse.
+- En versión escritorio, se ubica en la parte superior, destacando las secciones clave como para ti, Nuestros Usuarios, cómo funciona, Únete, inicia sesión y registrarse.
 - En dispositivos móviles, se adapta a un menú tipo *hamburguesa* desplegable, optimizando el espacio sin sacrificar funcionalidad.
 
 Esta estructura permite al usuario explorar la aplicación sin fricciones, manteniendo siempre visible la ruta de navegación actual.
@@ -1137,6 +1139,7 @@ Mobile:
 #### 4.4.1. Web Applications Wireframes.
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+
 
 #### 4.4.3. Web Applications Mock-ups
 | Pantalla de comienzo      | Registro o inicio de sesion |
