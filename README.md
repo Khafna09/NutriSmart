@@ -1292,8 +1292,32 @@ Mobile:
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes.
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe1.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe2.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe3.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe4.png" alt="Context Diagram" width="700">
+</p>
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+<p align="center">
+  <img src="./imagenes/wireframes/wflows1.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/wflows2.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/wflows3.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/wflows4.png" alt="Context Diagram" width="700">
+</p>
 
 
 #### 4.4.3. Web Applications Mock-ups
@@ -1341,18 +1365,24 @@ Finalmente lo que caracteriza principalmente a la app
 [Visualizar Mock-ups](https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1)
 
 #### 4.4.4. Web Applications User Flow Diagrams
+La aplicación inicia en la pantalla luego de instalar la app donde de manera inmediata nos redire a la pantalla de de registro o inicio de sesión donde podemos hacer login con correo y contraseña o con google o facebook. En caso de registrarnos presionaremos en el botón donde tendremos que registrar todos nuestros datos, objetivos, restricciones de dieta y preferencias.
 <p align="center">
   <img src="./imagenes/mockups/flows 4.png" alt="Context Diagram" width="700">
 </p>
+
 <p align="center">
   <img src="./imagenes/mockups/flows 5.png" alt="Context Diagram" width="700">
 </p>
+Ahora estamos en la pantalla principal donde se muestran todas las funcionalidades. Primero se muestra el usuario con sus datos al presionar en el nombre dond eluego se puede reconfigurar en gestion medica y alimenticia, escoger un ritmo de dieta, un horario y días libres.
 <p align="center">
   <img src="./imagenes/mockups/flows 1.png" alt="Context Diagram" width="700">
 </p>
+
+Luego presionadno en el boton de progreso visualizamos nuestro logros, cómo vamos ne los objetivos escogidos. Asimismo, podemos editar nuestra peferencias, ver sugerencias diarias, el snack del día y recordatorios.
 <p align="center">
   <img src="./imagenes/mockups/flows 3.png" alt="Context Diagram" width="700">
 </p>
+En el botón de plan de comidas nos redirige a toda la información actual, donde podemos ver nuestro plan, lo que tenemos programado para el día e incluso hacer una modificación automática de gustar de otra opción siempre estando dentro de nuestros objetivos.
 <p align="center">
   <img src="./imagenes/mockups/flows 2.png" alt="Context Diagram" width="700">
 </p>
