@@ -640,6 +640,108 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-49 | Envío de Notificaciones Push Inteligentes | Como usuario, quiero recibir notificaciones push basadas en mi comportamiento. | Escenario 1: **Given** que hay patrones relevantes, **When** la app detecta eventos, **Then** enviará notificaciones personalizadas. <br><br> Escenario 2: **Given** que configuro la app para notificaciones inteligentes, **When** se active una condición, **Then** recibiré avisos específicos sin saturarme. | EP-05 |
 | US-50 | Configuración de Recordatorios Personalizados | Como usuario, quiero crear recordatorios personalizados en la app. | Escenario 1: **Given** que necesito recordatorios específicos, **When** configuro uno nuevo, **Then** podré definir texto, horario y frecuencia. <br><br> Escenario 2: **Given** que edito un recordatorio, **When** actualizo los campos, **Then** los cambios se guardarán automáticamente. | EP-04 |
 
+#### Épica 1: Gestión de Perfil y Personalización Inicial
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-01    | Crear perfil personal            |
+| US-02    | Ingresar objetivos de salud       |
+| US-03    | Registrar alergias alimentarias   |
+| US-04    | Seleccionar comidas favoritas     |
+| US-05    | Indicar restricciones dietéticas  |
+| US-43    | Ajustar dieta por enfermedad reciente |
+
+#### Épica 2: Planificación y Visualización de Dietas
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-07    | Recibir plan de comidas semanal automático |
+| US-08    | Ver recetas paso a paso          |
+| US-26    | Descargar plan de comidas en PDF |
+| US-38    | Ver vista previa de menús semanales |
+| US-40    | Acceder a historial de dietas anteriores |
+| US-48    | Programar compras con lista automática |
+
+#### Épica 3: Tracking y Seguimiento Diario
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-10    | Marcar comidas como hechas       |
+| US-12    | Ajustar plan si cambian objetivos |
+| US-13    | Ver resumen semanal de avances   |
+| US-14    | Registrar cambios físicos o emocionales |
+| US-15    | Registrar peso regularmente      |
+| US-21    | Registrar síntomas o efectos físicos |
+| US-34    | Registrar comidas fuera del plan  |
+| US-37    | Visualizar progreso en gráficos   |
+
+#### Épica 4: Motivación y Gamificación
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-23    | Participar en desafíos semanales |
+| US-24    | Establecer metas a corto plazo   |
+| US-31    | Recibir tips motivacionales      |
+| US-35    | Recibir felicitaciones/logros    |
+| US-50    | Establecer días libres ("cheat days") |
+
+#### Épica 5: Notificaciones y Recordatorios Inteligentes
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-06    | Recordatorio de comida |
+| US-16    | Recibir recordatorios de horarios de comida |
+| US-27    | Recibir alertas cuando no se cumple el plan |
+| US-45    | Recibir resumen diario basado en actividad |
+| US-49    | Recibir alertas de dieta desbalanceada |
+
+#### Épica 6: Interacción con el Soporte Humano
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-20    | Contactar a un nutricionista     |
+| US-29    | Acceder a foro de comunidad      |
+| US-17    | Guardar recetas favoritas (nutricionista) |
+
+#### Épica 7: Contenido Educativo y Recursos Adicionales
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-22    | Acceder a contenido educativo de nutrición |
+| US-25    | Acceder a contenido educativo desde home |
+| US-30    | Registrar niveles de energía diarios |
+
+#### Épica 8: Adaptabilidad y Flexibilidad del Plan
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-28    | Personalizar horarios de comida  |
+| US-32    | Ajustar plan ante cambios de rutina |
+| US-36    | Definir ritmo de pérdida de peso |
+| US-39    | Cambiar porciones manualmente    |
+| US-41    | Bloquear ingredientes no deseados |
+| US-44    | Recibir recetas rápidas          |
+| US-47    | Sugerencias basadas en ingredientes disponibles |
+
+#### Épica 9: Funciones Avanzadas de Registro y Conectividad
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-42    | Buscar comidas populares para registro rápido |
+| US-46    | Activar modo offline             |
+| US-33    | Calcular consumo de agua ideal   |
+
+#### Épica 10: Compartir y Socializar
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-18    | Compartir planes con amigos o familiares |
+
+#### Épica 11: Optimización Basada en Análisis
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-19    | Recibir recomendaciones basadas en progreso |
 
 ### 3.3. Impact Mapping
 
@@ -648,6 +750,59 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 </p>
 
 ### 3.4. Product Backlog
+
+| #Orden | User Story Id | Título | Descripción | Story Points |
+|:------:|:-------------:|:------|:------------|:------------:|
+| 1 | US-01 | Crear Perfil | Como usuario quiero crear un perfil con mis datos personales para recibir recomendaciones personalizadas. | 2 |
+| 2 | US-02 | Ingresar Objetivos | Como usuario quiero ingresar mis objetivos de salud para recibir un plan alineado. | 3 |
+| 3 | US-03 | Registrar Alergias | Como usuario quiero registrar alergias alimentarias para que no aparezcan en mis planes. | 3 |
+| 4 | US-04 | Seleccionar Comidas Favoritas | Como usuario quiero seleccionar mis comidas favoritas para que se incluyan más. | 2 |
+| 5 | US-05 | Indicar Restricciones Dietéticas | Como usuario quiero indicar restricciones dietéticas para personalizar mi dieta. | 3 |
+| 6 | US-06 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios para registrar mis comidas y no olvidar ningún dato. | 5 |
+| 7 | US-07 | Plan de Comidas Semanal | Como usuario quiero recibir un plan de comidas semanal automáticamente. | 5 |
+| 8 | US-08 | Ver Recetas Paso a Paso | Como usuario quiero ver recetas paso a paso para preparar mis comidas. | 2 |
+| 9 | US-09 | Ver Valor Nutricional | Como nutricionista quiero ver el valor nutricional de cada comida. | 5 |
+| 10 | US-10 | Marcar Comidas Hechas | Como usuario quiero marcar comidas como "hechas" para llevar un seguimiento. | 2 |
+| 11 | US-11 | Sugerencias de Snacks Saludables | Como usuario quiero acceder a sugerencias de snacks saludables. | 3 |
+| 12 | US-12 | Ajustar Plan por Metas | Como usuario quiero ajustar mi plan si mis metas cambian. | 5 |
+| 13 | US-13 | Resumen Semanal de Avances | Como usuario quiero ver un resumen semanal de mis avances. | 3 |
+| 14 | US-14 | Registrar Cambios Físicos o Emocionales | Como usuario quiero registrar mis cambios físicos o emocionales durante el plan. | 3 |
+| 15 | US-15 | Registrar Peso Regularmente | Como nutricionista quiero registrar mi peso regularmente para ver mi progreso. | 3 |
+| 16 | US-16 | Recordatorios de Horarios | Como usuario quiero recibir notificaciones para recordar mis horarios de comida. | 2 |
+| 17 | US-17 | Guardar Recetas Favoritas | Como nutricionista quiero guardar mis recetas favoritas. | 2 |
+| 18 | US-18 | Compartir Planes | Como usuario quiero compartir mis planes con amigos o familiares. | 5 |
+| 19 | US-19 | Recomendaciones Basadas en Progreso | Como usuario quiero ver recomendaciones basadas en mi progreso. | 5 |
+| 20 | US-20 | Conectar con Nutricionista | Como usuario quiero conectarme con un nutricionista si tengo dudas. | 5 |
+| 21 | US-21 | Registrar Síntomas o Efectos | Como usuario quiero registrar síntomas o efectos físicos para mejorar el plan. | 3 |
+| 22 | US-22 | Acceder a Contenido Educativo | Como usuario quiero acceder a contenido educativo sobre nutrición. | 3 |
+| 23 | US-23 | Participar en Desafíos Semanales | Como usuario quiero participar en desafíos semanales para ganar recompensas. | 5 |
+| 24 | US-24 | Establecer Metas Corto Plazo | Como usuario quiero establecer metas a corto plazo para mantenerme motivado. | 3 |
+| 25 | US-25 | Recibir Contenido Educativo | Como usuario quiero recibir contenido educativo sobre nutrición. | 2 |
+| 26 | US-26 | Descargar Plan de Comidas | Como usuario quiero descargar mi plan de comidas en PDF. | 2 |
+| 27 | US-27 | Alertas por Incumplimiento | Como usuario quiero recibir alertas cuando no estoy cumpliendo mi plan. | 3 |
+| 28 | US-28 | Personalizar Horarios de Comida | Como usuario quiero personalizar los horarios de mis comidas. | 3 |
+| 29 | US-29 | Foro de Comunidad | Como nutricionista quiero tener acceso a un foro de comunidad. | 5 |
+| 30 | US-30 | Registrar Energía Diaria | Como nutricionista quiero registrar niveles de energía diarios. | 3 |
+| 31 | US-31 | Tips de Motivación | Como usuario quiero recibir tips para mantenerme motivado. | 2 |
+| 32 | US-32 | Adaptabilidad del Plan | Como usuario quiero que la app se adapte a cambios de rutina. | 5 |
+| 33 | US-33 | Calcular Consumo de Agua | Como usuario quiero saber cuánta agua debo tomar según mi perfil. | 3 |
+| 34 | US-34 | Registrar Comidas Fuera del Plan | Como usuario quiero registrar comidas fuera del plan. | 3 |
+| 35 | US-35 | Recibir Logros y Felicitaciones | Como usuario quiero recibir logros cuando cumplo metas. | 2 |
+| 36 | US-36 | Definir Ritmo de Pérdida de Peso | Como usuario quiero seleccionar si perder peso rápido o gradual. | 3 |
+| 37 | US-37 | Gráficos de Progreso | Como usuario quiero ver mi progreso representado en gráficos interactivos. | 5 |
+| 38 | US-38 | Vista Previa de Menú Semanal | Como usuario quiero ver una vista previa semanal de mis menús. | 3 |
+| 39 | US-39 | Cambiar Porciones Manualmente | Como usuario quiero cambiar porciones manualmente. | 3 |
+| 40 | US-40 | Historial de Dietas | Como usuario quiero acceder a un historial de mis dietas anteriores. | 2 |
+| 41 | US-41 | Bloquear Ingredientes No Deseados | Como usuario quiero desactivar recomendaciones de ciertos ingredientes. | 3 |
+| 42 | US-42 | Buscar Comidas Populares | Como usuario quiero buscar comidas populares con información cargada. | 5 |
+| 43 | US-43 | Ajustar Dieta por Enfermedad | Como usuario quiero ajustar mi dieta si tengo una enfermedad reciente. | 5 |
+| 44 | US-44 | Recibir Recetas Rápidas | Como usuario quiero recibir recetas rápidas para días ocupados. | 3 |
+| 45 | US-45 | Resumen Diario Basado en Actividad | Como usuario quiero recibir un resumen diario basado en mi actividad. | 5 |
+| 46 | US-46 | Activar Modo Offline | Como usuario quiero activar un modo offline para acceder sin conexión. | 5 |
+| 47 | US-47 | Sugerencias Basadas en Ingredientes Disponibles | Como usuario quiero saber qué puedo cocinar con lo que tengo en casa. | 5 |
+| 48 | US-48 | Programar Compras | Como usuario quiero programar mis compras con una lista automática. | 5 |
+| 49 | US-49 | Alertas de Dieta Desbalanceada | Como usuario quiero recibir alertas si mi dieta está desbalanceada. | 5 |
+| 50 | US-50 | Establecer Cheat Days | Como usuario quiero establecer días libres controlados (“cheat days”). | 3 |
 
 <hr>
 
