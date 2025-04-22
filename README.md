@@ -1089,6 +1089,50 @@ El sistema de navegación de NutriSmart guía al usuario a través del contenido
 
 #### 4.3.1. Landing Page Wireframe
 
+Desktop:
+<p align="center">
+  <img src="./imagenes/WireframeDesktop1.png" alt="LandingPage1" width="550">
+</p>
+
+<p align="center">
+  <img src="./imagenes/WireframeDesktop2.png" alt="LandingPage2" width="550">
+</p>
+
+<p align="center">
+  <img src="./imagenes/WireframeDesktop3.png" alt="LandingPage3" width="550">
+</p>
+
+<p align="center">
+  <img src="./imagenes/WireframeDesktop4.png" alt="LandingPage4" width="550">
+</p>
+
+<p align="center">
+  <img src="./imagenes/WireframeDesktop5.png" alt="LandingPage5" width="550">
+</p>
+
+Mobile:
+<p align="center">
+  <img src="./imagenes/WireframeMobile1.png" alt="MLandingPage2" width="200">
+</p>
+
+<p align="center">
+  <img src="./imagenes/WireframeMobile2.png" alt="MLandingPage2" width="200">
+</p>
+
+<p align="center">
+  <img src="./imagenes/WireframeMobile3.png" alt="MLandingPage3" width="200">
+</p>
+
+<p align="center">
+  <img src="./imagenes/WireframeMobile4.png" alt="MLandingPage4" width="200">
+</p>
+
+<p align="center">
+  <img src="./imagenes/WireframeMobile5.png" alt="MLandingPage5" width="200">
+</p>
+
+
+
 #### 4.3.2. Landing Page Mock-up
 
 Desktop:
