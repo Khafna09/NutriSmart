@@ -166,7 +166,7 @@
 Somos un equipo de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC) motivados en desarrollar una solución diferente que cuyo objetivo principal sea ayudar a las personas a generar planes de comida personalizados basados en sus preferencias, objetivos de salud y necesidades nutricionales. 
 
 #### 1.1.1. Descripción de la Startup
-Nuestra aplicación web, NutriSmart, es una aplicación web diseñada para facilitar la creación de planes de comida adaptados a las necesidades específicas de cada persona. Ya sea para quienes buscan alcanzar objetivos de salud, mejorar su nutrición o gestionar dietas con restricciones alimenticias usando excepciones y restricciones específicas, con una interfaz amigable y herramientas eficientes, dando una experiencia sencilla y accesible para todos los usuarios.
+Nuestra startup, NutriVit nace de la necesidad existente de mantener una salud a través de la alimentación y de esta manera facilitar la creación de planes de comida adaptados a las necesidades específicas de cada persona. Ya sea para quienes buscan alcanzar objetivos de salud, mejorar su nutrición o gestionar dietas con restricciones alimenticias usando excepciones y restricciones específicas. Nosotros como NutriVit garantizamos una interfaz amigable y herramientas eficientes, dando una experiencia sencilla y accesible para todos los usuarios.
 
 **Misión:** Ofrecer a nuestros usuarios una herramienta accesible y eficiente para mejorar su bienestar a través de la alimentación personalizada, ayudándoles a alcanzar sus metas de salud y nutrición con facilidad y precisión.
 
@@ -309,6 +309,7 @@ Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilid
   <img src="./imagenes/Lean-UX-Canvas.png" alt="Lean UX Canvas" width="850">
 </p>
 
+[Visualizar diseño en Canva](https://www.canva.com/design/DAGlJeSBFYU/vHO916op--9i6YxHpOLG8Q/edit?utm_content=DAGlJeSBFYU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### 1.3. Segmentos Objetivos
 ### Segmento Objetivo 1: Jóvenes Adultos
@@ -398,27 +399,95 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 - Frente a competidores como Fitia, Yazio y Noom, NutriSmart debe centrarse en resaltar su nivel de personalización avanzada y adaptabilidad a las necesidades individuales como su principal ventaja competitiva. Estratégicamente, puede posicionarse como la opción más flexible y accesible mediante contenido en redes sociales que muestren casos reales y cómo su plataforma se adapta incluso a dietas complejas. Tácticamente, debe enfocarse en alianzas con nutricionistas locales, gimnasios y marcas saludables para ganar visibilidad, así como ofrecer promociones freemium o planes especiales para profesioanles de la salud. Además, mantener una interfaz intuitiva y actualizaciones constantes garantizará una ventaja sostenida en experiencia de usuario.
 
 
-
-
-
-
-
-
-
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
+### Entrevistas para Validación de NutriSmart
+
+###  Preguntas Generales
+1. ¿Qué tan importante consideras la alimentación en tu día a día?     
+
+2. ¿Con qué frecuencia sueles buscar información o herramientas que te ayuden a mejorar tu alimentación?     
+---
+
+### Segmento 1: Jóvenes adultos interesados ne  mejorar su dieta
+
+1. ¿Planificas tus comidas semanalmente? Si lo haces, ¿cómo lo haces actualmente?  
+2. ¿Qué tan seguido comes fuera o pides delivery? ¿Cómo influye esto en tu alimentación?  
+3. ¿Tienes algún objetivo personal relacionado con tu alimentación? (Bajar de peso, ganar masa, mantener salud, etc.)  
+4. ¿Has probado alguna app de nutrición o fitness? ¿Qué te gustó y qué no te gustó?  
+5. ¿Qué haría que una app de nutrición te resulte realmente útil o diferente a lo que ya existe?  
+6. ¿Estarías dispuesto a pagar por una versión premium que te ayude con recetas, seguimiento de progreso y planes avanzados? ¿Por qué?  
+
+---
+
+### Segmento 2: Profesionales de la Salud (nutricionistas)
+
+1. ¿Cómo creas y haces seguimiento de los planes alimenticios que das a tus pacientes? ¿Qué herramientas usas?  
+2. ¿Qué dificultades sueles encontrar al personalizar planes según diagnósticos, alergias o preferencias?  
+3. ¿Cómo verificas que tus pacientes siguen lo que les recomiendas? ¿Te gustaría mejorar ese proceso?  
+4. ¿Qué opinas sobre el uso de apps por parte de los pacientes? ¿Crees que ayudan o dificultan el proceso?  
+5. ¿Qué funcionalidades te gustaría ver en una plataforma que puedas usar junto a tus pacientes?  
+6. ¿Recomendarías NutriSmart si mejora la adherencia y simplifica el trabajo contigo? ¿Qué condiciones tendría que cumplir?  
+
 
 #### 2.2.2. Registro de entrevistas
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevista1.png" alt="User Persona 1" width="400">
+</p>
+
+[Enlace entrevista 1](https://youtu.be/jBluTCX2H-I)
+
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevista2.png" alt="User Persona 1" width="400">
+</p>
+
+[Enlace entrevista 2](https://youtu.be/WNGR6Hxcyec)
+
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevista3.png" alt="User Persona 1" width="400">
+</p>
+
+[Enlace entrevista 3](https://youtu.be/PM159qdyitU)
+
 
 #### 2.2.3. Análisis de entrevistas
+
+####  Entrevista 1  
+- La persona considera **muy importante la alimentación** en su día a día.  
+- **Suele buscar información y herramientas** relacionadas con nutrición.  
+- Tiene como **objetivo principal mantener su salud** a través de una buena alimentación.  
+- Ha probado aplicaciones similares, **le gustaron**, pero las considera **limitadas en funcionalidad**.  
+- Valora especialmente el **acceso rápido a información útil** y herramientas para organizar su alimentación.  
+- Estaría dispuesta a pagar por una **suscripción si esta ofrece planes personalizados y recomendaciones adaptadas** a su estilo de vida.
+
+####  Entrevista 2  
+- Considera que la alimentación es importante, buscando mantener **un balance y horarios adecuados**.  
+- No suele buscar herramientas con frecuencia, pero **se mantiene informado de forma general**.  
+- Su objetivo es **alcanzar un peso saludable y diversificar su dieta**.  
+- **No ha utilizado aplicaciones de nutrición anteriormente**, pero le interesa controlar mejor su alimentación.  
+- Le gustaría contar con herramientas para **controlar calorías, registro de comidas y datos personales**.  
+- Estaría dispuesto a pagar por una suscripción **si incluye acompañamiento profesional o dietas personalizadas**.
+
+####  Entrevista 3  
+- Percibe que la alimentación tiene un impacto importante según su **tipo de vida y rutina diaria**.  
+- Actualmente **no utiliza herramientas ni busca información** relacionada con nutrición.  
+- Su objetivo es **bajar de peso y aumentar masa muscular**.  
+- **No ha probado ninguna aplicación de nutrición** hasta ahora.  
+- Estaría interesado en una plataforma **personalizada**, pero su uso dependería del **tiempo disponible**.  
+- Preferiría **empezar con una versión gratuita**, y si encuentra valor, consideraría pasarse a una versión premium.
 
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
+
+*Segmento 1: Jóvenes Adultos*
+
 <p align="center">
   <img src="./imagenes/User-persona1.png" alt="User Persona 1" width="550">
 </p>
+
+*Segmento 2: Nutricionistas*
 
 <p align="center">
   <img src="./imagenes/User-persona2.png" alt="User Persona 2" width="550">
@@ -426,13 +495,79 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 #### 2.3.2. User Task Matrix
 
+<p align="center">
+  <img src="./imagenes/User Task Matrix.png" alt="User Task Matrix" width="700">
+</p>
+
+[Visualizar User Task Matrix](https://www.canva.com/design/DAGlOLciLXI/utH5jmlvVxA7lvUKo_CO5A/edit?utm_content=DAGlOLciLXI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 #### 2.3.3. User Journey Mapping
+
+*Segmento 1: Jóvenes Adultos*
+
+<p align="center">
+  <img src="./imagenes/Journey Map-Usuario 1.png" alt="Journey Map 1" width="700">
+</p>
+
+*Segmento 2: Nutricionistas*
+
+<p align="center">
+  <img src="./imagenes/Journey map-Usuario 2.png" alt="Journey Map 2" width="700">
+</p>
 
 #### 2.3.4. Empathy Mapping
 
+*Segmento 1: Jóvenes adultos*
+
+<p align="center">
+  <img src="./imagenes/Empathy Map-Usuario 1.png" alt="Empathy Map 1" width="700">
+</p>
+
+*Segmento 2: Nutricionistas*
+
+<p align="center">
+  <img src="./imagenes/Empathy Map-Usuario 2.png" alt="Empathy Map 2" width="700">
+</p>
+
 #### 2.3.5. As-is Scenario Mapping
 
+<p align="center">
+  <img src="./imagenes/As-Is Scenario Mapping User 1.png" alt="As-Is Scenario Map 1" width="700">
+</p>
+
+<p align="center">
+  <img src="./imagenes/As-Is Scenario Mapping User 2.png" alt="As-Is Scenario Map 2" width="700">
+</p>
+
+[Visualizar As-Is Scenario Mapping](https://miro.com/app/board/uXjVIALnKsE=/?share_link_id=880694224194)
+
 ### 2.4. Ubiquitous Language
+
+Este será el lenguaje que se utilizará para distintos elementos de la aplicación, encapsulando funciones clave o permitiendo un mejor reconocimiento del significado.
+
+#### User
+- Persona joven-adulta interesada en mejorar su bienestar mediante una alimentación personalizada y saludable.
+
+#### Nutritionist
+- Profesional de la salud especializado en nutrición, que utiliza la plataforma para monitorear y personalizar planes nutricionales de sus pacientes.
+
+#### Plan
+- Programa personalizado de alimentación, adaptado a las metas, restricciones y preferencias del usuario.
+
+#### Tracking
+- Registro diario de comidas, hábitos, actividad física y progresos que alimenta el sistema de personalización de la app.
+
+#### Support
+- Asistencia humana o automática disponible para resolver dudas, dar recomendaciones y acompañar el progreso del usuario.
+
+#### Insights
+- Análisis automáticos de los datos de tracking, que proporcionan retroalimentación visual sobre avances, áreas de mejora o riesgos potenciales.
+
+#### Membership
+- Suscripción premium que desbloquea beneficios adicionales como planes avanzados, consultas con nutricionistas, o recomendaciones basadas en IA.
+
+#### Reward
+- Sistema de logros y reconocimientos visuales para motivar el cumplimiento de metas saludables.
 
 <hr>
 
@@ -440,9 +575,77 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 ### 3.1. To-Be Scenario Mapping
 
+<p align="center">
+  <img src="./imagenes/Scenario To-Be User 1.png" alt="To-Be Scenario Map 1" width="700">
+</p>
+
+<p align="center">
+  <img src="./imagenes/Scenario To-Be User 2.png" alt="To-Be Scenario Map 2" width="700">
+</p>
+
+[Visualizar To-Be Scenario Mapping](https://miro.com/app/board/uXjVIALu3iU=/?share_link_id=13046513899)
+
 ### 3.2. User Stories
 
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|:---------------|:-------|:------------|:------------------------|:-------------------------|
+| US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis finanzas personales. | Escenario 1: **Given** que soy un nuevo usuario, **When** completo mi información inicial, **Then** la app me mostrará sugerencias alimenticias adaptadas. <br><br> Escenario 2: **Given** que omito algunos datos en el registro inicial, **When** ingreso a la sección de perfil y completo la información faltante, **Then** la app actualizará y personalizará mis sugerencias alimenticias. | EP-01 |
+| US-02 | Personalización de Objetivos | Como usuario, quiero configurar mis objetivos de salud para recibir sugerencias alineadas a mis metas. | Escenario 1: **Given** que soy un usuario registrado, **When** configuro mis objetivos de salud, **Then** recibiré recomendaciones nutricionales personalizadas. <br><br> Escenario 2: **Given** que mis objetivos de salud cambian con el tiempo, **When** actualizo mis metas en el perfil, **Then** la app me sugerirá nuevos planes alineados automáticamente. | EP-01 |
+| US-03 | Selección de Preferencias Alimenticias | Como usuario, quiero seleccionar mis preferencias alimenticias para recibir sugerencias compatibles. | Escenario 1: **Given** que soy un usuario registrado, **When** selecciono mis preferencias alimenticias, **Then** las recomendaciones se adaptarán a mis gustos. <br><br> Escenario 2: **Given** que cambio mis preferencias alimenticias, **When** actualizo mis opciones en la app, **Then** las sugerencias se recalibrarán automáticamente. | EP-01 |
+| US-04 | Registro de Consumo Diario | Como usuario, quiero registrar mis comidas diarias para llevar un control de mi alimentación. | Escenario 1: **Given** que soy un usuario activo, **When** registro una nueva comida, **Then** la app actualizará mi historial de alimentación. <br><br> Escenario 2: **Given** que me olvido de registrar una comida, **When** ingreso después de un tiempo, **Then** la app me permitirá registrar comidas retroactivas. | EP-01 |
+| US-05 | Visualización de Progreso | Como usuario, quiero visualizar mi progreso nutricional para motivarme a mantener mis hábitos. | Escenario 1: **Given** que he registrado mis consumos, **When** accedo a la sección de progreso, **Then** podré ver estadísticas sobre mi alimentación. <br><br> Escenario 2: **Given** que he tenido días sin registrar comidas, **When** visualizo mi progreso, **Then** el sistema indicará los días sin datos para mantener la precisión. | EP-01 |
+| US-06 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios para registrar mis comidas y no olvidar ningún dato. | Escenario 1: **Given** que soy un usuario activo, **When** configuro los recordatorios, **Then** recibiré notificaciones en los horarios seleccionados. <br><br> Escenario 2: **Given** que omito varios recordatorios, **When** accedo a la app, **Then** recibiré un resumen invitándome a completar los registros faltantes. | EP-05 |
+| US-07 | Ajuste de Plan Nutricional | Como usuario, quiero ajustar mi plan nutricional si cambian mis necesidades o preferencias. | Escenario 1: **Given** que detecto cambios en mis necesidades, **When** solicito un ajuste, **Then** la app recalculará mis recomendaciones. <br><br> Escenario 2: **Given** que mi historial muestra inconsistencias, **When** pido actualizar el plan, **Then** la app me guiará para ajustar objetivos y preferencias. | EP-02 |
+| US-08 | Integración con Dispositivos de Salud | Como usuario, quiero sincronizar mis dispositivos de salud para tener datos más precisos. | Escenario 1: **Given** que tengo un dispositivo compatible, **When** autorizo la conexión, **Then** la app incorporará automáticamente mis datos de salud. <br><br> Escenario 2: **Given** que se pierde la conexión del dispositivo, **When** reestablezco el enlace, **Then** los datos pendientes serán sincronizados correctamente. | EP-02 |
+| US-09 | Generación de Reportes | Como usuario, quiero generar reportes de mi avance nutricional para revisarlos o compartirlos. | Escenario 1: **Given** que tengo suficiente información registrada, **When** solicito un reporte, **Then** recibiré un archivo con mis datos y gráficos. <br><br> Escenario 2: **Given** que configuro preferencias de reporte, **When** genero un informe, **Then** la app personalizará el contenido según mis elecciones. | EP-09 |
+| US-10 | Contacto con Asesor Nutricional | Como usuario, quiero contactar a un asesor para resolver dudas o recibir apoyo personalizado. | Escenario 1: **Given** que necesito orientación adicional, **When** solicito asesoría desde la app, **Then** seré conectado con un profesional. <br><br> Escenario 2: **Given** que hay alta demanda, **When** solicito contacto, **Then** la app me mostrará el tiempo estimado de respuesta y alternativas de soporte. | EP-03 |
+| US-11 | Gamificación de Hábitos | Como usuario, quiero recibir recompensas por cumplir mis objetivos nutricionales diarios. | Escenario 1: **Given** que cumplo mis objetivos diarios, **When** los registro en la app, **Then** recibiré puntos de recompensa. <br><br> Escenario 2: **Given** que acumulo suficientes puntos, **When** entro a la sección de recompensas, **Then** podré canjearlos por beneficios o reconocimientos. | EP-04 |
+| US-12 | Comparación de Progreso | Como usuario, quiero comparar mi progreso actual con periodos anteriores para evaluar mis avances. | Escenario 1: **Given** que tengo historial registrado, **When** solicito una comparación, **Then** la app mostrará mis avances respecto a un periodo anterior. <br><br> Escenario 2: **Given** que no tengo suficiente historial, **When** pido una comparación, **Then** la app me sugerirá registrar más datos primero. | EP-03 |
+| US-13 | Creación de Planes Personalizados | Como usuario, quiero crear un plan nutricional personalizado basado en mis preferencias y necesidades. | Escenario 1: **Given** que ingreso mis preferencias y necesidades, **When** solicito un plan, **Then** la app generará un plan nutricional adaptado. <br><br> Escenario 2: **Given** que no completo toda la información, **When** solicito un plan, **Then** la app me pedirá completar los datos faltantes. | EP-03 |
+| US-14 | Visualización de Ingredientes | Como usuario, quiero ver los ingredientes de las recetas sugeridas para decidir si las preparo. | Escenario 1: **Given** que accedo a una receta, **When** visualizo los detalles, **Then** podré ver todos los ingredientes necesarios. <br><br> Escenario 2: **Given** que tengo preferencias alimenticias, **When** consulto los ingredientes, **Then** la app resaltará aquellos que debo evitar. | EP-03 |
+| US-15 | Envío de Sugerencias Semanales | Como usuario, quiero recibir sugerencias semanales de menús adaptados a mis objetivos. | Escenario 1: **Given** que estoy suscrito a las notificaciones, **When** inicia una nueva semana, **Then** recibiré un resumen con menús sugeridos. <br><br> Escenario 2: **Given** que mis objetivos cambian, **When** actualizo mi perfil, **Then** las próximas sugerencias reflejarán esos cambios. | EP-03 |
+| US-16 | Alertas de Alimentos No Recomendados | Como usuario, quiero recibir alertas si registro alimentos no recomendados según mi perfil. | Escenario 1: **Given** que registro un alimento restringido, **When** lo agrego a mi consumo, **Then** la app me alertará del posible conflicto. <br><br> Escenario 2: **Given** que ignoro una alerta, **When** persista la situación, **Then** la app me sugerirá alternativas saludables. | EP-05 |
+| US-17 | Exportación de Datos | Como usuario, quiero exportar mis datos de progreso para respaldo o análisis externo. | Escenario 1: **Given** que tengo suficiente historial, **When** solicito exportarlo, **Then** recibiré un archivo descargable. <br><br> Escenario 2: **Given** que configuro exportaciones automáticas, **When** lleguen los plazos definidos, **Then** la app enviará los datos sin intervención manual. | EP-06 |
+| US-18 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre actualizaciones relevantes en la app. | Escenario 1: **Given** que hay novedades importantes, **When** ingreso a la app, **Then** recibiré una notificación emergente. <br><br> Escenario 2: **Given** que no quiero interrupciones, **When** configuro preferencias de notificación, **Then** solo recibiré avisos críticos. | EP-10 |
+| US-19 | Creación de Grupos de Apoyo | Como usuario, quiero unirme a grupos de usuarios con objetivos similares para motivarnos mutuamente. | Escenario 1: **Given** que quiero apoyo, **When** busco grupos en la app, **Then** podré unirme a comunidades según mis intereses. <br><br> Escenario 2: **Given** que abandono un grupo, **When** busco otro, **Then** la app me sugerirá comunidades relacionadas. | EP-11 |
+| US-20 | Encuestas de Satisfacción | Como usuario, quiero responder encuestas para dar retroalimentación sobre mi experiencia en la app. | Escenario 1: **Given** que complete un hito importante, **When** la app me invite, **Then** podré responder una encuesta de satisfacción. <br><br> Escenario 2: **Given** que rechazo una encuesta, **When** pase un tiempo prudente, **Then** la app podrá ofrecerme otra encuesta distinta. | EP-06 | 
+| US-21 | Configuración de Privacidad | Como usuario, quiero configurar qué datos comparto para proteger mi privacidad. | Escenario 1: **Given** que ingreso a configuración de privacidad, **When** desactivo la opción de compartir datos, **Then** la app dejará de sincronizar mis datos personales. <br><br> Escenario 2: **Given** que modifico mi consentimiento, **When** lo actualizo en la app, **Then** mis datos serán gestionados conforme a los nuevos permisos. | EP-03 |
+| US-22 | Control de Sesiones Activas | Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad. | Escenario 1: **Given** que tengo varias sesiones abiertas, **When** accedo a la sección de seguridad, **Then** podré cerrar remotamente las sesiones que desee. <br><br> Escenario 2: **Given** que cierro todas las sesiones, **When** intento reingresar, **Then** me pedirá autenticarme nuevamente. | EP-07 |
+| US-23 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvido. | Escenario 1: **Given** que olvidé mi contraseña, **When** solicito la recuperación, **Then** recibiré un correo con instrucciones de restablecimiento. <br><br> Escenario 2: **Given** que no recibo el correo, **When** solicito reenvío, **Then** la app me permitirá reenviar el enlace de recuperación. | EP-04 |
+| US-24 | Autenticación en Dos Pasos | Como usuario, quiero habilitar autenticación en dos pasos para proteger mi cuenta. | Escenario 1: **Given** que deseo más seguridad, **When** activo el segundo factor de autenticación, **Then** la app me pedirá un código extra al iniciar sesión. <br><br> Escenario 2: **Given** que pierdo acceso al segundo factor, **When** uso un código de respaldo, **Then** podré recuperar mi acceso. | EP-04 |
+| US-25 | Acceso como Invitado | Como usuario, quiero acceder como invitado para explorar funcionalidades básicas sin registro. | Escenario 1: **Given** que ingreso como invitado, **When** accedo a la app, **Then** podré explorar funciones limitadas. <br><br> Escenario 2: **Given** que decido registrarme, **When** selecciono crear cuenta, **Then** podré migrar mi historial de invitado a una cuenta registrada. | EP-07 |
+| US-26 | Búsqueda de Recetas | Como usuario, quiero buscar recetas saludables dentro de la app. | Escenario 1: **Given** que estoy en la sección de recetas, **When** escribo un ingrediente o platillo, **Then** la app me mostrará resultados relevantes. <br><br> Escenario 2: **Given** que no hay resultados, **When** finaliza la búsqueda, **Then** la app sugerirá alternativas similares. | EP-02 |
+| US-27 | Filtrado de Recetas | Como usuario, quiero filtrar recetas por tipo de dieta o restricción alimentaria. | Escenario 1: **Given** que selecciono un filtro, **When** aplico la búsqueda, **Then** solo veré recetas que cumplan esos criterios. <br><br> Escenario 2: **Given** que elimino los filtros, **When** vuelvo a buscar, **Then** veré todas las recetas disponibles. | EP-05 |
+| US-28 | Favoritos de Recetas | Como usuario, quiero guardar recetas favoritas para consultarlas rápidamente después. | Escenario 1: **Given** que estoy viendo una receta, **When** la marco como favorita, **Then** se añadirá a mi lista personal. <br><br> Escenario 2: **Given** que elimino una receta de favoritos, **When** confirmo la acción, **Then** desaparecerá de la lista. | EP-08 |
+| US-29 | Visualización de Valor Nutricional | Como usuario, quiero ver el valor nutricional de las recetas sugeridas. | Escenario 1: **Given** que abro una receta, **When** despliego los detalles, **Then** podré ver información como calorías, proteínas, grasas y carbohidratos. <br><br> Escenario 2: **Given** que busco alternativas, **When** consulto valores nutricionales, **Then** podré comparar fácilmente opciones similares. | EP-06 |
+| US-30 | Seguimiento de Hidratación | Como usuario, quiero registrar mi consumo diario de agua. | Escenario 1: **Given** que quiero registrar hidratación, **When** añado vasos de agua en la app, **Then** se actualizará mi progreso diario. <br><br> Escenario 2: **Given** que configuro una meta diaria de hidratación, **When** la cumplo, **Then** recibiré una notificación de felicitación. | EP-07 |
+| US-31 | Visualización de Tendencias | Como usuario, quiero visualizar tendencias de mi comportamiento alimenticio. | Escenario 1: **Given** que tengo suficiente historial, **When** consulto tendencias, **Then** podré ver gráficas de consumo de calorías, nutrientes y hábitos. <br><br> Escenario 2: **Given** que quiero profundizar en detalles, **When** selecciono un nutriente específico, **Then** podré ver su evolución en el tiempo. | EP-04 |
+| US-32 | Personalización de Interfaz | Como usuario, quiero personalizar colores y temas de la app para mejorar mi experiencia. | Escenario 1: **Given** que accedo a configuración de apariencia, **When** elijo un tema, **Then** la app aplicará los cambios visualmente. <br><br> Escenario 2: **Given** que restauro valores por defecto, **When** confirmo la acción, **Then** la app volverá al tema original. | EP-08 |
+| US-33 | Feedback de Uso Diario | Como usuario, quiero recibir feedback rápido al final del día sobre mi desempeño nutricional. | Escenario 1: **Given** que termino el día, **When** accedo al resumen diario, **Then** recibiré comentarios personalizados. <br><br> Escenario 2: **Given** que tengo días inconsistentes, **When** recibo feedback, **Then** la app me dará sugerencias específicas de mejora. | EP-09 |
+| US-34 | Alertas de Objetivos No Alcanzados | Como usuario, quiero recibir alertas cuando no cumpla mis objetivos diarios. | Escenario 1: **Given** que no alcanzo un objetivo, **When** se cierra el día, **Then** recibiré una notificación sobre ello. <br><br> Escenario 2: **Given** que desactivo alertas, **When** lo configuro en preferencias, **Then** no recibiré recordatorios de objetivos fallidos. | EP-03 |
+| US-35 | Visualización de Macronutrientes | Como usuario, quiero ver la distribución de macronutrientes diarios que consumo. | Escenario 1: **Given** que registro comidas, **When** accedo a mi resumen diario, **Then** podré ver porcentajes de proteínas, grasas y carbohidratos. <br><br> Escenario 2: **Given** que selecciono un día anterior, **When** consulto macronutrientes, **Then** podré analizar los datos históricos. | EP-04 |
+| US-36 | Ajuste de Notificaciones | Como usuario, quiero personalizar la frecuencia y tipo de notificaciones que recibo. | Escenario 1: **Given** que accedo a configuración de notificaciones, **When** ajusto la frecuencia, **Then** solo recibiré alertas según mis preferencias. <br><br> Escenario 2: **Given** que desactivo todas las notificaciones, **When** confirmo la acción, **Then** dejaré de recibir avisos de la app. | EP-08 |
+| US-37 | Mensajes Motivacionales | Como usuario, quiero recibir mensajes motivacionales diarios para mantenerme enfocado. | Escenario 1: **Given** que activo mensajes motivacionales, **When** inicia el día, **Then** recibiré un mensaje positivo automáticamente. <br><br> Escenario 2: **Given** que desactivo mensajes, **When** cambio configuración, **Then** no recibiré mensajes motivacionales diarios. | EP-03 |
+| US-38 | Ranking de Usuarios Saludables | Como usuario, quiero ver un ranking de usuarios según hábitos saludables. | Escenario 1: **Given** que participo activamente, **When** consulto el ranking, **Then** podré ver mi posición basada en cumplimiento de objetivos. <br><br> Escenario 2: **Given** que no deseo aparecer en rankings, **When** lo configuro, **Then** mi perfil será invisible en el listado. | EP-02 |
+| US-39 | Integración con Redes Sociales | Como usuario, quiero compartir logros y progresos en redes sociales. | Escenario 1: **Given** que cumplo un logro, **When** decido compartirlo, **Then** la app me permitirá publicarlo en redes. <br><br> Escenario 2: **Given** que revoco el permiso de redes sociales, **When** actualizo configuración, **Then** no podré compartir más hasta autorizar nuevamente. | EP-08 |
+| US-40 | Configuración de Idioma | Como usuario, quiero seleccionar el idioma de la app. | Escenario 1: **Given** que quiero usar otro idioma, **When** accedo a configuración, **Then** podré cambiar el idioma de la interfaz. <br><br> Escenario 2: **Given** que el idioma no está disponible, **When** intento cambiarlo, **Then** la app mostrará una notificación indicando las opciones vigentes. | EP-02 |
+| US-41 | Reporte de Consumo de Agua | Como usuario, quiero ver un reporte mensual de mi hidratación. | Escenario 1: **Given** que registro mi hidratación diaria, **When** consulto mi reporte mensual, **Then** podré ver días cumplidos y consumo promedio. <br><br> Escenario 2: **Given** que no registro algunos días, **When** consulto el reporte, **Then** la app indicará los días faltantes en el análisis. | EP-08 |
+| US-42 | Soporte en Tiempo Real | Como usuario, quiero chatear en tiempo real con soporte técnico para resolver dudas. | Escenario 1: **Given** que tengo un problema técnico, **When** abro el chat de soporte, **Then** podré recibir ayuda inmediata. <br><br> Escenario 2: **Given** que no hay agentes disponibles, **When** abro el chat, **Then** la app me ofrecerá dejar un mensaje para respuesta posterior. | EP-09 |
+| US-43 | Sugerencias Basadas en Actividad | Como usuario, quiero recibir sugerencias basadas en mi actividad reciente. | Escenario 1: **Given** que cumplo ciertos patrones de alimentación, **When** consulto sugerencias, **Then** recibiré recomendaciones basadas en mis hábitos. <br><br> Escenario 2: **Given** que mis hábitos cambian, **When** busco sugerencias, **Then** la app ajustará las recomendaciones. | EP-01 |
+| US-44 | Personalización de Metas | Como usuario, quiero definir metas de alimentación específicas. | Escenario 1: **Given** que quiero personalizar una meta, **When** edito mis objetivos, **Then** podré ajustar calorías, macronutrientes y frecuencia de comidas. <br><br> Escenario 2: **Given** que cambio mis metas, **When** guardo los cambios, **Then** la app recalculará mis recomendaciones. | EP-08 |
+| US-45 | Tutorial Interactivo Inicial | Como usuario, quiero recibir un tutorial al empezar a usar la app. | Escenario 1: **Given** que soy un nuevo usuario, **When** ingreso a la app, **Then** recibiré un tutorial paso a paso sobre sus funcionalidades. <br><br> Escenario 2: **Given** que omito el tutorial, **When** quiera verlo después, **Then** podré acceder desde el menú de ayuda. | EP-05 |
+| US-46 | Recordatorio de Actualización de Datos | Como usuario, quiero recibir recordatorios para actualizar mi perfil regularmente. | Escenario 1: **Given** que pasa mucho tiempo sin actualizar, **When** ingreso, **Then** recibiré un aviso para actualizar mi perfil. <br><br> Escenario 2: **Given** que ignoro el recordatorio, **When** se cumpla otro plazo, **Then** recibiré otro aviso de forma respetuosa. | EP-09 |
+| US-47 | Visualización de Logros | Como usuario, quiero ver una sección con mis logros obtenidos en la app. | Escenario 1: **Given** que alcanzo un hito, **When** consulto mis logros, **Then** veré distintivos virtuales o medallas. <br><br> Escenario 2: **Given** que logro una meta importante, **When** accedo al resumen, **Then** podré compartir el logro si quiero. | EP-08 |
+| US-48 | Acceso a Contenido Educativo | Como usuario, quiero acceder a artículos y videos educativos sobre nutrición. | Escenario 1: **Given** que quiero aprender más, **When** busco en la sección educativa, **Then** podré consumir contenidos relacionados a mis intereses. <br><br> Escenario 2: **Given** que marco contenidos favoritos, **When** regreso a la sección, **Then** podré encontrarlos fácilmente. | EP-02 |
+| US-49 | Envío de Notificaciones Push Inteligentes | Como usuario, quiero recibir notificaciones push basadas en mi comportamiento. | Escenario 1: **Given** que hay patrones relevantes, **When** la app detecta eventos, **Then** enviará notificaciones personalizadas. <br><br> Escenario 2: **Given** que configuro la app para notificaciones inteligentes, **When** se active una condición, **Then** recibiré avisos específicos sin saturarme. | EP-05 |
+| US-50 | Configuración de Recordatorios Personalizados | Como usuario, quiero crear recordatorios personalizados en la app. | Escenario 1: **Given** que necesito recordatorios específicos, **When** configuro uno nuevo, **Then** podré definir texto, horario y frecuencia. <br><br> Escenario 2: **Given** que edito un recordatorio, **When** actualizo los campos, **Then** los cambios se guardarán automáticamente. | EP-04 |
+
+
 ### 3.3. Impact Mapping
+
+<p align="center">
+  <img src="./imagenes/Impact map.png" alt="Impact Map" width="700">
+</p>
 
 ### 3.4. Product Backlog
 
@@ -936,42 +1139,270 @@ Mobile:
 #### 4.4.2. Web Applications Wireflow Diagrams
 
 #### 4.4.3. Web Applications Mock-ups
+| Pantalla de comienzo      | Registro o inicio de sesion |
+|-----------------|------------|
+| Esta es la pantalla de inicio que se muestra luego de instalar la app.| A continuación se visualiza la pantalla de registro o inicio de sesión, según sea el caso. |
+| <img src="./imagenes/mockups/start screen.png" height="500">| <img src="./imagenes/mockups/login and registration screen.png" height="500">|
+
+
+En el caso del registro se siguen los siguientes pasos: 
+| Datos personales    | Objetivos  | Restricciones |  Preferencias alimenticias                                       |
+|---------|-----------|-----------|-------------|
+| Se registran sus datos como correo, nombre, edad, talla, peso, etc.    | Luego se escogen los objetivos que se planean alcanzar.                   | Seguidamente se establecen restricciones en la dieta.                  | Finalmente se eligen preferencias alimenticias.                        |
+| <img src="./imagenes/mockups/register 1.png" height="500"> | <img src="./imagenes/mockups/register 2.png" height="500"> | <img src="./imagenes/mockups/register 3.png" height="500">  | <img src="./imagenes/mockups/register 4.png" height="500"> |
+
+Luego del registro se redirigen a un pantalla de inicio desde donde se podera acceder a las capacidades de la aplicación
+
+| Pantalla de inicio | Perfil de usuario | Customizar horario | Gestión médica y alimenticia | Ritmo del plan | Días libres |
+|--------------------|-------------------|---------------------|------------------------------|----------------|-------------|
+| Pantalla donde el usuario puede navegar hacia todas las funciones. | Se encuentran todos los datos registrados del usuario con opción a modificar. | Estableces las horas de las comidas. | Se agregan posibles restricciones o condiciones médicas y la preferencia alimenticia. | Escoges el ritmo de cómo seguirás el plan. | Escoges los días en los que no deseas seguir el plan. |
+| <img src="./imagenes/mockups/homeScreen.png" height="500"> | <img src="./imagenes/mockups/User profile.png" height="500"> | <img src="./imagenes/mockups/Customize schedule.png" height="500"> | <img src="./imagenes/mockups/Medical and dietary management.png" height="500"> | <img src="./imagenes/mockups/Plan pace.png" height="500"> | <img src="./imagenes/mockups/Free days.png" height="500"> |
+
+Desde la pantalla de inicio se puede observar el progreso dentro del plan y logros obtenidos hasta el momento
+
+| Progreso | Preferencias | Registrar comida |
+|----------|--------------|------------------|
+| Se puede visualizar el progreso, logros, un seguimiento de todo lo que se lleva y hasta opiniones de usuarios que llevan un plan similar. | Permite agregar platos e ingredientes preferidos para ser implementados en la generación del plan de comida. | Permite registrar las comidas del día. |
+| <img src="./imagenes/mockups/progress.png" height="500"> | <img src="./imagenes/mockups/preferences.png" height="500"> | <img src="./imagenes/mockups/register meal.png" height="500"> |
+
+
+Dentro de la opciones en la pantalla principal en modo de botones se encuentran las siguientes
+
+| Recordatorios | Sugerencias | Snack del día |
+|---------------|-------------|----------------|
+| Permite colocar recordatorios de ciertas comidas, dejar una nota y establecer la categoría. | Ofrece sugerencias diarias según la dieta del día. | Dependiendo de la configuración, se te sugiere un snack diario adecuado a tus metas. |
+| <img src="./imagenes/mockups/reminder.png" height="500"> | <img src="./imagenes/mockups/suggestions.png" height="500"> | <img src="./imagenes/mockups/snack.png" height="500"> |
+
+Finalmente lo que caracteriza principalmente a la app
+
+| Plan de comidas |
+|-----------------|
+| Se puede ver todo el plan de comida de la semana, los ingredientes, el progreso semanal y ver el menú de cada día y de cada comida, teniendo la opción de ver los ingredientes, generar una nueva receta o descargarla. |
+| <img src="./imagenes/mockups/plan.png" height="600"> |
+
+[Visualizar Mock-ups](https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1)
 
 #### 4.4.4. Web Applications User Flow Diagrams
+<p align="center">
+  <img src="./imagenes/mockups/flows 4.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/flows 5.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/flows 1.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/flows 3.png" alt="Context Diagram" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/flows 2.png" alt="Context Diagram" width="700">
+</p>
+
+[Visualizar User Flow Diagrams](https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1)
 
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture
 
 #### 4.6.1. Software Architecture Context Diagrams
+<p align="center">
+  <img src="./imagenes/context-diagram.png" alt="Context Diagram" width="700">
+</p>
 
 #### 4.6.2. Software Architecture Container Diagrams
+<p align="center">
+  <img src="./imagenes/container-diagram.png" alt="Container Diagram" width="700">
+</p>
 
 #### 4.6.3. Software Architecture Components Diagrams
+<p align="center">
+  <img src="./imagenes/components-diagram.png" alt="Component Diagram" width="700">
+</p>
 
 ### 4.7. Software Object-Oriented Design
 
 #### 4.7.1. Class Diagrams
 
+<p align="center">
+  <img src="./imagenes/diagram-class.jpg" alt="Class Diagram" width="700">
+</p>
+
 #### 4.7.2. Class Dictionary
+
+| Clase                | Descripción                                                                                                                            |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `User`               | Representa a cualquier persona registrada en la plataforma. Contiene información básica como email, contraseña y rol de acceso.       |
+| `CustomerProfile`    | Perfil extendido del usuario con rol de cliente. Almacena datos personales, objetivos nutricionales, alergias y restricciones.         |
+| `NutritionistProfile`| Perfil del usuario con rol de nutricionista. Incluye credenciales profesionales y datos necesarios para crear y gestionar planes.      |
+| `MealPlan`           | Plan nutricional semanal personalizado. Contiene los días del plan, comidas asignadas y está relacionado con un perfil de cliente.     |
+| `MealPlanDay`        | Representa un día dentro de un plan nutricional. Incluye una estructura de comidas (desayuno, almuerzo, cena, snacks, etc.)           |
+| `Recipe`             | Receta saludable con nombre, instrucciones, tiempo de preparación, ingredientes y valor nutricional asociado.                          |
+| `Ingredient`         | Ingrediente individual utilizado en una receta. Contiene nombre, cantidad, unidad de medida y valores nutricionales por porción.       |
+| `Macros`             | Información nutricional agrupada: calorías, proteínas, grasas y carbohidratos. Puede pertenecer a recetas o planes de comida.         |
+| `FavoriteRecipe`     | Relación entre un cliente y una receta que ha marcado como favorita. Permite personalizar sugerencias y accesos rápidos.               |
+
 
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagram
+<p align="center">
+  <img src="./imagenes/DiagramDB.png" alt="Database Diagram" width="850">
+</p>
 
 <hr>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1. Software Configuration Management.
-
+Este apartado detalla la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y el proceso de despliegue del sistema web de planificación de comidas inteligentes y personalizadas.
 #### 5.1.1. Software Development Environment Configuration.
+**Diseño UX/UI**
+En esta sección nos centramos en la creación de interfaces atractivas e intuitivas, considerando las necesidades y preferencias de los usuarios. Las herramientas empleadas son:
+- **Figma**: Permite diseñar y compartir interfaces de usuario de manera colaborativa y eficiente.
+
+<p align="center">
+  <img src="./imagenes/Figma.png" alt="Figma Logo" width="250">
+</p>
+
+**Desarrollo de Software**
+Para el proceso de creación y programación del software, utilizamos las siguientes herramientas y tecnologías:
+
+- **IDE para Backend**: Se utilizó IntelliJ IDEA como entorno de desarrollo principal para el backend desarrollado en Java con el framework Spring Boot. Esta herramienta ofrece integración avanzada con Maven/Gradle, control de versiones Git, ejecución de pruebas, autocompletado inteligente y soporte para múltiples frameworks y servicios web.
+
+<p align="center">
+  <img src="./imagenes/IntelliJ_IDEA.png" alt="IntelliJ IDEA" width="250">
+</p>
+
+- **IDE para Frontend**: Para el desarrollo frontend en Angular, se utilizó WebStorm, un IDE especializado de JetBrains que facilita el trabajo con TypeScript, HTML y Tailwind CSS. WebStorm proporciona inspecciones de código, refactorizaciones, vista previa en vivo, y soporte completo para proyectos en Angular.
+
+<p align="center">
+  <img src="./imagenes/webstorm.png" alt="WebStorm IDEA" width="250">
+</p>
+
+- **Github**: Plataforma para alojar el repositorio del proyecto y gestionar el control de versiones del código fuente y la documentación, facilitando la colaboración y el seguimiento de cambios.
+
+<p align="center">
+  <img src="./imagenes/github.png" alt="Github Logo" width="250">
+</p>
+
+**Desarrollo de Software**
+- **Markdown**: Plataforma para alojar el repositorio del proyecto y gestionar el control de versiones del código fuente y la documentación, facilitando la colaboración y el seguimiento de cambios.
+
+<p align="center">
+  <img src="./imagenes/markdown.png" alt="Markdown Logo" width="250">
+</p>
+
+- **StarUML**: Programa para crear diagramas UML y diagramas de flujo, ayudando a representar visualmente la arquitectura y los procesos del proyecto.
+
+<p align="center">
+  <img src="./imagenes/staruml.png" alt="StarUML Logo" width="250">
+</p>
+
+- **Visual Paradigm** Programa para crear diagramas de contexto, de contenedores y la identificación de los Bounded Contexts del proyecto.
+
+<p align="center">
+  <img src="./imagenes/visual-paradigm.png" alt="Visual Paradigm Logo" width="250">
+</p>
 
 #### 5.1.2. Source Code Management
+El proyecto utiliza Git como sistema de control de versiones distribuido. Para asegurar una gestión eficiente del código fuente, se aplicó la estrategia de ramas conocida como Git Flow, que facilita la colaboración entre desarrolladores, la integración de nuevas funcionalidades y el mantenimiento del código en producción.
+
+**Implementación de Git Flow**
+
+Se definieron las siguientes ramas principales:
+- **main**: rama principal que contiene las versiones estables.
+- **develop**: rama donde se integran todas las funcionalidades antes de pasar a producción.
+- **feature/***: ramas individuales para el desarrollo de nuevas funcionalidades.
+- **release/***: ramas para la preparación de nuevas versiones.
+- **hotfix/***: ramas para corregir errores críticos directamente en producción.
+
+**Flujo de Trabajo en Git Flow**
+
+1.	Crear una rama feature/nueva-funcionalidad desde develop.
+2.	Realizar el desarrollo y pruebas en la rama feature.
+3.	Fusionar la rama feature con develop una vez completada.
+4.	Preparar la versión final en una rama release.
+5.	Fusionar release con main y develop.
+6.	Crear una etiqueta (tag) con la versión liberada.
+7.	En caso de errores críticos, crear una hotfix desde main y seguir el flujo correspondiente.
+
+**Convenciones de Commits**
+
+Para mantener un historial de cambios limpio y comprensible, se adoptó una convención de mensajes de commit inspirada en Conventional Commits. Esta convención facilita la automatización en el versionado, el análisis de cambios y el seguimiento del desarrollo.
+
+**Estructura del mensaje**
+
+< tipo >(componente): descripción corta en minúsculas y en infinitivo
+
+**Tipos de Commits permitidos**
+
+| Tipo       | Uso recomendado| 
+|------------|----------------|
+| *feat*     | Nueva funcionalidad para el sistema  |
+| *fix*      | Corrección de errores o bugs  |
+| *docs*     | Cambios en la documentación (README, comentarios, etc.)   |
+| *style*    | Cambios de formato (espacios, comas, punto y coma, etc.) sin afectar la lógica del código  |
+| *refactor* | Refactorización del código sin cambios funcionales ni correcciones  |
+| *test*     | Agregado o modificación de pruebas (unitarias, integradas, etc.)   |
+| *chore*    | Tareas menores que no afectan la lógica (actualización de dependencias, archivos de configuración, etc.)   |
+| *build*    | Cambios relacionados al sistema de construcción, CI/CD o entorno de despliegue   |
+| *perf*     |Cambios orientados a mejorar el rendimiento del sistema   |
+
+**Ejemplos de commits**
+
+- **feat(auth)**: agregar funcionalidad de inicio de sesión con JWT
+- **fix(api)**: corregir error 500 al enviar datos nulos desde el formulario
+- **docs(readme)**: actualizar sección de instalación
+- **style(navbar)**: aplicar espaciado correcto entre íconos
+- **refactor(recipe)**: simplificar lógica de filtrado de ingredientes
+- **test(user)**: agregar pruebas unitarias al componente de registro
+- **chore(deps)**: actualizar dependencias npm
+- **build(deploy)**: configurar script para despliegue automático en GitHub Pages
+
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
+Para garantizar una interfaz visual consistente y mantenible, se establecieron las siguientes convenciones de estilo y desarrollo en el frontend de la aplicación:
+
+**Frontend (Angular):**
+- **Framework de diseño**: Se utiliza Tailwind CSS como sistema de utilidades para estilos, lo que permite crear componentes visuales directamente desde la plantilla HTML mediante clases predefinidas, eliminando la necesidad de archivos CSS personalizados extensos.
+
+- **Estructura de carpetas Angular**: Se sigue una arquitectura basada en módulos, dividiendo la aplicación por funcionalidades. Cada módulo contiene sus propios componentes, servicios y archivos relacionados.
+
+- **Nombres de componentes y clases**:
+
+1. Componentes en PascalCase: UserProfileComponent, PlanGeneratorComponent.
+2. Archivos con nombre en kebab-case: user-profile.component.ts, plan-generator.component.html.
+3. Clases de Tailwind directamente en los elementos HTML, con consistencia en el orden (layout → spacing → typography → colors → others).
+
+
+
+**Backend (Spring Boot):**
+- Convenciones estándar de Java y Spring Boot.
+- Nombres de clases en PascalCase y métodos en camelCase.
+- Uso de anotaciones adecuadas y separación clara de responsabilidades (MVC).
+
+
+
+1. **Estructura del Proyecto**: Mantener una estructura clara y consistente para los módulos, componentes y servicios.
+2. **Nombres de Archivos**: Utilizar el formato kebab-case para nombres de archivos y carpetas.
+3. **Servicios**: Seguir el patrón de inyección de dependencias para gestionar servicios y mantener una alta cohesión y bajo acoplamiento.
+
+
 #### 5.1.4. Software Deployment Configuration
+
+El proceso de despliegue se realizó de forma escalonada, priorizando la visibilidad del frontend para fines de presentación y pruebas de usuario.
+
+**Pasos para despliegue en Github Pages**
+
+1.	Generar la versión productiva del frontend con el comando ng build --configuration production.
+2.	Configurar el archivo angular.json para especificar la carpeta docs como destino del build.
+3.	Subir los archivos generados a la rama main del repositorio en GitHub.
+4.	Activar GitHub Pages desde la configuración del repositorio y seleccionar la carpeta /docs como fuente de publicación.
+5.	Verificar la disponibilidad pública de la aplicación desde la URL generada por GitHub Pages.
+
+El backend no se despliega en GitHub Pages; se prevé su implementación en un entorno de servidor como Render, Railway o Heroku para pruebas funcionales completas. 
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
