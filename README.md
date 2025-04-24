@@ -1485,6 +1485,11 @@ En el botón de plan de comidas nos redirige a toda la información actual, dond
 [Visualizar User Flow Diagrams](https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1)
 
 ### 4.5. Web Applications Prototyping
+<p align="center">
+  <img src="./imagenes/prototipo.png" alt="Context Diagram" width="700">
+</p>
+
+[Video del prototipo](https://youtu.be/3qfVkOcF9-o)
 
 ### 4.6. Domain-Driven Software Architecture
 
