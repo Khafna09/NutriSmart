@@ -410,7 +410,7 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 2. ¿Con qué frecuencia sueles buscar información o herramientas que te ayuden a mejorar tu alimentación?     
 ---
 
-### Segmento 1: Jóvenes adultos interesados ne  mejorar su dieta
+### Segmento 1: Jóvenes adultos interesados en  mejorar su dieta
 
 1. ¿Planificas tus comidas semanalmente? Si lo haces, ¿cómo lo haces actualmente?  
 2. ¿Qué tan seguido comes fuera o pides delivery? ¿Cómo influye esto en tu alimentación?  
@@ -450,6 +450,12 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 [Enlace entrevista 3](https://youtu.be/PM159qdyitU)
 
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevista4.png" alt="User Persona 1" width="400">
+</p>
+
+[Enlace entrevista 4](https://youtu.be/2t0KyeJOKvE)
+
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -476,6 +482,16 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 - **No ha probado ninguna aplicación de nutrición** hasta ahora.  
 - Estaría interesado en una plataforma **personalizada**, pero su uso dependería del **tiempo disponible**.  
 - Preferiría **empezar con una versión gratuita**, y si encuentra valor, consideraría pasarse a una versión premium.
+
+####  Entrevista 4  
+- La persona considera que la alimentación es fundamental, no solo a nivel físico sino también emocional y mental.
+- Suele buscar información nutricional casi semanalmente para actualizarse y brindar un mejor servicio.
+- Utiliza herramientas básicas como Excel y WhatsApp para crear y hacer seguimiento de los planes alimenticios, aunque reconoce que no son las más eficientes.
+- Encuentra dificultades al personalizar planes cuando los pacientes tienen diagnósticos múltiples o preferencias muy restringidas.
+- Verifica la adherencia de los pacientes pidiéndoles fotos o diarios alimentarios, pero considera que este proceso puede mejorar.
+- Tiene una percepción positiva sobre el uso de apps, siempre que sean amigables y no complicadas para los pacientes.
+- Valora funcionalidades como personalización de planes, alertas, registros visuales de comida y comunicación directa con el paciente.
+- Recomendaría una app como NutriSmart si mejora la adherencia, simplifica su trabajo, es fácil de usar, segura y personalizable según el diagnóstico del paciente.
 
 ### 2.3. Needfinding
 
