@@ -52,8 +52,7 @@
 
 ## Tabla de Contenidos
 
-<details>
-    <summary>Capítulo I: Introducción </summary>    
+Capítulo I: Introducción    
         <ul>
             <li><a href="#11-Startup-Profile">1.1. Startup Profile</a></li>
             <li><a href="#111-Descripción-de-la-Startup">1.1.1. Descripción de la Startup</a></li>
@@ -67,10 +66,8 @@
             <li><a href="#1224-Lean-UX-Canvas">1.2.2.4. Lean UX Canvas</a></li>
             <li><a href="#13-Segmentos-Objetivos">1.3. Segmentos Objetivos</a></li>
         </ul>    
-</details>
-
-<details>
-    <summary>Capítulo II: Requirements Elicitation & Analysis</summary>
+        
+Capítulo II: Requirements Elicitation & Analysis
         <ul>
             <li><a href="#21-competidores">2.1. Competidores</a></li>
             <li><a href="#211-Análisis-competitivo">2.1.1. Análisis competitivo</a></li>
@@ -87,20 +84,16 @@
             <li><a href="#235-As-is-Scenario-Mapping">2.3.5. As-is Scenario Mapping</a></li>
             <li><a href="#24-Ubiquitous-Language">2.4. Ubiquitous Language</a></li>
         </ul>   
-</details>
 
-<details>
-    <summary>Capítulo III: Requirements Specification </summary>
+Capítulo III: Requirements Specification 
         <ul>
             <li><a href="#31-To-Be-Scenario-Mapping">3.1. To-Be Scenario Mapping</a></li>
             <li><a href="#32-User-Stories">3.2. User Stories</a></li>
             <li><a href="#33-Impact-Mapping">3.3. Impact Mapping</a></li>
             <li><a href="#34-Product-Backlog">3.4. Product Backlog</a></li>
         </ul>    
-</details>
-
-<details>
-    <summary>Capítulo IV: Product Design </summary>
+        
+Capítulo IV: Product Design
         <ul>
             <li><a href="#41-Style-Guidelines">4.1. Style Guidelines</a></li>
             <li><a href="#411-General-Style-Guidelines">4.1.1. General Style Guidelines</a></li>
@@ -130,10 +123,9 @@
             <li><a href="#48-Database-Design">4.8. Database Design</a></li>
             <li><a href="#481-Database-Diagram">4.8.1. Database Diagram</a></li>
         </ul>    
-</details>
 
-<details>
-    <summary>Capítulo V: Product Implementation, Validation & Deployment </summary>
+
+Capítulo V: Product Implementation, Validation & Deployment 
         <ul>
             <li><a href="#51-software-configuration-management">5.1. Software Configuration Management</a></li>
             <li><a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a></li>
@@ -151,7 +143,7 @@
             <li><a href="#5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review</a></li>
             <li><a href="#5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint</a></li>
         </ul>        
-</details>
+
 
 <hr>
 
