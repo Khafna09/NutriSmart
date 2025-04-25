@@ -549,6 +549,8 @@ Naim considera que la nutrición es clave para todos, no solo para deportistas. 
   <img src="./imagenes/entrevistas/entrevista4.png" alt="User Persona 1" width="400">
 </p>
 
+Giorgio es un nutricionista recién egresado que ya atiende pacientes y valora mucho la alimentación por su impacto físico y emocional. Se actualiza constantemente y usa Excel, WhatsApp y apps como Yazio para armar planes, aunque reconoce que no son herramientas del todo eficientes. Le cuesta asegurar que sus pacientes sigan las recomendaciones y busca una forma más práctica de hacer seguimiento. Cree que las apps pueden ayudar si son simples y útiles. Le gustaría una plataforma donde pueda personalizar planes, dar seguimiento fácil y comunicarse con sus pacientes. Estaría dispuesto a recomendar NutriSmart si es clara, adaptable y confiable.
+
 | Detalle          | Información                                |
 |------------------|--------------------------------------------|
 | **Entrevistador** | Fabrizio Alberto Paredes Santos            |
