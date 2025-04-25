@@ -157,8 +157,6 @@
 
 ## Student Outcome
 
-## Student Outcome
-
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **ABET – EAC - Student Outcome 3**
@@ -615,7 +613,7 @@ Naim considera que la nutrición es clave para todos, no solo para deportistas. 
 #### 2.3.2. User Task Matrix
 
 #### Introducción:
-El siguiente User Task Matrix detalla las tareas que los jóvenes adultos peruanos y profesionales de la salud (nutricionistas) suelen realizar en el uso de la aplicación NutriSmart, orientada a la mejora del bienestar mediante la alimentación personalizada. Este segmento incluye tanto usuarios que buscan mejorar sus hábitos alimenticios como nutricionistas que requieren herramientas para monitorear y personalizar planes nutricionales. Las tareas están clasificadas según su frecuencia e importancia para cada grupo, proporcionando una visión clara de las áreas clave en su experiencia con la aplicación.
+El siguiente User Task Matrix presenta las principales tareas que tanto jóvenes adultos interesados en mejorar su alimentación como profesionales de la salud (nutricionistas) realizan actualmente de manera natural, sin el uso de la aplicación NutriSmart. Se identifican actividades comunes entre ambos segmentos, evaluadas según su frecuencia e importancia específicas para cada grupo.
 
 ---
 
@@ -623,53 +621,33 @@ El siguiente User Task Matrix detalla las tareas que los jóvenes adultos peruan
 
 | **Tarea**                                      | **Usuario (Joven Adulto)** | **Usuario (Nutricionista)** |
 |-----------------------------------------------|-----------------------------|------------------------------|
-| Crear perfil personal                          | Frecuente/Crítica           | Frecuente/Crítica            |
-| Configurar objetivos de salud                  | Frecuente/Crítica           | Frecuente/Crítica            |
-| Registrar restricciones alimenticias           | Frecuente/Crítica           | Frecuente/Importante         |
-| Agregar excepciones en dieta                   | Frecuente/Importante        | Frecuente/Importante         |
-| Recibir recomendaciones de planes de comida    | Frecuente/Crítica           | Frecuente/Importante         |
-| Visualizar resumen nutricional                 | Frecuente/Importante        | Frecuente/Importante         |
-| Ajustar plan de comida manualmente             | A veces/Importante          | A veces/Importante           |
-| Recibir notificaciones sobre comidas           | Frecuente/Importante        | Frecuente/Importante         |
-| Marcar comidas completadas                     | Frecuente/Importante        | Frecuente/Importante         |
-| Ver historial de progreso                      | A veces/Importante          | A veces/Importante           |
-| Acceder a reportes de avance                   | A veces/Importante          | Frecuente/Importante         |
-| Actualizar datos de salud                      | A veces/Importante          | A veces/Importante           |
-| Compartir reportes de avance                   | A veces/Moderada            | Frecuente/Importante         |
-| Ver evidencia del seguimiento de dieta         | A veces/Importante          | Frecuente/Importante         |
-| Recomendar la app a otros usuarios             | A veces/Moderada            | A veces/Moderada             |
-| Consultar artículos educativos                 | A veces/Importante          | Frecuente/Importante         |
-| Configurar preferencias de notificación        | A veces/Moderada            | A veces/Moderada             |
-| Personalizar interfaz                          | A veces/Moderada            | A veces/Moderada             |
-| Recibir alertas de metas alcanzadas            | Frecuente/Importante        | Frecuente/Importante         |
-| Solicitar ayuda o soporte                      | A veces/Importante          | A veces/Importante           |
+| Planificar comidas semanales                   | Media/Alta          | Alta/Alta            |
+| Buscar recetas y alternativas saludables       | Alta/Alta           | Media/Media            |
+| Establecer metas de alimentación               | Media/Alta           | Alta/Alta         |
+| Consultar información nutricional actualizada  | Media/Alta        | Alta/Alta         |
+| Monitorear hábitos alimenticios    | Media/Alta           | Alta/Alta         |
+| Ajustar alimentación por cambios de rutina                 | Media/Media        | Alta/Media         |
+| Realizar compras de alimentos saludables             | Alta/Alta          | Media/Media           |
+| Educarse continuamente en temas de nutrición           | Media/Alta	        | Alta/Alta  |
 
 ---
 
 #### Explicación:
+- **Planificar comidas semanales**: Permite estructurar de manera organizada la ingesta de alimentos. En jóvenes adultos es importante, pero no siempre realizado de forma constante; en nutricionistas es una práctica habitual y esencial para sus pacientes.
 
-- **Crear perfil personal:** Es el primer paso esencial para el uso de la app, permitiendo personalizar la experiencia de ambos tipos de usuarios.  
-- **Configurar objetivos de salud:** Tarea crítica para establecer metas claras y medibles tanto para usuarios como para profesionales.  
-- **Registrar restricciones alimenticias:** Fundamental para evitar recomendaciones no adecuadas, especialmente importante para los usuarios.  
-- **Agregar excepciones en dieta:** Permite flexibilidad en el plan, lo cual es útil y común en ambos perfiles.  
-- **Recibir recomendaciones de planes de comida:** Es clave para los usuarios, mientras que los nutricionistas las supervisan para garantizar la adecuación.  
-- **Visualizar resumen nutricional:** Una herramienta valiosa para monitorear el progreso nutricional.  
-- **Ajustar plan de comida manualmente:** Útil para ajustes específicos; menos frecuente pero importante.  
-- **Recibir notificaciones sobre comidas:** Apoya la adherencia al plan nutricional diario.  
-- **Marcar comidas completadas:** Reforzador del compromiso y seguimiento, útil para ambos perfiles.  
-- **Ver historial de progreso:** Permite visualizar avances y patrones.  
-- **Acceder a reportes de avance:** Más utilizado por nutricionistas para seguimiento profesional.  
-- **Actualizar datos de salud:** Necesario para mantener actualizadas las recomendaciones.  
-- **Compartir reportes de avance:** Especialmente relevante para nutricionistas con sus pacientes.  
-- **Ver evidencia del seguimiento de dieta:** Útil para evaluar consistencia y adherencia.  
-- **Recomendar la app a otros usuarios:** Tarea ocasional, útil para expansión orgánica.  
-- **Consultar artículos educativos:** Mejora el conocimiento del usuario y el soporte del profesional.  
-- **Configurar preferencias de notificación:** Mejora la experiencia personalizada.  
-- **Personalizar interfaz:** Permite adaptar la experiencia a gustos personales, con impacto moderado.  
-- **Recibir alertas de metas alcanzadas:** Refuerza la motivación y seguimiento de progreso.  
-- **Solicitar ayuda o soporte:** Útil en momentos de duda o problemas técnicos o de uso.
+- **Buscar recetas y alternativas saludables**: Los jóvenes adultos realizan esta búsqueda con alta frecuencia para diversificar su alimentación; los nutricionistas, aunque también buscan alternativas, lo hacen de forma menos frecuente al contar ya con bases sólidas de recetas saludables.
 
+- **Establecer metas de alimentación**: Los jóvenes adultos establecen metas personales como perder peso o ganar masa muscular; para los nutricionistas, es parte fundamental en la creación de planes nutricionales personalizados.
 
+- **Consultar información nutricional actualizada**: Los jóvenes adultos consultan de forma moderada para actualizar sus conocimientos; los nutricionistas lo hacen regularmente para mantenerse actualizados en evidencias científicas y guías de práctica.
+
+- **Monitorear hábitos alimenticios**: Los jóvenes tienden a hacerlo de forma intermitente, mientras que los nutricionistas monitorean activamente los hábitos de sus pacientes como parte de su trabajo clínico.
+
+- **Ajustar alimentación por cambios de rutina**: Ambos segmentos realizan ajustes, aunque los nutricionistas lo integran más sistemáticamente en sus planes de intervención.
+
+- **Realizar compras de alimentos saludables**: Una actividad constante para los jóvenes que buscan mejorar su dieta; en nutricionistas es más orientado a sus recomendaciones para pacientes y a su propio estilo de vida.
+
+- **Educarse continuamente en temas de nutrición**: Si bien los jóvenes buscan información para mejorar su bienestar, en los nutricionistas es una actividad esencial y recurrente para su práctica profesional.
 
 #### 2.3.3. User Journey Mapping
 
