@@ -157,6 +157,22 @@
 
 ## Student Outcome
 
+## Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 3**
+
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias. 
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo,
+que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+| <div style="width:150px">Criterio específico</div> | <div style="width:250px">Acciones Realizadas</div> | <div style="width:250px">Conclusiones</div> |
+|:-------------------:|:-------------------:|:------------:|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia| **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. | **TB1:** |
+
+
+
 <hr>
 
 ## Capítulo I: Introducción 
@@ -174,6 +190,45 @@ Nuestra startup, NutriVit nace de la necesidad existente de mantener una salud a
 
 #### 1.1.2. Perfiles de Integrantes del Equipo
 
+- Mathias Bueno Perales - u202313433 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/" alt="foto-mathias" width="170px"/>
+</p>
+
+Descripcion
+
+- Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
+
+<p align="center">
+    <img src="imagenes/fotos/FotoFabrizio.jpg" alt="foto-fabrizio" width="170px"/>
+</p>
+
+Soy proactivo y responsable en los proyectos en los que participo. Abordo los desafíos con entusiasmo, aportando ideas frescas y cumpliendo con mis tareas de manera eficiente. Mi enfoque colaborativo me permite contribuir al éxito del equipo.
+
+- Napuri Rojas, Naim - u202319146 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/" alt="foto-naim" width="170px"/>
+</p>
+
+Descripcion
+
+- Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/" alt="foto-fabrizio" width="170px"/>
+</p>
+
+Descripcion
+
+- Sebastian Rodriguez Macedo - u202310199 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/" alt="foto-sebastian" width="170px"/>
+</p>
+
+Descripcion
 
 ### 1.2. Solution Profile
 NutriSmart es una plataforma web que permite a los usuarios crear planes de comida de manera personalizada basados en sus preferencias, objetivos de salud, restricciones médicas y necesidades nutricionales: Esto se da mediante un perfil propio, pues la aplicación adapta las recomendaciones alimenticias a restricciones y excepciones, brindando una experiencia diferente. Además, incluye herramientas de seguimiento y análisis que permiten ajustar los planes según los avances y metas del usuario. Con un modelo freemium, la versión básica ofrece funcionalidades esenciales de personalización, mientras que las opciones premium brindan acceso a características avanzadas como análisis nutricionales detallados. NutriSmart se posiciona como una solución integral para aquellos que buscan mejorar su bienestar a través de una alimentación controlada y alineada con sus objetivos de salud.
@@ -450,11 +505,21 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 [Enlace entrevista 3](https://youtu.be/PM159qdyitU)
 
+
+
+# Entrevista #4
+
 <p align="center">
   <img src="./imagenes/entrevistas/entrevista4.png" alt="User Persona 1" width="400">
 </p>
 
-[Enlace entrevista 4](https://youtu.be/2t0KyeJOKvE)
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Fabrizio Alberto Paredes Santos            |
+| **Entrevistado**  | Giorgio Marzouk Awad Vargas                |
+| **Edad**          | 22 años                                    |
+| **Duración**      | 5:10 minutos                               |
+| **Enlace**        | [Ver entrevista](https://youtu.be/2t0KyeJOKvE) |
 
 
 #### 2.2.3. Análisis de entrevistas
