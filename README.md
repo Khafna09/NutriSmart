@@ -206,6 +206,16 @@ Soy proactivo y responsable en los proyectos en los que participo. Abordo los de
 
 Soy responsable, me gusta involucrarme activamente en los proyectos, aportar ideas útiles y cumplir con mis tareas a tiempo. Siempre estoy dispuesto a colaborar y ayudar al equipo a avanzar de la mejor manera posible.
 
+- Leonardo Fabrizzio Junior Prieto Mantari - u202319949 (Ingeniería de Software)
+
+<p align="center">
+    <img src="imagenes/fotos/foto-leo.png" alt="foto-leo" width="170px"/>
+</p>
+
+Me considero una persona trabajadora y comprometida, que coopera de manera efectiva con su equipo y siempre está dispuesta a brindar apoyo. Con estas habilidades, busco aportar valor al proyecto y contribuir activamente a lograr una presentación final sólida y exitosa.
+
+
+
 <!-- - Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
 
 <p align="center">
