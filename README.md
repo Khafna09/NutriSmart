@@ -688,16 +688,16 @@ Durante este sprint, se implementaron y estilizaron correctamente las secciones 
   <img src="./imagenes/hero.png" alt="hero Section" width="750">
 </p>
 <p align="center">
-  <img src="./imagenes/parati.png" alt="hero Section" width="750">
+  <img src="./imagenes/parati.png" alt="parati Section" width="750">
 </p>
 <p align="center">
-  <img src="./imagenes/testimonial.png" alt="hero Section" width="750">
+  <img src="./imagenes/testimonial.png" alt="testimonial Section" width="750">
 </p>
 <p align="center">
-  <img src="./imagenes/comofunciona.png" alt="hero Section" width="750">
+  <img src="./imagenes/comofunciona.png" alt="comofunciona Section" width="750">
 </p>
 <p align="center">
-  <img src="./imagenes/cta.png" alt="hero Section" width="750">
+  <img src="./imagenes/cta.png" alt="cta Section" width="750">
 </p>
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
