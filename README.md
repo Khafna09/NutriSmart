@@ -168,8 +168,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
 | <div style="width:150px">Criterio específico</div> | <div style="width:250px">Acciones Realizadas</div> | <div style="width:250px">Conclusiones</div> |
-|:-------------------:|:-------------------:|:------------:|
-|Comunica oralmente con efectividad a diferentes rangos de audiencia| **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. | **TB1:** |
+|-------------------|-------------------|------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br> **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo. | **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. |
+
 
 
 
