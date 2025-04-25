@@ -206,13 +206,13 @@ Descripcion
 
 Soy proactivo y responsable en los proyectos en los que participo. Abordo los desafíos con entusiasmo, aportando ideas frescas y cumpliendo con mis tareas de manera eficiente. Mi enfoque colaborativo me permite contribuir al éxito del equipo.
 
-- Napuri Rojas, Naim - u202319146 (Ingeniería de Software)
+- Héctor Javier Ríos Pacheco - u20231c540 (Ingeniería de Software)
 
 <p align="center">
-    <img src="assets/fotos/" alt="foto-naim" width="170px"/>
+    <img src="imagenes/fotos/FotoHector.png" alt="foto-hector" width="170px"/>
 </p>
 
-Descripcion
+Soy responsable, me gusta involucrarme activamente en los proyectos, aportar ideas útiles y cumplir con mis tareas a tiempo. Siempre estoy dispuesto a colaborar y ayudar al equipo a avanzar de la mejor manera posible.
 
 - Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
 
