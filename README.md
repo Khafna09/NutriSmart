@@ -501,22 +501,47 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 #### 2.2.2. Registro de entrevistas
 <p align="center">
-  <img src="./imagenes/entrevistas/entrevista1.png" alt="User Persona 1" width="400">
+  <img src="./imagenes/entrevistas/entrevista1.png" alt="entrevista1" width="400">
 </p>
+Jude considera la alimentación como clave para su rendimiento diario y busca mejorarla con frecuencia media. Cocinan en su casa regularmente y su objetivo es mantener una buena salud. Ha usado apps de nutrición antes, valorando bases de datos amplias pero criticando funcionalidades limitadas. Estaría dispuesto a pagar por una versión premium si incluye recetas, seguimiento y planes personalizados. Sugiere que Nutrismart se diferencie por ofrecer una experiencia más rica, flexible y menos restrictiva.
 
-[Enlace entrevista 1](https://youtu.be/jBluTCX2H-I)
+| **Detalle**       | **Información**                       |
+|-------------------|----------------------------------------|
+| Entrevistador     | Héctor Javier Ríos Pacheco        |
+| Entrevistado      | Jude Hermoza Quispe            |
+| Edad              | 19 años                                |
+| Duración          | 4:17 minutos                           |
+| Enlace            | [Ver entrevista](https://youtu.be/jBluTCX2H-I) |
+
 
 <p align="center">
-  <img src="./imagenes/entrevistas/entrevista2.png" alt="User Persona 1" width="400">
+  <img src="./imagenes/entrevistas/entrevista2.png" alt="entrevista2" width="400">
 </p>
 
-[Enlace entrevista 2](https://youtu.be/WNGR6Hxcyec)
+Ricardo considera la alimentación esencial para una vida saludable y mantiene una dieta balanceada por su predisposición a la diabetes. Su interés por la nutrición creció al iniciar el gimnasio, donde recibió rutinas dietéticas. Aunque ocasionalmente consume comida chatarra, cuida sus elecciones. Su objetivo es subir de peso saludablemente, evitando la monotonía. No ha usado muchas apps de nutrición, pero considera clave que NutriSmart permita seguimiento calórico y de macronutrientes en tiempo real, con retroalimentación constante. Está dispuesto a pagar por una versión premium que incluya recetas y atención personalizada.
+
+| **Detalle**       | **Información**                       |
+|-------------------|----------------------------------------|
+| Entrevistador     | Héctor Javier Ríos Pacheco        |
+| Entrevistado      | Ricardo del Aguila Ayala            |
+| Edad              | 19 años                                |
+| Duración          | 5:53 minutos                           |
+| Enlace            | [Ver entrevista](https://youtu.be/WNGR6Hxcyec) |
 
 <p align="center">
-  <img src="./imagenes/entrevistas/entrevista3.png" alt="User Persona 1" width="400">
+  <img src="./imagenes/entrevistas/entrevista3.png" alt="entrevista3" width="400">
 </p>
 
-[Enlace entrevista 3](https://youtu.be/PM159qdyitU)
+
+Naim considera que la nutrición es clave para todos, no solo para deportistas. Aunque reconoce su importancia, no busca activamente información y no planifica sus comidas, lo que la lleva a elecciones impulsivas o poco saludables, especialmente al pedir delivery por falta de tiempo. Su objetivo es verse y sentirse bien, ganar masa muscular y alcanzar su peso ideal. Nunca ha usado apps de nutrición, pero estaría dispuesta a probar una que sea sencilla y personalizada. También está abierta a pagar por funciones premium si ofrecen recetas personalizadas y seguimiento de progreso.
+
+| **Detalle**       | **Información**                       |
+|-------------------|----------------------------------------|
+| Entrevistador     | Héctor Javier Ríos Pacheco        |
+| Entrevistado      | Naim napuri Rojas            |
+| Edad              | 19 años                                |
+| Duración          | 4:31 minutos                           |
+| Enlace            | [Ver entrevista](https://youtu.be/PM159qdyitU) |
 
 
 
