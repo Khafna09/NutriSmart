@@ -235,21 +235,42 @@ Descripcion
 NutriSmart es una plataforma web que permite a los usuarios crear planes de comida de manera personalizada basados en sus preferencias, objetivos de salud, restricciones médicas y necesidades nutricionales: Esto se da mediante un perfil propio, pues la aplicación adapta las recomendaciones alimenticias a restricciones y excepciones, brindando una experiencia diferente. Además, incluye herramientas de seguimiento y análisis que permiten ajustar los planes según los avances y metas del usuario. Con un modelo freemium, la versión básica ofrece funcionalidades esenciales de personalización, mientras que las opciones premium brindan acceso a características avanzadas como análisis nutricionales detallados. NutriSmart se posiciona como una solución integral para aquellos que buscan mejorar su bienestar a través de una alimentación controlada y alineada con sus objetivos de salud.
 
 #### 1.2.1. Antecedentes y problemática
-Dentro de un contexto en el que los problemas de salud relacionados con la mala alimentación y el creciente sedentarismo, nace la necesidad de contar con herramientas personalizadas y a la vez accesibles para gestionar una dieta y de esa manera conseguir un bienestar. El incremento de este tipo de demanda de soluciones nutricionales a medida, la falta de aplicaciones eficaces que se adapten de manera personalizada a cada persona, junto con la proliferación de enfermedades de tipo crónico como la obesidad, diabetes, entre otras condiciones ha puesto en necesidad este tipo de aplicaciones.
+**What**  
+¿Cuál es el problema? 
+- La falta de personalización auténtica en las herramientas de planificación nutricional genera planes genéricos que no consideran las condiciones de salud, preferencias ni el contexto de vida de los usuarios, lo que provoca baja adherencia, frustración y abandono de los hábitos saludables, lo que indirectamente contribuye al aumento de una cultura no saludable en la aliemtnación y provocando aún más problemas en la salud.
 
-**Who:** NutriSmart está dirigida a personas que desean mejorar su alimentación, gestionar dietas con restricciones específicas, alcanzar metas de salud propias o a personal de salud profesional que pueden hacer uso de esta como un complemento a sus pacientes. Asimismo esto incluye a personas con condiciones como diabetes, hipertensión o que simplemente buscan un estilo de vida más saludable.
+¿Cuál es la relación con la persona en cuestión?  
+- NutriSmart está diseñada exactamente para este perfil: desde quienes buscan bajar de peso o ganar masa muscular hasta pacientes con condiciones crónicas. Profesionales de la nutrición y la salud pueden incorporarla como un recurso adicional para diseñar y monitorizar dietas personalizadas, mejorando la adherencia de sus pacientes.  
 
-**What:** La problemática principal es la dificultad de encontrar una solución accesible y eficiente que permita a las personas crear planes de comida totalmente adaptados a sus preferencias, objetivos y restricciones alimenticias. Actualmente, muchas aplicaciones no ofrecen planes suficientemente personalizables o no consideran las necesidades específicas de los usuarios.
+**When**  
+¿Cuándo sucede el problema?  
+- El reto de planificar comidas personalizadas surge de forma continua, pero se agudiza en etapas clave: tras un diagnóstico médico (por ejemplo, diabetes o hipertensión), al iniciar un programa de pérdida o ganancia de peso, y después de la pandemia, debido al aumento de la conciencia sobre la salud y la necesidad de herramientas remotas de autocuidado.  
 
-**Where:**  Esta problemática afecta a un gran espectro de usuarios, desde aquellos en áreas urbanas con acceso a tecnología, hasta personas en zonas rurales con dificultades para encontrar soluciones nutricionales adecuadas a sus necesidades. NutriSmart tiene como objetivo llegar a todas ellas al ser accesible a cualquier persona con internet.
+¿Cuándo utiliza el cliente el producto?  
+- Diariamente, al elaborar la lista de la compra o decidir el menú de la semana; y en momentos puntuales de reajuste cuando varían sus objetivos, cambian hábitos o aparecen nuevas restricciones alimenticias.  
 
-**When:** La necesidad de soluciones personalizadas es más urgente en un contexto post-pandemia, donde la conciencia sobre la salud y la nutrición se ha incrementado, y las personas buscan alternativas para cuidar su bienestar físico a largo plazo.
+**Where**  
+¿Dónde está el cliente cuando usa el producto?  
+- En casa, planificando las comidas semanales desde el computador o el móvil; en el supermercado, consultando sustitutos adecuados según su plan; o en consulta con su nutriólogo, compartiendo y revisando los menús propuestos.  
 
-**Why:** La razón principal de la creación de NutriSmart es la creciente demanda de herramientas que no solo ayuden a gestionar la dieta, sino que también ofrezcan un enfoque personalizado y adaptable a cada usuario. 
+¿Dónde surge el problema?  
+- En la rutina cotidiana de cada persona: al cocinar, hacer la compra o acudir a citas médicas, se percibe la falta de una guía clara y ajustada a necesidades cambiantes.  
 
-**How:** NutriSmart aborda este problema mediante una plataforma web que permite a los usuarios crear perfiles detallados donde pueden ingresar sus objetivos de salud, preferencias alimenticias y restricciones. A través de un sistema de recomendaciones inteligentes, la aplicación proporciona planes de comida adaptados a estas necesidades.
+**Who**  
+¿Quiénes se ven involucrados en el problema?  
+- Usuarios con objetivos personales de salud (control de peso, fuerza muscular, mejora del rendimiento deportivo) o personas con restricciones médicas (diabetes, hipertensión, enfermedades cardiovasculares, intolerancias o alergias) y profesionales de la salud (nutriólogos, dietistas, médicos) que buscan optimizar el seguimiento de sus pacientes.  
 
-**How Much:** El costo de implementar esta solución es bajo comparado con los beneficios potenciales, considerando que el modelo de negocio de NutriSmart incluye una versión básica gratuita y suscripciones premium que brindan características adicionales. Esto permite que la aplicación sea accesible a una amplia audiencia, desde usuarios individuales hasta instituciones de salud que deseen promover dietas personalizadas.
+**Why**  
+¿Cuáles son las causas del problema?  
+- Las apps existentes tienden a ofrecer plantillas estándar sin adaptar porciones ni considerar comorbilidades; hay falta de integración de datos biométricos y de preferencias reales del usuario; y existe escaso uso de algoritmos inteligentes para sugerir sustituciones o ajustar menús en tiempo real.  
+
+**How**  
+¿En qué condiciones los clientes usan nuestro producto?  
+- Con conexión a Internet, desde dispositivos móviles o escritorio, tras completar un perfil detallado (edad, peso, altura, objetivos, alergias, hábitos alimenticios y datos clínicos relevantes) e interactuando con un sistema de recomendaciones inteligentes que actualiza las propuestas según la evolución de sus métricas y feedback diario.  
+
+**How much**  
+- En el Perú, el exceso de peso es una crisis de salud pública:  
+Según la Encuesta Demográfica y de Salud Familiar 2021, el 36,9 % de las personas de 15 años a más presenta sobrepeso y el 25,8 % sufre obesidad, lo que equivale a unos 15 millones de peruanos (62 % de la población adulta) afectados por estas condiciones. La aplicación está diseñada para poder llevar una alimentación saludable de la manera más cómoda posible y así fomentar la adherencia a este tipos de dietas y uso de la aplicación.
 
 #### 1.2.2. Lean UX Process
 
