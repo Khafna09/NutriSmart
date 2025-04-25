@@ -451,7 +451,16 @@ Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilid
 
 #### 4.6.3. Software Architecture Components Diagrams
 <p align="center">
-  <img src="./imagenes/components-diagram.png" alt="Component Diagram" width="700">
+  <img src="./imagenes/component-diagram1.png" alt="Component Diagram 1" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/components-diagram2.png" alt="Component Diagram 2" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/components-diagram3.png" alt="Component Diagram 3" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/components-diagram4.png" alt="Component Diagram 4" width="700">
 </p>
 
 ### 4.7. Software Object-Oriented Design
@@ -459,7 +468,7 @@ Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilid
 #### 4.7.1. Class Diagrams
 
 <p align="center">
-  <img src="./imagenes/diagram-class.jpg" alt="Class Diagram" width="700">
+  <img src="./imagenes/class-diagram.png" alt="Class Diagram" width="700">
 </p>
 
 #### 4.7.2. Class Dictionary
