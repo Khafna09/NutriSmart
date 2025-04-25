@@ -276,21 +276,11 @@ Según la Encuesta Demográfica y de Salud Familiar 2021, el 36,9 % de las perso
 #### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-Actualmente, muchas personas interesadas en mejorar su salud a través de una mejor alimentación no logran mantener una planificación constante y adaptada a sus necesidades específicas. Esto genera frustración, desmotivación y poca adherencia a sus objetivos nutricionales.
+Nuestro servicio ofrece una plataforma para que personas con metas de salud o restricciones alimenticias y profesionales de la salud creen planes de alimentación personalizados. Buscamos facilitar el acceso a una nutrición adaptada a cada usuario.
 
-¿Cómo podemos ayudar a que los usuarios mantengan una planificación alimentaria personalizada de forma constante y efectiva, alineada a sus metas de salud y estilo de vida, a través del uso de NutriSmart?
+Hemos observado que muchos usuarios perciben que los planes alimenticios ofrecidos no se ajustan realmente a sus necesidades específicas, lo que reduce la adherencia y el uso continuo de la plataforma contribuyendo a ocasionar una mala salud.
 
-**Domain:** El dominio de NutriSmart se centra en la nutrición personalizada y la gestión de dietas adaptadas a las necesidades de salud de los usuarios. El software será una herramienta integral que permita a las personas gestionar su alimentación de manera eficaz, considerando sus restricciones dietéticas, preferencias y metas de salud.
-
-**Customer Segments:** El producto está dirigido a personas de todas las edades que buscan mejorar su salud mediante una dieta personalizada. Esto incluye a individuos con condiciones específicas como diabetes, hipertensión, o personas que desean perder peso o llevar un estilo de vida más saludable. Además, el segmento de clientes también incluye organizaciones de salud y bienestar que buscan soluciones para recomendar dietas personalizadas a sus pacientes.
-
-**Pain Points:** Los principales puntos de dolor que enfrentan los usuarios incluyen la falta de herramientas accesibles para planificar dietas personalizadas, la dificultad para encontrar aplicaciones que consideren restricciones específicas. Además los usuarios también tienen retos como adaptar las recomendaciones a sus horarios y estilos de vida.
-
-**Gap:** Existe una brecha clara en el mercado de aplicaciones de nutrición personalizadas que no ofrecen una experiencia completamente integrada. Las soluciones actuales no tienen la capacidad de adaptarse suficientemente a las restricciones alimenticias individuales y no proporcionan herramientas eficaces para gestionar inventarios y optimizar compras.
-
-**Visión/Strategy:** La visión de NutriSmart es ofrecer una solución accesible y eficiente para ayudar a las personas a tomar decisiones alimenticias informadas que se focalicen en sus objetivos de salud. Nuestra estrategia se basa en crear una plataforma que permita al usuario tener libertad de configuración en su dieta alimenticia.
-
-**Initial Segment:** El segmento inicial de usuarios se centrará en personas que buscan perder peso o mejorar su salud en general a través de la nutrición personalizada. Además, se enfocará en usuarios con condiciones específicas como diabetes o hipertensión, que requieren planes de comida adaptados a sus necesidades nutricionales.
+¿Cómo podríamos mejorar la personalización de los planes alimenticios para que los usuarios se sientan comprendidos y motivados a seguir sus objetivos de salud?
 
 #### 1.2.2.2. Lean UX Assumptions
 
