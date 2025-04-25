@@ -1122,22 +1122,80 @@ El backend no se despliega en GitHub Pages; se prevé su implementación en un e
 ### 5.2. Landing Page, Services & Applications Implementation
 
 #### 5.2.1. Sprint 1
-
 ##### 5.2.1.1. Sprint Planning 1
+En esta reunión de planificación del Sprint 1, el equipo de desarrollo se reunió virtualmente para definir los objetivos, las tareas y los resultados esperados del primer sprint. Este sprint se enfocará en desarrollar y desplegar la página de inicio del proyecto y se llevará a cabo durante dos semanas. El objetivo es proporcionar una base sólida para el despliegue en GitHub Pages, garantizando que el producto inicial esté accesible y funcional.
+
+| **Sprint #**                   | Sprint 1                                                                                                                                                                                                                                          |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                   |
+| **Date**                       | 10/04/2025                                                                                                                                                                                                                                        |
+| **Location**                   | El desarrollo de la reunión se realizó virtualmente por medio de Discord                                                                                                                                                                          |
+| **Prepared By**                | Paredes, Fabrizio / Ríos, Héctor / Prieto, Leonardo / Rodriguez, Sebastian / Linares, Jorge                                                                                                                                                       |
+| **Sprint 1 Review Summary**    | En este caso recién se realizará el primer sprint                                                                                                                                                                                                 |
+| **Sprint 1 Retrospective Summary** | En este caso recién se realizará el primer sprint                                                                                                                                                                                             |
+| **Sprint 1 Goal**              | Nuestro enfoque está en desplegar el landing page. Creemos que proporcionará una plataforma de lanzamiento accesible y funcional para el proyecto a los stakeholders. Esto se confirmará cuando el sitio esté accesible a través de GitHub Pages. |
+| **Sprint 1 Velocity**          | El sprint está planificado para completarse en 14 días (2 semanas).                                                                                                                                                                               |
+| **Sum of Story Points**        |                                                                                                                                                                                                                                     |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 
 ##### 5.2.1.3. Sprint Backlog 1
+El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page que permita mostrar los aspectos clave del proyecto a los usuarios, garantizando una experiencia de navegación básica y funcionalidades esenciales como la visualización de beneficios, planes de suscripción y reseñas. Para este sprint, el equipo se ha organizado en tareas detalladas, siguiendo las historias de usuario, y se ha asignado el trabajo de forma equitativa para cumplir con los tiempos estimados.
+
+| **Sprint 1**                   |        |                                   |                                                                          |                        |                 |            |
+| ------------------------------ | ------ | --------------------------------- | ------------------------------------------------------------------------ | ---------------------- | --------------- | ---------- |
+| **Work-Item / Task**           |        |                                   |                                                                          |                        |                 |            |
+| **Title**                      | **Id** | **Title**                         | **Description**                                                          | **Estimation (Hours)** | **Assigned to** | **Status** |
+| Navegación                     | W-01   | Implementar Home y Navbar         | Creación de la sección HOME y un navbar funcional.                       | 2                      |      Jorge      | To do      |
+| Beneficios Destacados          | W-02   | Crear sección "Para ti"           | Desarrollar la sección Para ti con beneficios destacados.                | 2                      |    Sebastian    | To do      |
+| Visualización de Reseñas       | W-04   | Crear sección de Reseñas          | Desarrollar una sección de reseñas con testimonios                       | 2                      |     Fabrizio    | To do      |
+| Como funciona la app           | W-04   | Crear sección "Como funciona"      | Desarrollar una sección cómo funciona la app                             | 2                      |     Leonardo    | To do      |
+| Visualización del CTA          | W-03   | Crear sección de CTA y de footer   | Implementar una sección de CTA y footer.                                 | 2                      |    Héctor       | To do      |
+
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
+Durante este sprint, se implementaron y estilizaron correctamente las secciones fundamentales de la landing page de NutriSmart. El progreso se evidenció en los siguientes commits registrados en GitHub:
+
+| **Repository**               | **Branch** | **Commit Id**                            | **Commit Message**                                  | **Commit Message Body**                                                  | **Commited on (Date)** |
+|------------------------------|------------|------------------------------------------|-----------------------------------------------------|---------------------------------------------------------------------------|--------------------------|
+| G-3-Open-Source/landing-page | develop    | a1b2c3d4e5f6g7h8i9j0                      | feat: implementación de navbar y hero section       | Implementa navegación superior y sección principal del landing.          | 25/04/2025               |
+| G-3-Open-Source/landing-page | develop    | a2b3c4d5e6f7g8h9i0j1                      | feat: se agregan beneficios destacados              | Diseño de sección Para ti.                     | 25/04/2025               |
+| G-3-Open-Source/landing-page | develop    | b1c2d3e4f5g6h7i8j9k0                      | feat: seccion de como funciona la app           | Sección que muestra el funcionamiento de la app.                   | 25/04/2025               |
+| G-3-Open-Source/landing-page | develop    | b2c3d4e5f6g7h8i9j0k1                      | feat: sección de reseñas                             | Reseñas                                                             | 25/04/2025               |
+| G-3-Open-Source/landing-page | develop    | b2c3d4e5f6g7h8i9j0k1                      | feat: sección de cta y footer final             | cta + contacto y enlaces sociales en el footer.               | 25/04/2025               |
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+<p align="center">
+  <img src="./imagenes/hero.png" alt="hero Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/parati.png" alt="parati Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/testimonial.png" alt="testimonial Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/comofunciona.png" alt="comofunciona Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/cta.png" alt="cta Section" width="750">
+</p>
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Durante este sprint, se ha completado el desarrollo y la documentación de la landing page. Esta sección resume los logros alcanzados en relación con la documentación de servicios web asociados a la landing page. Aunque la landing page en sí misma es una interfaz de usuario estático.
+
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:
+
+1. **Creación del Repositorio en GitHub:** Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.
+2. **Configuración de la Rama main:** Aseguramos que la rama principal del repositorio se llamara `main`, ya que GitHub Pages toma esta rama como base para el despliegue automático.
+3. **Preparación del Contenido:** Desarrollamos y diseñamos nuestra landing page, asegurándonos de que todos los archivos y recursos necesarios estuvieran presentes en el repositorio.
+4. **Generación del Enlace de GitHub Pages:** Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente de GitHub Pages para que tomara el contenido de la rama `main`.
+5. **Despliegue Automático:** GitHub Pages automáticamente detectó los cambios en la rama `main` y desplegó la landing page en la URL proporcionada por GitHub Pages.
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
+Durante el Sprint 1, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave del landing page. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo.
 
 <hr>
 
@@ -1150,4 +1208,3 @@ El backend no se despliega en GitHub Pages; se prevé su implementación en un e
 <hr>
 
 ## Anexos
-
