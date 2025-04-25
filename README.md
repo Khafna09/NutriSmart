@@ -169,7 +169,8 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 | <div style="width:150px">Criterio específico</div> | <div style="width:250px">Acciones Realizadas</div> | <div style="width:250px">Conclusiones</div> |
 |-------------------|-------------------|------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br> **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo. | **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br> **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo. <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista.| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. |
+
 
 
 
@@ -215,21 +216,21 @@ Soy proactivo y responsable en los proyectos en los que participo. Abordo los de
 
 Soy responsable, me gusta involucrarme activamente en los proyectos, aportar ideas útiles y cumplir con mis tareas a tiempo. Siempre estoy dispuesto a colaborar y ayudar al equipo a avanzar de la mejor manera posible.
 
-- Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
+<!-- - Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
 
 <p align="center">
     <img src="assets/fotos/" alt="foto-fabrizio" width="170px"/>
 </p>
 
-Descripcion
+Descripcion -->
 
 - Sebastian Rodriguez Macedo - u202310199 (Ingeniería de Software)
 
 <p align="center">
-    <img src="assets/fotos/" alt="foto-sebastian" width="170px"/>
+    <img src="imagenes/fotos/SebastianFoto.png" alt="foto-sebastian" width="170px"/>
 </p>
 
-Descripcion
+Soy una persona capaz de resolver problemas con el equipo desde un punto de vista diferente, además ofrezco siempre compromiso hacia mis compañeros cumpliendo con las asignaciones de manera responsable.
 
 ### 1.2. Solution Profile
 NutriSmart es una plataforma web que permite a los usuarios crear planes de comida de manera personalizada basados en sus preferencias, objetivos de salud, restricciones médicas y necesidades nutricionales: Esto se da mediante un perfil propio, pues la aplicación adapta las recomendaciones alimenticias a restricciones y excepciones, brindando una experiencia diferente. Además, incluye herramientas de seguimiento y análisis que permiten ajustar los planes según los avances y metas del usuario. Con un modelo freemium, la versión básica ofrece funcionalidades esenciales de personalización, mientras que las opciones premium brindan acceso a características avanzadas como análisis nutricionales detallados. NutriSmart se posiciona como una solución integral para aquellos que buscan mejorar su bienestar a través de una alimentación controlada y alineada con sus objetivos de salud.
