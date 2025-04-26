@@ -47,7 +47,8 @@
 
 ## Project Report Collaboration Insights  
 
-<hr>
+Todas las actividades asignadas para la entrega de la TB1 han sido completadas y se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: https://github.com/G-3-Open-Source. En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: https://github.com/G-3-Open-Source/NutriSmart
+Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el trabajo colaborativo.
 
 
 ## Tabla de Contenidos
