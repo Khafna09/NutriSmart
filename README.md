@@ -42,18 +42,33 @@
 <hr>
 
 ## Registro de Versiones del Informe
+| Todo    | Versión | Fecha      | Autor(es)                                                             | Descripción de modificación                                                                                                                                                |
+|---------|---------|------------|-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TB1     | 0.1     | 09/04/2025 | Hector Rios                                                           | Varios commits: segmentos objetivo; logo en carátula; actualización de startup profile; solution profile; sincronización de segmentos objetivo.                             |
+| TB1     | 0.2     | 10/04/2025 | Hector Rios                                                           | Añadidos: user personas; sección de competidores.                                                                                                                          |
+| TB1     | 0.3     | 13/04/2025 | Sebastian Rodriguez                                                   | Commit de prueba.                                                                                                                                                           |
+| TB1     | 0.4     | 14/04/2025 | Fabrizio Paredes, Sebastian Rodriguez                                | Se añadieron Style Guidelines (texto e imágenes); merge con develop en feature/rodriguez.                                                                                  |
+| TB1     | 0.5     | 16/04/2025 | Sebastian Rodriguez                                                   | Completada sección 4.2 (Information Architecture y Organization Systems); resueltos conflictos (README, SEO, Searching & Navigation Systems); corregido Meta Author.      |
+| TB1     | 0.6     | 17/04/2025 | Fabrizio Paredes                                                      | Se agregaron los landing page mockups.                                                                                                                                      |
+| TB1     | 0.7     | 18/04/2025 | Hector Rios                                                           | Añadidas preguntas de entrevistas.                                                                                                                                          |
+| TB1     | 0.8     | 19/04/2025 | Jorge Linares, Hector Rios                                            | Agregados software architecture y convenciones; merge feature/linares; actualización de user personas.                                                                     |
+| TB1     | 0.9     | 20/04/2025 | Hector Rios, Leonardo Prieto                                          | Añadidos: link Lean UX Canvas; mockups; user flow diagrams; user task matrix; journey mapping; empathy mapping.                                                           |
+| TB1     | 0.10    | 21/04/2025 | Hector Rios, Leonardo Prieto, Fabrizio Paredes, Fab                  | Añadidos: ubiquitous language; to-be scenario mapping; entrevistas; user stories; impact mapping; product backlog & epics; mockups landing page; merges y resolución de conflictos. |
+| TB1     | 0.11    | 22/04/2025 | Hector Rios, Sebastian Rodriguez                                     | Añadidos: wireframes; landing page wireframes; merge feature/rodriguez.                                                                                                      |
+| TB1     | 0.12    | 23/04/2025 | Leonardo Prieto, Hector Rios                                          | Fix: user task matrix; prototipo de video.                                                                                                                                  |
+| TB1     | 0.13    | 25/04/2025 | Hector Rios, Leonardo Prieto, Fabrizio Paredes, Jorge Linares, Sebastian Rodriguez, Fab | Múltiples “feat” y “fix”: Report Collaboration Insights; studying outcome; user profile; fotos y descripciones de equipo; antecedentes y problemática; student outcome y conclusión; competitor logos y chart; interview sections; fixes de índice, problem statements, task matrix, historias de usuario; correcciones de imagen; merges de ramas feature/paredes, prieto, rodriguez, linares. |
 
-<hr>
+
 
 ## Project Report Collaboration Insights  
 
-<hr>
+Todas las actividades asignadas para la entrega de la TB1 han sido completadas y se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: https://github.com/G-3-Open-Source. En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: https://github.com/G-3-Open-Source/NutriSmart
+Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el trabajo colaborativo.
 
 
 ## Tabla de Contenidos
 
-<details>
-    <summary>Capítulo I: Introducción </summary>    
+Capítulo I: Introducción    
         <ul>
             <li><a href="#11-Startup-Profile">1.1. Startup Profile</a></li>
             <li><a href="#111-Descripción-de-la-Startup">1.1.1. Descripción de la Startup</a></li>
@@ -67,10 +82,8 @@
             <li><a href="#1224-Lean-UX-Canvas">1.2.2.4. Lean UX Canvas</a></li>
             <li><a href="#13-Segmentos-Objetivos">1.3. Segmentos Objetivos</a></li>
         </ul>    
-</details>
-
-<details>
-    <summary>Capítulo II: Requirements Elicitation & Analysis</summary>
+        
+Capítulo II: Requirements Elicitation & Analysis
         <ul>
             <li><a href="#21-competidores">2.1. Competidores</a></li>
             <li><a href="#211-Análisis-competitivo">2.1.1. Análisis competitivo</a></li>
@@ -87,20 +100,16 @@
             <li><a href="#235-As-is-Scenario-Mapping">2.3.5. As-is Scenario Mapping</a></li>
             <li><a href="#24-Ubiquitous-Language">2.4. Ubiquitous Language</a></li>
         </ul>   
-</details>
 
-<details>
-    <summary>Capítulo III: Requirements Specification </summary>
+Capítulo III: Requirements Specification 
         <ul>
             <li><a href="#31-To-Be-Scenario-Mapping">3.1. To-Be Scenario Mapping</a></li>
             <li><a href="#32-User-Stories">3.2. User Stories</a></li>
             <li><a href="#33-Impact-Mapping">3.3. Impact Mapping</a></li>
             <li><a href="#34-Product-Backlog">3.4. Product Backlog</a></li>
         </ul>    
-</details>
-
-<details>
-    <summary>Capítulo IV: Product Design </summary>
+        
+Capítulo IV: Product Design
         <ul>
             <li><a href="#41-Style-Guidelines">4.1. Style Guidelines</a></li>
             <li><a href="#411-General-Style-Guidelines">4.1.1. General Style Guidelines</a></li>
@@ -130,10 +139,9 @@
             <li><a href="#48-Database-Design">4.8. Database Design</a></li>
             <li><a href="#481-Database-Diagram">4.8.1. Database Diagram</a></li>
         </ul>    
-</details>
 
-<details>
-    <summary>Capítulo V: Product Implementation, Validation & Deployment </summary>
+
+Capítulo V: Product Implementation, Validation & Deployment 
         <ul>
             <li><a href="#51-software-configuration-management">5.1. Software Configuration Management</a></li>
             <li><a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a></li>
@@ -151,16 +159,27 @@
             <li><a href="#5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review</a></li>
             <li><a href="#5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint</a></li>
         </ul>        
-</details>
+
 
 <hr>
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 3**
+
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias. 
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo,
+que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+| <div style="width:150px">Criterio específico</div> | <div style="width:250px">Acciones Realizadas</div> | <div style="width:250px">Conclusiones</div> |
+|-------------------|-------------------|------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br> **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo. <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista. <br><br> **Leonardo Prieto TB1:** Realicé toda la sección del Needfinding, en esto se encuentra, el User Persona, User Task Matrix, User journey map, Empathy Map y el As-Is Scenario Map. También realicé el Ubiquitous Language y por ultimo hice todo el capitulo  III| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. |
+
 <hr>
 
 ## Capítulo I: Introducción 
-
 
 ### 1.1. Startup Profile
 Somos un equipo de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC) motivados en desarrollar una solución diferente que cuyo objetivo principal sea ayudar a las personas a generar planes de comida personalizados basados en sus preferencias, objetivos de salud y necesidades nutricionales. 
@@ -174,45 +193,105 @@ Nuestra startup, NutriVit nace de la necesidad existente de mantener una salud a
 
 #### 1.1.2. Perfiles de Integrantes del Equipo
 
+- Mathias Bueno Perales - u202313433 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/" alt="foto-mathias" width="170px"/>
+</p>
+
+Descripcion
+
+- Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
+
+<p align="center">
+    <img src="imagenes/fotos/FotoFabrizio.jpg" alt="foto-fabrizio" width="170px"/>
+</p>
+
+Soy proactivo y responsable en los proyectos en los que participo. Abordo los desafíos con entusiasmo, aportando ideas frescas y cumpliendo con mis tareas de manera eficiente. Mi enfoque colaborativo me permite contribuir al éxito del equipo.
+
+- Héctor Javier Ríos Pacheco - u20231c540 (Ingeniería de Software)
+
+<p align="center">
+    <img src="imagenes/fotos/FotoHector.png" alt="foto-hector" width="170px"/>
+</p>
+
+Soy responsable, me gusta involucrarme activamente en los proyectos, aportar ideas útiles y cumplir con mis tareas a tiempo. Siempre estoy dispuesto a colaborar y ayudar al equipo a avanzar de la mejor manera posible.
+
+- Leonardo Fabrizzio Junior Prieto Mantari - u202319949 (Ingeniería de Software)
+
+<p align="center">
+    <img src="imagenes/fotos/foto-leo.png" alt="foto-leo" width="170px"/>
+</p>
+
+Me considero una persona trabajadora y comprometida, que coopera de manera efectiva con su equipo y siempre está dispuesta a brindar apoyo. Con estas habilidades, busco aportar valor al proyecto y contribuir activamente a lograr una presentación final sólida y exitosa.
+
+
+
+<!-- - Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/" alt="foto-fabrizio" width="170px"/>
+</p>
+
+Descripcion -->
+
+- Sebastian Rodriguez Macedo - u202310199 (Ingeniería de Software)
+
+<p align="center">
+    <img src="imagenes/fotos/SebastianFoto.png" alt="foto-sebastian" width="170px"/>
+</p>
+
+Soy una persona capaz de resolver problemas con el equipo desde un punto de vista diferente, además ofrezco siempre compromiso hacia mis compañeros cumpliendo con las asignaciones de manera responsable.
 
 ### 1.2. Solution Profile
 NutriSmart es una plataforma web que permite a los usuarios crear planes de comida de manera personalizada basados en sus preferencias, objetivos de salud, restricciones médicas y necesidades nutricionales: Esto se da mediante un perfil propio, pues la aplicación adapta las recomendaciones alimenticias a restricciones y excepciones, brindando una experiencia diferente. Además, incluye herramientas de seguimiento y análisis que permiten ajustar los planes según los avances y metas del usuario. Con un modelo freemium, la versión básica ofrece funcionalidades esenciales de personalización, mientras que las opciones premium brindan acceso a características avanzadas como análisis nutricionales detallados. NutriSmart se posiciona como una solución integral para aquellos que buscan mejorar su bienestar a través de una alimentación controlada y alineada con sus objetivos de salud.
 
 #### 1.2.1. Antecedentes y problemática
-Dentro de un contexto en el que los problemas de salud relacionados con la mala alimentación y el creciente sedentarismo, nace la necesidad de contar con herramientas personalizadas y a la vez accesibles para gestionar una dieta y de esa manera conseguir un bienestar. El incremento de este tipo de demanda de soluciones nutricionales a medida, la falta de aplicaciones eficaces que se adapten de manera personalizada a cada persona, junto con la proliferación de enfermedades de tipo crónico como la obesidad, diabetes, entre otras condiciones ha puesto en necesidad este tipo de aplicaciones.
+**What**  
+¿Cuál es el problema? 
+- La falta de personalización auténtica en las herramientas de planificación nutricional genera planes genéricos que no consideran las condiciones de salud, preferencias ni el contexto de vida de los usuarios, lo que provoca baja adherencia, frustración y abandono de los hábitos saludables, lo que indirectamente contribuye al aumento de una cultura no saludable en la aliemtnación y provocando aún más problemas en la salud.
 
-**Who:** NutriSmart está dirigida a personas que desean mejorar su alimentación, gestionar dietas con restricciones específicas, alcanzar metas de salud propias o a personal de salud profesional que pueden hacer uso de esta como un complemento a sus pacientes. Asimismo esto incluye a personas con condiciones como diabetes, hipertensión o que simplemente buscan un estilo de vida más saludable.
+¿Cuál es la relación con la persona en cuestión?  
+- NutriSmart está diseñada exactamente para este perfil: desde quienes buscan bajar de peso o ganar masa muscular hasta pacientes con condiciones crónicas. Profesionales de la nutrición y la salud pueden incorporarla como un recurso adicional para diseñar y monitorizar dietas personalizadas, mejorando la adherencia de sus pacientes.  
 
-**What:** La problemática principal es la dificultad de encontrar una solución accesible y eficiente que permita a las personas crear planes de comida totalmente adaptados a sus preferencias, objetivos y restricciones alimenticias. Actualmente, muchas aplicaciones no ofrecen planes suficientemente personalizables o no consideran las necesidades específicas de los usuarios.
+**When**  
+¿Cuándo sucede el problema?  
+- El reto de planificar comidas personalizadas surge de forma continua, pero se agudiza en etapas clave: tras un diagnóstico médico (por ejemplo, diabetes o hipertensión), al iniciar un programa de pérdida o ganancia de peso, y después de la pandemia, debido al aumento de la conciencia sobre la salud y la necesidad de herramientas remotas de autocuidado.  
 
-**Where:**  Esta problemática afecta a un gran espectro de usuarios, desde aquellos en áreas urbanas con acceso a tecnología, hasta personas en zonas rurales con dificultades para encontrar soluciones nutricionales adecuadas a sus necesidades. NutriSmart tiene como objetivo llegar a todas ellas al ser accesible a cualquier persona con internet.
+¿Cuándo utiliza el cliente el producto?  
+- Diariamente, al elaborar la lista de la compra o decidir el menú de la semana; y en momentos puntuales de reajuste cuando varían sus objetivos, cambian hábitos o aparecen nuevas restricciones alimenticias.  
 
-**When:** La necesidad de soluciones personalizadas es más urgente en un contexto post-pandemia, donde la conciencia sobre la salud y la nutrición se ha incrementado, y las personas buscan alternativas para cuidar su bienestar físico a largo plazo.
+**Where**  
+¿Dónde está el cliente cuando usa el producto?  
+- En casa, planificando las comidas semanales desde el computador o el móvil; en el supermercado, consultando sustitutos adecuados según su plan; o en consulta con su nutriólogo, compartiendo y revisando los menús propuestos.  
 
-**Why:** La razón principal de la creación de NutriSmart es la creciente demanda de herramientas que no solo ayuden a gestionar la dieta, sino que también ofrezcan un enfoque personalizado y adaptable a cada usuario. 
+¿Dónde surge el problema?  
+- En la rutina cotidiana de cada persona: al cocinar, hacer la compra o acudir a citas médicas, se percibe la falta de una guía clara y ajustada a necesidades cambiantes.  
 
-**How:** NutriSmart aborda este problema mediante una plataforma web que permite a los usuarios crear perfiles detallados donde pueden ingresar sus objetivos de salud, preferencias alimenticias y restricciones. A través de un sistema de recomendaciones inteligentes, la aplicación proporciona planes de comida adaptados a estas necesidades.
+**Who**  
+¿Quiénes se ven involucrados en el problema?  
+- Usuarios con objetivos personales de salud (control de peso, fuerza muscular, mejora del rendimiento deportivo) o personas con restricciones médicas (diabetes, hipertensión, enfermedades cardiovasculares, intolerancias o alergias) y profesionales de la salud (nutriólogos, dietistas, médicos) que buscan optimizar el seguimiento de sus pacientes.  
 
-**How Much:** El costo de implementar esta solución es bajo comparado con los beneficios potenciales, considerando que el modelo de negocio de NutriSmart incluye una versión básica gratuita y suscripciones premium que brindan características adicionales. Esto permite que la aplicación sea accesible a una amplia audiencia, desde usuarios individuales hasta instituciones de salud que deseen promover dietas personalizadas.
+**Why**  
+¿Cuáles son las causas del problema?  
+- Las apps existentes tienden a ofrecer plantillas estándar sin adaptar porciones ni considerar comorbilidades; hay falta de integración de datos biométricos y de preferencias reales del usuario; y existe escaso uso de algoritmos inteligentes para sugerir sustituciones o ajustar menús en tiempo real.  
+
+**How**  
+¿En qué condiciones los clientes usan nuestro producto?  
+- Con conexión a Internet, desde dispositivos móviles o escritorio, tras completar un perfil detallado (edad, peso, altura, objetivos, alergias, hábitos alimenticios y datos clínicos relevantes) e interactuando con un sistema de recomendaciones inteligentes que actualiza las propuestas según la evolución de sus métricas y feedback diario.  
+
+**How much**  
+- En el Perú, el exceso de peso es una crisis de salud pública:  
+Según la Encuesta Demográfica y de Salud Familiar 2021, el 36,9 % de las personas de 15 años a más presenta sobrepeso y el 25,8 % sufre obesidad, lo que equivale a unos 15 millones de peruanos (62 % de la población adulta) afectados por estas condiciones. La aplicación está diseñada para poder llevar una alimentación saludable de la manera más cómoda posible y así fomentar la adherencia a este tipos de dietas y uso de la aplicación.
 
 #### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-Actualmente, muchas personas interesadas en mejorar su salud a través de una mejor alimentación no logran mantener una planificación constante y adaptada a sus necesidades específicas. Esto genera frustración, desmotivación y poca adherencia a sus objetivos nutricionales.
+Nuestro servicio ofrece una plataforma para que personas con metas de salud o restricciones alimenticias y profesionales de la salud creen planes de alimentación personalizados. Buscamos facilitar el acceso a una nutrición adaptada a cada usuario.
 
-¿Cómo podemos ayudar a que los usuarios mantengan una planificación alimentaria personalizada de forma constante y efectiva, alineada a sus metas de salud y estilo de vida, a través del uso de NutriSmart?
+Hemos observado que muchos usuarios perciben que los planes alimenticios ofrecidos no se ajustan realmente a sus necesidades específicas, lo que reduce la adherencia y el uso continuo de la plataforma contribuyendo a ocasionar una mala salud.
 
-**Domain:** El dominio de NutriSmart se centra en la nutrición personalizada y la gestión de dietas adaptadas a las necesidades de salud de los usuarios. El software será una herramienta integral que permita a las personas gestionar su alimentación de manera eficaz, considerando sus restricciones dietéticas, preferencias y metas de salud.
-
-**Customer Segments:** El producto está dirigido a personas de todas las edades que buscan mejorar su salud mediante una dieta personalizada. Esto incluye a individuos con condiciones específicas como diabetes, hipertensión, o personas que desean perder peso o llevar un estilo de vida más saludable. Además, el segmento de clientes también incluye organizaciones de salud y bienestar que buscan soluciones para recomendar dietas personalizadas a sus pacientes.
-
-**Pain Points:** Los principales puntos de dolor que enfrentan los usuarios incluyen la falta de herramientas accesibles para planificar dietas personalizadas, la dificultad para encontrar aplicaciones que consideren restricciones específicas. Además los usuarios también tienen retos como adaptar las recomendaciones a sus horarios y estilos de vida.
-
-**Gap:** Existe una brecha clara en el mercado de aplicaciones de nutrición personalizadas que no ofrecen una experiencia completamente integrada. Las soluciones actuales no tienen la capacidad de adaptarse suficientemente a las restricciones alimenticias individuales y no proporcionan herramientas eficaces para gestionar inventarios y optimizar compras.
-
-**Visión/Strategy:** La visión de NutriSmart es ofrecer una solución accesible y eficiente para ayudar a las personas a tomar decisiones alimenticias informadas que se focalicen en sus objetivos de salud. Nuestra estrategia se basa en crear una plataforma que permita al usuario tener libertad de configuración en su dieta alimenticia.
-
-**Initial Segment:** El segmento inicial de usuarios se centrará en personas que buscan perder peso o mejorar su salud en general a través de la nutrición personalizada. Además, se enfocará en usuarios con condiciones específicas como diabetes o hipertensión, que requieren planes de comida adaptados a sus necesidades nutricionales.
+¿Cómo podríamos mejorar la personalización de los planes alimenticios para que los usuarios se sientan comprendidos y motivados a seguir sus objetivos de salud?
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -366,7 +445,7 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 #### 2.1.1. Análisis competitivo
 # Competitive Analysis Landscape
 
-| (En la cabecera colocar por su cada competidor nombre y logo) | Su startup<br>**NutriSmart** | Competidor 1<br>**Fitia** | Competidor 2<br>**Yazio** | Competidor 3<br>**Noom** |
+|  | **NutriSmart**<br><img src="./imagenes/NutriSmart.png" alt="NutriSmart" width="200"> | **Fitia**<br><img src="./imagenes/fitia.png" alt="fitia" width="200"> | **Yazio**<br><img src="./imagenes/yazio.png" alt="yazio" width="200"> | **Noom**<br><img src="./imagenes/noom.png" alt="noom" width="200"> |
 |---------------------------------------------------------------|-----------------------------|---------------------------|---------------------------|---------------------------|
 | **Perfil**<br>Overview | NutriVit es una startup que ofrece NutriSmart, una plataforma innovadora que busca ofrecer a usuarios una manera diferente de llevar un control de su dieta basado en preferencias, objetivos y restricciones, de manera totalmente personalizada. | Fitia es una app peruana que ofrece planes de alimentación automáticos y personalizados según los objetivos físicos del usuario. Su enfoque es práctico y directo, basado en cálculo calórico y distribución de macronutrientes, con una base de datos de alimentos locales y opciones fáciles de preparar. | Yazio es una aplicación de conteo de calorías y seguimiento nutricional que permite a los usuarios registrar sus comidas, actividades físicas y peso corporal. Está diseñada para ayudar en la pérdida de peso, ganancia muscular o simplemente mantener un estilo de vida saludable, con planes personalizados y recetas saludables. | Noom combina nutrición con psicología del comportamiento para crear un enfoque único hacia la pérdida de peso. Su propuesta se centra en cambiar hábitos mentales, brindando a los usuarios coaching, seguimiento nutricional y actividades interactivas para lograr un cambio sostenible en el tiempo. |
 | **Ventaja competitiva**<br>¿Qué valor ofrece a los clientes? | Ofrece un enfoque ultrapersonalizado para la gestión nutricional, considerando preferencias, objetivos, horarios y restricciones alimenticias. Su interfaz y sistema permiten adaptar los planes a los cambios del usuario. | Se destaca por su automatización de planes nutricionales con enfoque local, permitiendo al usuario comer sano sin complicaciones. Genera menús en de manera rápida basados en metas, preferencias y presupuesto, con una base sólida en ciencia nutricional y adaptado a alimentos. | Brinda una experiencia sencilla y efectiva para el conteo de calorías y la gestión de peso, combinando un extenso banco de alimentos, recetas saludables y planes guiados. Su ventaja está en su facilidad de uso y en su enfoque directo en metas físicas específicas. | Su valor está en integrar psicología del comportamiento con nutrición, ayudando a los usuarios a entender sus decisiones alimenticias y cambiar hábitos desde la raíz. Ofrece coaching personalizado y contenido educativo, diferenciándose por su enfoque conductual a largo plazo. |
@@ -433,28 +512,65 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 
 #### 2.2.2. Registro de entrevistas
 <p align="center">
-  <img src="./imagenes/entrevistas/entrevista1.png" alt="User Persona 1" width="400">
+  <img src="./imagenes/entrevistas/entrevista1.png" alt="entrevista1" width="400">
 </p>
+Jude considera la alimentación como clave para su rendimiento diario y busca mejorarla con frecuencia media. Cocinan en su casa regularmente y su objetivo es mantener una buena salud. Ha usado apps de nutrición antes, valorando bases de datos amplias pero criticando funcionalidades limitadas. Estaría dispuesto a pagar por una versión premium si incluye recetas, seguimiento y planes personalizados. Sugiere que Nutrismart se diferencie por ofrecer una experiencia más rica, flexible y menos restrictiva.
 
-[Enlace entrevista 1](https://youtu.be/jBluTCX2H-I)
+| **Detalle**       | **Información**                       |
+|-------------------|----------------------------------------|
+| Entrevistador     | Héctor Javier Ríos Pacheco        |
+| Entrevistado      | Jude Hermoza Quispe            |
+| Edad              | 19 años                                |
+| Duración          | 4:17 minutos                           |
+| Enlace            | [Ver entrevista](https://youtu.be/jBluTCX2H-I) |
+
 
 <p align="center">
-  <img src="./imagenes/entrevistas/entrevista2.png" alt="User Persona 1" width="400">
+  <img src="./imagenes/entrevistas/entrevista2.png" alt="entrevista2" width="400">
 </p>
 
-[Enlace entrevista 2](https://youtu.be/WNGR6Hxcyec)
+Ricardo considera la alimentación esencial para una vida saludable y mantiene una dieta balanceada por su predisposición a la diabetes. Su interés por la nutrición creció al iniciar el gimnasio, donde recibió rutinas dietéticas. Aunque ocasionalmente consume comida chatarra, cuida sus elecciones. Su objetivo es subir de peso saludablemente, evitando la monotonía. No ha usado muchas apps de nutrición, pero considera clave que NutriSmart permita seguimiento calórico y de macronutrientes en tiempo real, con retroalimentación constante. Está dispuesto a pagar por una versión premium que incluya recetas y atención personalizada.
+
+| **Detalle**       | **Información**                       |
+|-------------------|----------------------------------------|
+| Entrevistador     | Héctor Javier Ríos Pacheco        |
+| Entrevistado      | Ricardo del Aguila Ayala            |
+| Edad              | 19 años                                |
+| Duración          | 5:53 minutos                           |
+| Enlace            | [Ver entrevista](https://youtu.be/WNGR6Hxcyec) |
 
 <p align="center">
-  <img src="./imagenes/entrevistas/entrevista3.png" alt="User Persona 1" width="400">
+  <img src="./imagenes/entrevistas/entrevista3.png" alt="entrevista3" width="400">
 </p>
 
-[Enlace entrevista 3](https://youtu.be/PM159qdyitU)
+
+Naim considera que la nutrición es clave para todos, no solo para deportistas. Aunque reconoce su importancia, no busca activamente información y no planifica sus comidas, lo que la lleva a elecciones impulsivas o poco saludables, especialmente al pedir delivery por falta de tiempo. Su objetivo es verse y sentirse bien, ganar masa muscular y alcanzar su peso ideal. Nunca ha usado apps de nutrición, pero estaría dispuesta a probar una que sea sencilla y personalizada. También está abierta a pagar por funciones premium si ofrecen recetas personalizadas y seguimiento de progreso.
+
+| **Detalle**       | **Información**                       |
+|-------------------|----------------------------------------|
+| Entrevistador     | Héctor Javier Ríos Pacheco        |
+| Entrevistado      | Naim napuri Rojas            |
+| Edad              | 19 años                                |
+| Duración          | 4:31 minutos                           |
+| Enlace            | [Ver entrevista](https://youtu.be/PM159qdyitU) |
+
+
+
+# Entrevista #4
 
 <p align="center">
   <img src="./imagenes/entrevistas/entrevista4.png" alt="User Persona 1" width="400">
 </p>
 
-[Enlace entrevista 4](https://youtu.be/2t0KyeJOKvE)
+Giorgio es un nutricionista recién egresado que ya atiende pacientes y valora mucho la alimentación por su impacto físico y emocional. Se actualiza constantemente y usa Excel, WhatsApp y apps como Yazio para armar planes, aunque reconoce que no son herramientas del todo eficientes. Le cuesta asegurar que sus pacientes sigan las recomendaciones y busca una forma más práctica de hacer seguimiento. Cree que las apps pueden ayudar si son simples y útiles. Le gustaría una plataforma donde pueda personalizar planes, dar seguimiento fácil y comunicarse con sus pacientes. Estaría dispuesto a recomendar NutriSmart si es clara, adaptable y confiable.
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Fabrizio Alberto Paredes Santos            |
+| **Entrevistado**  | Giorgio Marzouk Awad Vargas                |
+| **Edad**          | 22 años                                    |
+| **Duración**      | 5:10 minutos                               |
+| **Enlace**        | [Ver entrevista](https://youtu.be/2t0KyeJOKvE) |
 
 
 #### 2.2.3. Análisis de entrevistas
@@ -512,7 +628,7 @@ En este apartado realizaremos un análisis competitivo para identificar y evalua
 #### 2.3.2. User Task Matrix
 
 #### Introducción:
-El siguiente User Task Matrix detalla las tareas que los jóvenes adultos peruanos y profesionales de la salud (nutricionistas) suelen realizar en el uso de la aplicación NutriSmart, orientada a la mejora del bienestar mediante la alimentación personalizada. Este segmento incluye tanto usuarios que buscan mejorar sus hábitos alimenticios como nutricionistas que requieren herramientas para monitorear y personalizar planes nutricionales. Las tareas están clasificadas según su frecuencia e importancia para cada grupo, proporcionando una visión clara de las áreas clave en su experiencia con la aplicación.
+El siguiente User Task Matrix presenta las principales tareas que tanto jóvenes adultos interesados en mejorar su alimentación como profesionales de la salud (nutricionistas) realizan actualmente de manera natural, sin el uso de la aplicación NutriSmart. Se identifican actividades comunes entre ambos segmentos, evaluadas según su frecuencia e importancia específicas para cada grupo.
 
 ---
 
@@ -520,53 +636,33 @@ El siguiente User Task Matrix detalla las tareas que los jóvenes adultos peruan
 
 | **Tarea**                                      | **Usuario (Joven Adulto)** | **Usuario (Nutricionista)** |
 |-----------------------------------------------|-----------------------------|------------------------------|
-| Crear perfil personal                          | Frecuente/Crítica           | Frecuente/Crítica            |
-| Configurar objetivos de salud                  | Frecuente/Crítica           | Frecuente/Crítica            |
-| Registrar restricciones alimenticias           | Frecuente/Crítica           | Frecuente/Importante         |
-| Agregar excepciones en dieta                   | Frecuente/Importante        | Frecuente/Importante         |
-| Recibir recomendaciones de planes de comida    | Frecuente/Crítica           | Frecuente/Importante         |
-| Visualizar resumen nutricional                 | Frecuente/Importante        | Frecuente/Importante         |
-| Ajustar plan de comida manualmente             | A veces/Importante          | A veces/Importante           |
-| Recibir notificaciones sobre comidas           | Frecuente/Importante        | Frecuente/Importante         |
-| Marcar comidas completadas                     | Frecuente/Importante        | Frecuente/Importante         |
-| Ver historial de progreso                      | A veces/Importante          | A veces/Importante           |
-| Acceder a reportes de avance                   | A veces/Importante          | Frecuente/Importante         |
-| Actualizar datos de salud                      | A veces/Importante          | A veces/Importante           |
-| Compartir reportes de avance                   | A veces/Moderada            | Frecuente/Importante         |
-| Ver evidencia del seguimiento de dieta         | A veces/Importante          | Frecuente/Importante         |
-| Recomendar la app a otros usuarios             | A veces/Moderada            | A veces/Moderada             |
-| Consultar artículos educativos                 | A veces/Importante          | Frecuente/Importante         |
-| Configurar preferencias de notificación        | A veces/Moderada            | A veces/Moderada             |
-| Personalizar interfaz                          | A veces/Moderada            | A veces/Moderada             |
-| Recibir alertas de metas alcanzadas            | Frecuente/Importante        | Frecuente/Importante         |
-| Solicitar ayuda o soporte                      | A veces/Importante          | A veces/Importante           |
+| Planificar comidas semanales                   | Media/Alta          | Alta/Alta            |
+| Buscar recetas y alternativas saludables       | Alta/Alta           | Media/Media            |
+| Establecer metas de alimentación               | Media/Alta           | Alta/Alta         |
+| Consultar información nutricional actualizada  | Media/Alta        | Alta/Alta         |
+| Monitorear hábitos alimenticios    | Media/Alta           | Alta/Alta         |
+| Ajustar alimentación por cambios de rutina                 | Media/Media        | Alta/Media         |
+| Realizar compras de alimentos saludables             | Alta/Alta          | Media/Media           |
+| Educarse continuamente en temas de nutrición           | Media/Alta	        | Alta/Alta  |
 
 ---
 
 #### Explicación:
+- **Planificar comidas semanales**: Permite estructurar de manera organizada la ingesta de alimentos. En jóvenes adultos es importante, pero no siempre realizado de forma constante; en nutricionistas es una práctica habitual y esencial para sus pacientes.
 
-- **Crear perfil personal:** Es el primer paso esencial para el uso de la app, permitiendo personalizar la experiencia de ambos tipos de usuarios.  
-- **Configurar objetivos de salud:** Tarea crítica para establecer metas claras y medibles tanto para usuarios como para profesionales.  
-- **Registrar restricciones alimenticias:** Fundamental para evitar recomendaciones no adecuadas, especialmente importante para los usuarios.  
-- **Agregar excepciones en dieta:** Permite flexibilidad en el plan, lo cual es útil y común en ambos perfiles.  
-- **Recibir recomendaciones de planes de comida:** Es clave para los usuarios, mientras que los nutricionistas las supervisan para garantizar la adecuación.  
-- **Visualizar resumen nutricional:** Una herramienta valiosa para monitorear el progreso nutricional.  
-- **Ajustar plan de comida manualmente:** Útil para ajustes específicos; menos frecuente pero importante.  
-- **Recibir notificaciones sobre comidas:** Apoya la adherencia al plan nutricional diario.  
-- **Marcar comidas completadas:** Reforzador del compromiso y seguimiento, útil para ambos perfiles.  
-- **Ver historial de progreso:** Permite visualizar avances y patrones.  
-- **Acceder a reportes de avance:** Más utilizado por nutricionistas para seguimiento profesional.  
-- **Actualizar datos de salud:** Necesario para mantener actualizadas las recomendaciones.  
-- **Compartir reportes de avance:** Especialmente relevante para nutricionistas con sus pacientes.  
-- **Ver evidencia del seguimiento de dieta:** Útil para evaluar consistencia y adherencia.  
-- **Recomendar la app a otros usuarios:** Tarea ocasional, útil para expansión orgánica.  
-- **Consultar artículos educativos:** Mejora el conocimiento del usuario y el soporte del profesional.  
-- **Configurar preferencias de notificación:** Mejora la experiencia personalizada.  
-- **Personalizar interfaz:** Permite adaptar la experiencia a gustos personales, con impacto moderado.  
-- **Recibir alertas de metas alcanzadas:** Refuerza la motivación y seguimiento de progreso.  
-- **Solicitar ayuda o soporte:** Útil en momentos de duda o problemas técnicos o de uso.
+- **Buscar recetas y alternativas saludables**: Los jóvenes adultos realizan esta búsqueda con alta frecuencia para diversificar su alimentación; los nutricionistas, aunque también buscan alternativas, lo hacen de forma menos frecuente al contar ya con bases sólidas de recetas saludables.
 
+- **Establecer metas de alimentación**: Los jóvenes adultos establecen metas personales como perder peso o ganar masa muscular; para los nutricionistas, es parte fundamental en la creación de planes nutricionales personalizados.
 
+- **Consultar información nutricional actualizada**: Los jóvenes adultos consultan de forma moderada para actualizar sus conocimientos; los nutricionistas lo hacen regularmente para mantenerse actualizados en evidencias científicas y guías de práctica.
+
+- **Monitorear hábitos alimenticios**: Los jóvenes tienden a hacerlo de forma intermitente, mientras que los nutricionistas monitorean activamente los hábitos de sus pacientes como parte de su trabajo clínico.
+
+- **Ajustar alimentación por cambios de rutina**: Ambos segmentos realizan ajustes, aunque los nutricionistas lo integran más sistemáticamente en sus planes de intervención.
+
+- **Realizar compras de alimentos saludables**: Una actividad constante para los jóvenes que buscan mejorar su dieta; en nutricionistas es más orientado a sus recomendaciones para pacientes y a su propio estilo de vida.
+
+- **Educarse continuamente en temas de nutrición**: Si bien los jóvenes buscan información para mejorar su bienestar, en los nutricionistas es una actividad esencial y recurrente para su práctica profesional.
 
 #### 2.3.3. User Journey Mapping
 
@@ -661,15 +757,15 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-03 | Selección de Preferencias Alimenticias | Como usuario, quiero seleccionar mis preferencias alimenticias para recibir sugerencias compatibles. | Escenario 1: **Given** que soy un usuario registrado, **When** selecciono mis preferencias alimenticias, **Then** las recomendaciones se adaptarán a mis gustos. <br><br> Escenario 2: **Given** que cambio mis preferencias alimenticias, **When** actualizo mis opciones en la app, **Then** las sugerencias se recalibrarán automáticamente. | EP-01 |
 | US-04 | Registro de Consumo Diario | Como usuario, quiero registrar mis comidas diarias para llevar un control de mi alimentación. | Escenario 1: **Given** que soy un usuario activo, **When** registro una nueva comida, **Then** la app actualizará mi historial de alimentación. <br><br> Escenario 2: **Given** que me olvido de registrar una comida, **When** ingreso después de un tiempo, **Then** la app me permitirá registrar comidas retroactivas. | EP-01 |
 | US-05 | Visualización de Progreso | Como usuario, quiero visualizar mi progreso nutricional para motivarme a mantener mis hábitos. | Escenario 1: **Given** que he registrado mis consumos, **When** accedo a la sección de progreso, **Then** podré ver estadísticas sobre mi alimentación. <br><br> Escenario 2: **Given** que he tenido días sin registrar comidas, **When** visualizo mi progreso, **Then** el sistema indicará los días sin datos para mantener la precisión. | EP-01 |
-| US-06 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios para registrar mis comidas y no olvidar ningún dato. | Escenario 1: **Given** que soy un usuario activo, **When** configuro los recordatorios, **Then** recibiré notificaciones en los horarios seleccionados. <br><br> Escenario 2: **Given** que omito varios recordatorios, **When** accedo a la app, **Then** recibiré un resumen invitándome a completar los registros faltantes. | EP-05 |
+| US-06 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar. | Escenario 1: **Given** que accedo a la landing page, **When** hago scroll a la sección de beneficios, **Then** visualizo tarjetas con los puntos destacados. | EP-05 |
 | US-07 | Ajuste de Plan Nutricional | Como usuario, quiero ajustar mi plan nutricional si cambian mis necesidades o preferencias. | Escenario 1: **Given** que detecto cambios en mis necesidades, **When** solicito un ajuste, **Then** la app recalculará mis recomendaciones. <br><br> Escenario 2: **Given** que mi historial muestra inconsistencias, **When** pido actualizar el plan, **Then** la app me guiará para ajustar objetivos y preferencias. | EP-02 |
-| US-08 | Integración con Dispositivos de Salud | Como usuario, quiero sincronizar mis dispositivos de salud para tener datos más precisos. | Escenario 1: **Given** que tengo un dispositivo compatible, **When** autorizo la conexión, **Then** la app incorporará automáticamente mis datos de salud. <br><br> Escenario 2: **Given** que se pierde la conexión del dispositivo, **When** reestablezco el enlace, **Then** los datos pendientes serán sincronizados correctamente. | EP-02 |
-| US-09 | Generación de Reportes | Como usuario, quiero generar reportes de mi avance nutricional para revisarlos o compartirlos. | Escenario 1: **Given** que tengo suficiente información registrada, **When** solicito un reporte, **Then** recibiré un archivo con mis datos y gráficos. <br><br> Escenario 2: **Given** que configuro preferencias de reporte, **When** genero un informe, **Then** la app personalizará el contenido según mis elecciones. | EP-09 |
-| US-10 | Contacto con Asesor Nutricional | Como usuario, quiero contactar a un asesor para resolver dudas o recibir apoyo personalizado. | Escenario 1: **Given** que necesito orientación adicional, **When** solicito asesoría desde la app, **Then** seré conectado con un profesional. <br><br> Escenario 2: **Given** que hay alta demanda, **When** solicito contacto, **Then** la app me mostrará el tiempo estimado de respuesta y alternativas de soporte. | EP-03 |
-| US-11 | Gamificación de Hábitos | Como usuario, quiero recibir recompensas por cumplir mis objetivos nutricionales diarios. | Escenario 1: **Given** que cumplo mis objetivos diarios, **When** los registro en la app, **Then** recibiré puntos de recompensa. <br><br> Escenario 2: **Given** que acumulo suficientes puntos, **When** entro a la sección de recompensas, **Then** podré canjearlos por beneficios o reconocimientos. | EP-04 |
-| US-12 | Comparación de Progreso | Como usuario, quiero comparar mi progreso actual con periodos anteriores para evaluar mis avances. | Escenario 1: **Given** que tengo historial registrado, **When** solicito una comparación, **Then** la app mostrará mis avances respecto a un periodo anterior. <br><br> Escenario 2: **Given** que no tengo suficiente historial, **When** pido una comparación, **Then** la app me sugerirá registrar más datos primero. | EP-03 |
-| US-13 | Creación de Planes Personalizados | Como usuario, quiero crear un plan nutricional personalizado basado en mis preferencias y necesidades. | Escenario 1: **Given** que ingreso mis preferencias y necesidades, **When** solicito un plan, **Then** la app generará un plan nutricional adaptado. <br><br> Escenario 2: **Given** que no completo toda la información, **When** solicito un plan, **Then** la app me pedirá completar los datos faltantes. | EP-03 |
-| US-14 | Visualización de Ingredientes | Como usuario, quiero ver los ingredientes de las recetas sugeridas para decidir si las preparo. | Escenario 1: **Given** que accedo a una receta, **When** visualizo los detalles, **Then** podré ver todos los ingredientes necesarios. <br><br> Escenario 2: **Given** que tengo preferencias alimenticias, **When** consulto los ingredientes, **Then** la app resaltará aquellos que debo evitar. | EP-03 |
+| US-08 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios para confiar en la app. | Escenario 1: **Given** que llegó a la sección de testimonios, **When** visualizó las citas de usuarios, **Then** puedo ver nombre, foto y experiencia de cada uno. | EP-02 |
+| US-09 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page se vea bien en cualquier dispositivo para poder explorarla cómodamente. | Escenario 1: **Given** que accedo desde un dispositivo móvil, **When** cargo la landing, **Then** el diseño se adapta correctamente. <br><br> Escenario 2: **Given** que accedo desde una computadora, **When** navego la landing, **Then** los elementos se ajustan al tamaño de pantalla. | EP-09 |
+| US-10 | Conocer la propuesta de valor | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia. | Escenario 1: **Given** que ingreso a la landing, **When** visualizo la parte superior, **Then** leo un título claro y un subtítulo explicativo. | EP-03 |
+| US-11 | Navegar por los beneficios principales | Como visitante, quiero navegar fácilmente por la sección de beneficios para conocer todas las ventajas. | Escenario 1: **Given** que hago scroll en la página, **When** paso por cada bloque de beneficios, **Then** veo textos e imágenes que explican las funcionalidades. | EP-04 |
+| US-12 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones de la landing para explorar el contenido rápidamente | Escenario 1: **Given** que hago clic en un enlace del menú superior, **When** este se refiere a una sección de la misma página, **Then** soy dirigido automáticamente a dicha sección. | EP-03 |
+| US-13 | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior para empezar a usar la app. | Escenario 1: **Given** que hago clic en el botón "Iniciar sesión", **When** este me redirige, **Then** llego a la página de login. <br><br> Escenario 2: **Given** que hago clic en "Registrarse", **When** este me redirige, **Then** llego al formulario de registro. | EP-03 |
+| US-14 | Navegar desde el footer | Como visitante, quiero que los enlaces del pie de página funcionen correctamente para poder acceder a información adicional sobre la app. | Escenario 1: **Given** que hago clic en un enlace del footer, **When** este está correctamente configurado, **Then** soy redirigido a la sección o página correspondiente (por ejemplo, "Política de privacidad", "Contacto", etc.). | EP-03 |
 | US-15 | Envío de Sugerencias Semanales | Como usuario, quiero recibir sugerencias semanales de menús adaptados a mis objetivos. | Escenario 1: **Given** que estoy suscrito a las notificaciones, **When** inicia una nueva semana, **Then** recibiré un resumen con menús sugeridos. <br><br> Escenario 2: **Given** que mis objetivos cambian, **When** actualizo mi perfil, **Then** las próximas sugerencias reflejarán esos cambios. | EP-03 |
 | US-16 | Alertas de Alimentos No Recomendados | Como usuario, quiero recibir alertas si registro alimentos no recomendados según mi perfil. | Escenario 1: **Given** que registro un alimento restringido, **When** lo agrego a mi consumo, **Then** la app me alertará del posible conflicto. <br><br> Escenario 2: **Given** que ignoro una alerta, **When** persista la situación, **Then** la app me sugerirá alternativas saludables. | EP-05 |
 | US-17 | Exportación de Datos | Como usuario, quiero exportar mis datos de progreso para respaldo o análisis externo. | Escenario 1: **Given** que tengo suficiente historial, **When** solicito exportarlo, **Then** recibiré un archivo descargable. <br><br> Escenario 2: **Given** que configuro exportaciones automáticas, **When** lleguen los plazos definidos, **Then** la app enviará los datos sin intervención manual. | EP-06 |
@@ -810,6 +906,30 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 |----------|----------------------------------|
 | US-19    | Recibir recomendaciones basadas en progreso |
 
+#### Épica 12: Comunicación de Propuesta de Valor
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-19    | Conocer la propuesta de valor |
+| US-19    | Navegar entre secciones desde la barra |
+| US-19    | Ver resumen de beneficios |
+| US-19    | Navegar por los beneficios principales |
+| US-19    | Visualizar testimonios |
+| US-19    | Navegar desde el footer |
+
+#### Épica 13: Diseño Responsivo y Experiencia Multidispositivo
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-19    | Acceder desde distintos dispositivos |
+
+#### Épica 14: Accesos a Plataforma (Login / Registro)
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| US-19    | Acceder al registro o inicio de sesión |
+| US-19    | Acceder al registro o inicio de sesión |
+
 ### 3.3. Impact Mapping
 
 <p align="center">
@@ -825,15 +945,15 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | 3 | US-03 | Registrar Alergias | Como usuario quiero registrar alergias alimentarias para que no aparezcan en mis planes. | 3 |
 | 4 | US-04 | Seleccionar Comidas Favoritas | Como usuario quiero seleccionar mis comidas favoritas para que se incluyan más. | 2 |
 | 5 | US-05 | Indicar Restricciones Dietéticas | Como usuario quiero indicar restricciones dietéticas para personalizar mi dieta. | 3 |
-| 6 | US-06 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios para registrar mis comidas y no olvidar ningún dato. | 5 |
+| 6 | US-06 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar. | 5 |
 | 7 | US-07 | Plan de Comidas Semanal | Como usuario quiero recibir un plan de comidas semanal automáticamente. | 5 |
-| 8 | US-08 | Ver Recetas Paso a Paso | Como usuario quiero ver recetas paso a paso para preparar mis comidas. | 2 |
-| 9 | US-09 | Ver Valor Nutricional | Como nutricionista quiero ver el valor nutricional de cada comida. | 5 |
-| 10 | US-10 | Marcar Comidas Hechas | Como usuario quiero marcar comidas como "hechas" para llevar un seguimiento. | 2 |
-| 11 | US-11 | Sugerencias de Snacks Saludables | Como usuario quiero acceder a sugerencias de snacks saludables. | 3 |
-| 12 | US-12 | Ajustar Plan por Metas | Como usuario quiero ajustar mi plan si mis metas cambian. | 5 |
-| 13 | US-13 | Resumen Semanal de Avances | Como usuario quiero ver un resumen semanal de mis avances. | 3 |
-| 14 | US-14 | Registrar Cambios Físicos o Emocionales | Como usuario quiero registrar mis cambios físicos o emocionales durante el plan. | 3 |
+| 8 | US-08 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios para confiar en la app. | 2 |
+| 9 | US-09 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page se vea bien en cualquier dispositivo para poder explorarla cómodamente. | 5 |
+| 10 | US-10 | Conocer la propuesta de valor | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia. | 2 |
+| 11 | US-11 | Navegar por los beneficios principales | Como visitante, quiero navegar fácilmente por la sección de beneficios para conocer todas las ventajas. | 3 |
+| 12 | US-12 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones de la landing para explorar el contenido rápidamente. | 5 |
+| 13 | US-13 | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior para empezar a usar la app. | 3 |
+| 14 | US-14 | Navegar desde el footer | Como visitante, quiero que los enlaces del pie de página funcionen correctamente para poder acceder a información adicional sobre la app. | 3 |
 | 15 | US-15 | Registrar Peso Regularmente | Como nutricionista quiero registrar mi peso regularmente para ver mi progreso. | 3 |
 | 16 | US-16 | Recordatorios de Horarios | Como usuario quiero recibir notificaciones para recordar mis horarios de comida. | 2 |
 | 17 | US-17 | Guardar Recetas Favoritas | Como nutricionista quiero guardar mis recetas favoritas. | 2 |
