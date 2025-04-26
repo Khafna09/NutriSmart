@@ -1977,7 +1977,11 @@ Durante el Sprint 1, el equipo de desarrollo trabajó de manera colaborativa par
 
 ## Conclusiones
 
-<hr>
+- Durante el desarrollo de NutriSmart, se ha logró identificar y comprender en profundidad a nuestros segmento objetivo: personas adultas peruanas afectadas por el sobrepeso y la obesidad, personas con objetivos de salud o de simplemente llevar un estilo de vida más saludable. Esta comprensión ha permitido adaptar la aplicación para fomentar hábitos alimenticios saludables de forma práctica, cómoda y accesible, con el fin de mejorar la salud y la calidad de vida de los usuarios.
+
+- Durante el análisis del problema, NutriSmart ha demostrado ser una alternativa diferenciada frente a otras soluciones genéricas, al enfocarse en la realidad local y en los retos específicos que enfrentan los peruanos para mantener una dieta equilibrada y sobre todo mantenerla. A diferencia de otras plataformas, NutriSmart no solo proporciona planes alimenticios personalizados, sino que también busca fomentar la adherencia mediante recordatorios, seguimiento y recomendaciones adaptadas al contexto de cada usuario y sus preferencias personales.
+
+- Además, se hace énfasis en la importancia de adaptar NutriSmart a los hábitos culturales, condiciones económicas y necesidades nutricionales de la población peruana. Esta estrategia no solo mejora la experiencia de uso, sino que también refuerza la efectividad de la aplicación como una herramienta de cambio de hábitos y prevención de enfermedades relacionadas con la alimentación.
 
 ## Bibliografía
 
