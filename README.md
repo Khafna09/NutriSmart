@@ -193,14 +193,6 @@ Nuestra startup, NutriVit nace de la necesidad existente de mantener una salud a
 
 #### 1.1.2. Perfiles de Integrantes del Equipo
 
-- Mathias Bueno Perales - u202313433 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/" alt="foto-mathias" width="170px"/>
-</p>
-
-Descripcion
-
 - Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
 
 <p align="center">
@@ -581,6 +573,24 @@ Giorgio es un nutricionista recién egresado que ya atiende pacientes y valora m
 | **Duración**      | 5:10 minutos                               |
 | **Enlace**        | [Ver entrevista](https://youtu.be/2t0KyeJOKvE) |
 
+# Entrevista #5
+
+<br>
+
+<p align="center">
+  <img src="./imagenes/entrevistas/entrevista5.png" alt="entrevista-2" width="400">
+</p>
+
+Carlos es un nutricionista con experiencia que aplica en su vida diaria los principios que promueve a sus pacientes. Considera que una buena alimentación es clave para rendir bien física y mentalmente. Se mantiene actualizado casi a diario mediante artículos, papers y apps. Usa Excel, Nutrium, Dietowin y WhatsApp para elaborar y seguir planes, aunque reconoce que estas herramientas no siempre son las más prácticas. Le cuesta personalizar completamente los planes por falta de tiempo y a veces por la poca claridad de los pacientes. Para hacer seguimiento, pide fotos o mensajes, pero no siempre obtiene respuestas. Cree que las apps pueden ser muy útiles si son fáciles de usar y no abruman. Le gustaría una plataforma donde los pacientes registren sus comidas, él pueda monitorear el progreso y ajustar planes sin necesidad de citas presenciales. Estaría dispuesto a recomendar NutriSmart si es intuitiva, protege la información y realmente le ahorra tiempo.
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Sebastian Rodriguez Macedo          |
+| **Entrevistado**  | Carlos Gabriel Mendoza Cardenas               |
+| **Edad**          | 23 años                                    |
+| **Duración**      | 3:23 minutos                               |
+| **Enlace**        | [Ver entrevista](https://youtu.be/FAg-Pdhs4_g) |
+
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -617,6 +627,17 @@ Giorgio es un nutricionista recién egresado que ya atiende pacientes y valora m
 - Tiene una percepción positiva sobre el uso de apps, siempre que sean amigables y no complicadas para los pacientes.
 - Valora funcionalidades como personalización de planes, alertas, registros visuales de comida y comunicación directa con el paciente.
 - Recomendaría una app como NutriSmart si mejora la adherencia, simplifica su trabajo, es fácil de usar, segura y personalizable según el diagnóstico del paciente.
+
+####  Entrevista 5
+- La persona considera que la alimentación es bastante importante para mantenerse saludable, con energía y rendir bien tanto en el trabajo como en lo personal.
+- Busca información y herramientas casi a diario, ya sea en artículos, papers o apps, para aplicarlas en su vida y en sus consultas.
+- Utiliza Excel, Nutrium, Dietowin y ocasionalmente WhatsApp para crear y hacer seguimiento de planes, aunque reconoce que no siempre son las herramientas más eficientes.
+- Encuentra dificultades al personalizar los planes debido a la falta de tiempo y a que algunos pacientes no comunican bien sus alergias o preferencias.
+- Verifica la adherencia pidiendo fotos o mensajes por WhatsApp, pero le gustaría tener una forma más automatizada y ordenada de hacerlo.
+- Considera que las apps pueden ser de gran ayuda si son intuitivas y no tienen procesos complicados que abrumen a los pacientes.
+- Valora funcionalidades como registro simple de comidas, feedback automático, análisis de progreso, recordatorios, chat seguro y ajustes remotos a los planes.
+- Estaría dispuesto a recomendar NutriSmart si le ahorra tiempo, es clara, protege los datos del paciente, y permite integrar otras herramientas de salud o fitness.
+  
 
 ### 2.3. Needfinding
 
