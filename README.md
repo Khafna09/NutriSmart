@@ -193,14 +193,6 @@ Nuestra startup, NutriVit nace de la necesidad existente de mantener una salud a
 
 #### 1.1.2. Perfiles de Integrantes del Equipo
 
-- Mathias Bueno Perales - u202313433 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/" alt="foto-mathias" width="170px"/>
-</p>
-
-Descripcion
-
 - Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
 
 <p align="center">
@@ -224,16 +216,6 @@ Soy responsable, me gusta involucrarme activamente en los proyectos, aportar ide
 </p>
 
 Me considero una persona trabajadora y comprometida, que coopera de manera efectiva con su equipo y siempre está dispuesta a brindar apoyo. Con estas habilidades, busco aportar valor al proyecto y contribuir activamente a lograr una presentación final sólida y exitosa.
-
-
-
-<!-- - Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/" alt="foto-fabrizio" width="170px"/>
-</p>
-
-Descripcion -->
 
 - Sebastian Rodriguez Macedo - u202310199 (Ingeniería de Software)
 
