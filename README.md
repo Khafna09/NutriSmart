@@ -175,7 +175,7 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 | <div style="width:150px">Criterio específico</div> | <div style="width:250px">Acciones Realizadas</div> | <div style="width:250px">Conclusiones</div> |
 |-------------------|-------------------|------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br> **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo. <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista. <br><br> **Leonardo Prieto TB1:** Realicé toda la sección del Needfinding, en esto se encuentra, el User Persona, User Task Matrix, User journey map, Empathy Map y el As-Is Scenario Map. También realicé el Ubiquitous Language y por ultimo hice todo el capitulo  III| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br> **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo. <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista. <br><br> **Leonardo Prieto TB1:** Realicé toda la sección del Needfinding, en esto se encuentra, el User Persona, User Task Matrix, User journey map, Empathy Map y el As-Is Scenario Map. También realicé el Ubiquitous Language y por ultimo hice todo el capitulo  III <br><br> **Jorge Linares TB1:** Realicé toda la sección de los diagramas de contexto, componentes, contenedores, clases y base de datos. Elaboracion de la primera parte de la landing page y despliegue de la misma en github pages, de esta forma completando la parte final del informe del sprint numero 1 y todas las evidencias del trabajo colaborativo del equipo en los repositorios de github.| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. |
 
 <hr>
 
@@ -242,6 +242,15 @@ Descripcion -->
 </p>
 
 Soy una persona capaz de resolver problemas con el equipo desde un punto de vista diferente, además ofrezco siempre compromiso hacia mis compañeros cumpliendo con las asignaciones de manera responsable.
+
+- Jorge Alexandro Linares Arroyo - Ingeniería de Software - u202318624 (Ingeniería de Software)
+
+<p align="center">
+    <img src="imagenes/fotos/fotoJorge.jpg" alt="foto-sebastian" width="170px"/>
+</p>
+
+
+Me considero una persona perseverante, resiliente e interesado por el mundo tecnológico y cuento con habilidades para formar parte de ello con lo cual tambien coopero de manera responsable y comprometida con las asignaciones y metas que se establescan en el equipo.
 
 ### 1.2. Solution Profile
 NutriSmart es una plataforma web que permite a los usuarios crear planes de comida de manera personalizada basados en sus preferencias, objetivos de salud, restricciones médicas y necesidades nutricionales: Esto se da mediante un perfil propio, pues la aplicación adapta las recomendaciones alimenticias a restricciones y excepciones, brindando una experiencia diferente. Además, incluye herramientas de seguimiento y análisis que permiten ajustar los planes según los avances y metas del usuario. Con un modelo freemium, la versión básica ofrece funcionalidades esenciales de personalización, mientras que las opciones premium brindan acceso a características avanzadas como análisis nutricionales detallados. NutriSmart se posiciona como una solución integral para aquellos que buscan mejorar su bienestar a través de una alimentación controlada y alineada con sus objetivos de salud.
@@ -1726,7 +1735,7 @@ Para el proceso de creación y programación del software, utilizamos las siguie
   <img src="./imagenes/markdown.png" alt="Markdown Logo" width="250">
 </p>
 
-- **StarUML**: Programa para crear diagramas UML y diagramas de flujo, ayudando a representar visualmente la arquitectura y los procesos del proyecto.
+- **LucidChart**: Programa para crear diagramas UML y diagramas de flujo, ayudando a representar visualmente la arquitectura y los procesos del proyecto.
 
 <p align="center">
   <img src="./imagenes/lucidchart-logo.png" alt="ludidchart Logo" width="250">
