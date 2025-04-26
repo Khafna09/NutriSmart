@@ -1521,7 +1521,16 @@ En el botón de plan de comidas nos redirige a toda la información actual, dond
 
 #### 4.6.3. Software Architecture Components Diagrams
 <p align="center">
-  <img src="./imagenes/components-diagram.png" alt="Component Diagram" width="700">
+  <img src="./imagenes/component-diagram1.png" alt="Component Diagram 1" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/component-diagram2.png" alt="Component Diagram 2" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/component-diagram3.png" alt="Component Diagram 3" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/component-diagram4.png" alt="Component Diagram 4" width="700">
 </p>
 
 ### 4.7. Software Object-Oriented Design
@@ -1529,7 +1538,7 @@ En el botón de plan de comidas nos redirige a toda la información actual, dond
 #### 4.7.1. Class Diagrams
 
 <p align="center">
-  <img src="./imagenes/diagram-class.jpg" alt="Class Diagram" width="700">
+  <img src="./imagenes/class-diagram.png" alt="Class Diagram" width="700">
 </p>
 
 #### 4.7.2. Class Dictionary
@@ -1600,7 +1609,7 @@ Para el proceso de creación y programación del software, utilizamos las siguie
 - **StarUML**: Programa para crear diagramas UML y diagramas de flujo, ayudando a representar visualmente la arquitectura y los procesos del proyecto.
 
 <p align="center">
-  <img src="./imagenes/staruml.png" alt="StarUML Logo" width="250">
+  <img src="./imagenes/lucidchart-logo.png" alt="ludidchart Logo" width="250">
 </p>
 
 - **Visual Paradigm** Programa para crear diagramas de contexto, de contenedores y la identificación de los Bounded Contexts del proyecto.
@@ -1727,19 +1736,25 @@ En esta reunión de planificación del Sprint 1, el equipo de desarrollo se reun
 | **Sum of Story Points**        |                                                                                                                                                                                                                                     |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
+**Sprint 1**
+| Aspecto del Proyecto | Líder Principal | Colaboradores |
+|----------------------|-----------------|---------------|
+| Frontend (React - Landing Page) |Rodriguez, Sebastian / Linares, Jorge | Todo el equipo |
+| Despliegue de Landing Page (GitHub Pages) | Linares, Jorge | Rodriguez, Sebastian |
+| Documentación Técnica del Sprint (Informe, Diagramas, Diseño) | Todo el equipo | Todo el equipo |
 
 ##### 5.2.1.3. Sprint Backlog 1
 El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page que permita mostrar los aspectos clave del proyecto a los usuarios, garantizando una experiencia de navegación básica y funcionalidades esenciales como la visualización de beneficios, planes de suscripción y reseñas. Para este sprint, el equipo se ha organizado en tareas detalladas, siguiendo las historias de usuario, y se ha asignado el trabajo de forma equitativa para cumplir con los tiempos estimados.
 
-| **Sprint 1**                   |        |                                   |                                                                          |                        |                 |            |
-| ------------------------------ | ------ | --------------------------------- | ------------------------------------------------------------------------ | ---------------------- | --------------- | ---------- |
-| **Work-Item / Task**           |        |                                   |                                                                          |                        |                 |            |
-| **Title**                      | **Id** | **Title**                         | **Description**                                                          | **Estimation (Hours)** | **Assigned to** | **Status** |
-| Navegación                     | W-01   | Implementar Home y Navbar         | Creación de la sección HOME y un navbar funcional.                       | 2                      |      Jorge      | To do      |
-| Beneficios Destacados          | W-02   | Crear sección "Para ti"           | Desarrollar la sección Para ti con beneficios destacados.                | 2                      |    Sebastian    | To do      |
-| Visualización de Reseñas       | W-04   | Crear sección de Reseñas          | Desarrollar una sección de reseñas con testimonios                       | 2                      |     Fabrizio    | To do      |
-| Como funciona la app           | W-04   | Crear sección "Como funciona"      | Desarrollar una sección cómo funciona la app                             | 2                      |     Leonardo    | To do      |
-| Visualización del CTA          | W-03   | Crear sección de CTA y de footer   | Implementar una sección de CTA y footer.                                 | 2                      |    Héctor       | To do      |
+| **Sprint 1**                  |                                |        |                                   |                                                                          |                        |                 |            |
+| ------------------------------| ------------------------------ | ------ | --------------------------------- | ------------------------------------------------------------------------ | ---------------------- | --------------- | ---------- |
+| **User Story**                | **Work-Item / Task**           |        |                                   |                                                                          |                        |                 |            |
+| **ID**                        | **Title**                      | **Id** | **Title**                         | **Description**                                                          | **Estimation (Hours)** | **Assigned to** | **Status** |
+| US-19                    | Navegación                     | W-01   | Implementar Home y Navbar         | Creación de la sección HOME y un navbar funcional.                       | 2                      |      Jorge      | To do      |
+| US-19          | Beneficios Destacados          | W-02   | Crear sección "Para ti"           | Desarrollar la sección Para ti con beneficios destacados.                | 2                      |    Sebastian    | To do      |
+| US-19       | Visualización de Reseñas       | W-04   | Crear sección de Reseñas          | Desarrollar una sección de reseñas con testimonios                       | 2                      |     Fabrizio    | To do      |
+| US-19          | Como funciona la app           | W-04   | Crear sección "Como funciona"      | Desarrollar una sección cómo funciona la app                             | 2                      |     Leonardo    | To do      |
+| US-19         | Visualización del CTA          | W-03   | Crear sección de CTA y de footer   | Implementar una sección de CTA y footer.                                 | 2                      |    Héctor       | To do      |
 
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
@@ -1775,16 +1790,59 @@ Durante este sprint, se ha completado el desarrollo y la documentación de la la
 
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:
+Durante el Sprint 1 se completó exitosamente el despliegue de la landing page desarrollada en **React** utilizando **GitHub Pages**. Este despliegue permite que cualquier usuario pueda acceder y visualizar la versión funcional del producto desde un navegador web sin necesidad de clonar ni ejecutar el repositorio localmente.
 
-1. **Creación del Repositorio en GitHub:** Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.
-2. **Configuración de la Rama main:** Aseguramos que la rama principal del repositorio se llamara `main`, ya que GitHub Pages toma esta rama como base para el despliegue automático.
-3. **Preparación del Contenido:** Desarrollamos y diseñamos nuestra landing page, asegurándonos de que todos los archivos y recursos necesarios estuvieran presentes en el repositorio.
-4. **Generación del Enlace de GitHub Pages:** Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente de GitHub Pages para que tomara el contenido de la rama `main`.
-5. **Despliegue Automático:** GitHub Pages automáticamente detectó los cambios en la rama `main` y desplegó la landing page en la URL proporcionada por GitHub Pages.
+---
+
+### 🛠️ Pasos para el despliegue en GitHub Pages
+
+#### 1. Instalación de la dependencia `gh-pages`
+
+Se instaló la dependencia necesaria para el despliegue usando el siguiente comando:
+
+```bash
+npm install gh-pages --save-dev
+```
+Luego se añadieron los scripts de despliegue dentro del bloque scripts:
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+💡 Reemplaza <usuario> y <nombre-repo> con tu nombre de usuario y nombre del repositorio.
+
+3. Ejecución del despliegue
+Para realizar el despliegue, se ejecutó el siguiente comando:
+
+```bash
+npm run deploy
+```
+Esto genera la carpeta dist/ y sube su contenido a la rama gh-pages.
+<p align="center">
+  <img src="./imagenes/json-deploy.png" alt="json-deploy" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/command-deploy.png" alt="command-deploy" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/deploy-ghpages.png" alt="deploy-ghpages" width="750">
+</p>
+
+LINK DEPLOY LANDING PAGE: https://g-3-open-source.github.io/landing-page/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 Durante el Sprint 1, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave del landing page. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo.
+<p align="center">
+  <img src="./imagenes/contribution-landing.png" alt="contribution" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/ramas-landing.png" alt="ramas-landing" width="750">
+</p>
 
 <hr>
 
