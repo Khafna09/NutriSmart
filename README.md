@@ -1779,6 +1779,13 @@ Para el proceso de creación y programación del software, utilizamos las siguie
 #### 5.1.2. Source Code Management
 El proyecto utiliza Git como sistema de control de versiones distribuido. Para asegurar una gestión eficiente del código fuente, se aplicó la estrategia de ramas conocida como Git Flow, que facilita la colaboración entre desarrolladores, la integración de nuevas funcionalidades y el mantenimiento del código en producción.
 
+| Producto              | Repositorio            | URL                                                                 |
+|-----------------------|------------------------|----------------------------------------------------------------------|
+| Landing Page          | landing-page    |[https://github.com/G-3-Open-Source/landing-page.git](https://github.com/G-3-Open-Source/landing-page.git)                                                                      |
+| Web Services          |     |  |
+| Front Web Application |       |  |
+
+
 **Implementación de Git Flow**
 
 Se definieron las siguientes ramas principales:
@@ -1834,31 +1841,102 @@ Para mantener un historial de cambios limpio y comprensible, se adoptó una conv
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
-Para garantizar una interfaz visual consistente y mantenible, se establecieron las siguientes convenciones de estilo y desarrollo en el frontend de la aplicación:
 
-**Frontend (Angular):**
-- **Framework de diseño**: Se utiliza Tailwind CSS como sistema de utilidades para estilos, lo que permite crear componentes visuales directamente desde la plantilla HTML mediante clases predefinidas, eliminando la necesidad de archivos CSS personalizados extensos.
+Este apartado establece las guías y convenciones adoptadas para el desarrollo de la solución, con el objetivo de asegurar un código consistente, legible, mantenible y alineado con las buenas prácticas de la industria del software. Se aplicarán convenciones estándar ampliamente reconocidas para cada uno de los lenguajes utilizados en el proyecto: HTML, CSS, JavaScript, TypeScript y Java.
 
-- **Estructura de carpetas Angular**: Se sigue una arquitectura basada en módulos, dividiendo la aplicación por funcionalidades. Cada módulo contiene sus propios componentes, servicios y archivos relacionados.
+Todas las nomenclaturas, identificadores y estructuras utilizadas en el código estarán escritas en inglés.
 
-- **Nombres de componentes y clases**:
+#### Referencias adoptadas
 
-1. Componentes en PascalCase: UserProfileComponent, PlanGeneratorComponent.
-2. Archivos con nombre en kebab-case: user-profile.component.ts, plan-generator.component.html.
-3. Clases de Tailwind directamente en los elementos HTML, con consistencia en el orden (layout → spacing → typography → colors → others).
+Las siguientes guías y convenciones servirán como referencia principal durante el desarrollo:
 
+- [Angular Style Guide (oficial)](https://angular.io/guide/styleguide)
+- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- [HTML Style Guide and Coding Conventions - W3Schools](https://www.w3schools.com/html/html5_syntax.asp)
+- [Spring Boot Features](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 
+#### Organización del código
 
-**Backend (Spring Boot):**
-- Convenciones estándar de Java y Spring Boot.
-- Nombres de clases en PascalCase y métodos en camelCase.
-- Uso de anotaciones adecuadas y separación clara de responsabilidades (MVC).
+El proyecto se estructurará en función de responsabilidades y funcionalidades, separando componentes, servicios, modelos, vistas, rutas y configuraciones. Esta organización facilita la escalabilidad del sistema y promueve la reutilización de código, manteniendo una separación clara de responsabilidades (*Separation of Concerns*).
 
+#### Convenciones de nomenclatura
 
+| Elemento                      | Convención Adoptada                        | Ejemplo                          |
+|------------------------------|--------------------------------------------|----------------------------------|
+| Componentes de Angular       | PascalCase + sufijo `Component`            | `UserProfileComponent`           |
+| Servicios de Angular         | PascalCase + sufijo `Service`              | `AuthService`                    |
+| Interfaces (TypeScript)      | PascalCase                                 | `User`, `CourseDetails`          |
+| Archivos TS/HTML/CSS         | kebab-case con sufijos correspondientes    | `user-profile.component.ts`      |
+| Variables / funciones (TS)   | camelCase                                  | `getUserData()`                  |
+| Constantes (TS)              | UPPER_SNAKE_CASE                           | `MAX_LOGIN_ATTEMPTS`             |
+| Clases (Java)                | PascalCase                                 | `UserController`                 |
+| Métodos y variables (Java)   | camelCase                                  | `getUserById()`                  |
+| Paquetes Java                | lowercase con puntos                       | `com.example.project.module`     |
 
-1. **Estructura del Proyecto**: Mantener una estructura clara y consistente para los módulos, componentes y servicios.
-2. **Nombres de Archivos**: Utilizar el formato kebab-case para nombres de archivos y carpetas.
-3. **Servicios**: Seguir el patrón de inyección de dependencias para gestionar servicios y mantener una alta cohesión y bajo acoplamiento.
+#### Convenciones por lenguaje
+
+###### TypeScript
+
+- Tipado estricto y explícito en todas las declaraciones.
+- Uso obligatorio de `let` y `const`; se evita `var`.
+- No se permite lógica compleja en componentes; esta debe delegarse a servicios.
+- Importaciones organizadas en el siguiente orden: Angular, librerías de terceros, módulos internos.
+- Se evita el uso del prefijo `I` para interfaces.
+
+###### JavaScript
+
+- Se sigue el estándar definido por ESLint y Prettier.
+- Uso de funciones puras y modularidad.
+- Variables y funciones nombradas en camelCase.
+- Promoción del uso de `const` y `let`.
+
+###### HTML
+
+- Todas las etiquetas y atributos deben escribirse en minúsculas.
+- Se emplea indentación de 2 espacios por nivel.
+- Los atributos deben estar entre comillas dobles.
+- Se favorece la semántica y accesibilidad del contenido, siguiendo las pautas del estándar HTML5.
+
+###### CSS / SCSS
+
+- Se utiliza la metodología BEM (Block Element Modifier) para la definición de clases.
+
+```css
+.button {}
+.button--primary {}
+.button__icon {}
+```
+
+- Estructura modular de estilos, agrupados por componente.
+
+- Uso de variables SCSS para colores, fuentes y tamaños.
+
+- Están prohibidos los estilos en línea y el uso indiscriminado de !important.
+
+###### JAVA
+- Organización por capas: controller, service, repository, model, etc.
+
+- Uso de anotaciones estándar como `@RestController`, `@Service`, `@Repository`.
+
+- Documentación con Javadoc en clases y métodos públicos.
+
+- Acceso a atributos mediante métodos getter y setter.
+
+- Se sigue el [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+
+##### Internacionalización
+
+Se utiliza el paquete `@ngx-translate/core` para la internacionalización de la interfaz.
+
+Toda cadena visible al usuario se encuentra externalizada en archivos JSON, organizados por idioma.
+
+Las claves de traducción están en mayúsculas y separadas por puntos para reflejar su estructura jerárquica.
+
+```css
+<h1>{{ 'LOGIN.TITLE' | translate }}</h1>
+```
 
 
 #### 5.1.4. Software Deployment Configuration
