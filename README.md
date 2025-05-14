@@ -2048,8 +2048,7 @@ En esta reunión de planificación del Sprint 1, el equipo de desarrollo se reun
 La reunión tuvo lugar de manera virtual a través de Discord, y fue preparada por Paredes, Fabrizio; Ríos, Héctor; Prieto, Leonardo; Rodríguez, Sebastián; y Linares, Jorge.
 
 | **Sprint #**                   | Sprint 1                                                                                                                                                                                                                                          |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background** |                                                                                                                                                                                                                                                   |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  |
 | **Date**                       | 10/04/2025                                                                                                                                                                                                                                        |
 | **Location**                   | El desarrollo de la reunión se realizó virtualmente por medio de Discord                                                                                                                                                                          |
 | **Prepared By**                | Paredes, Fabrizio / Ríos, Héctor / Prieto, Leonardo / Rodriguez, Sebastian / Linares, Jorge                                                                                                                                                       |
@@ -2136,6 +2135,21 @@ Durante este sprint, se ha completado el desarrollo y la documentación de la la
 Durante el Sprint 1 se completó exitosamente el despliegue de la landing page desarrollada en **React** utilizando **GitHub Pages**. Este despliegue permite que cualquier usuario pueda acceder y visualizar la versión funcional del producto desde un navegador web sin necesidad de clonar ni ejecutar el repositorio localmente.
 
 ---
+#### 5.2.2. Sprint 2
+##### 5.2.2.1. Sprint Planning 2
+| **Sprint #**                   | Sprint 2                                                                                                                                                                                                                                          |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                   |
+| **Date**                       | 13/05/2025                                                                                                                                                                                                                                        |
+| **Location**                   | El desarrollo de la reunión se realizó virtualmente por medio de Discord                                                                                                                                                                          |
+| **Prepared By**                | Paredes, Fabrizio / Ríos, Héctor / Prieto, Leonardo / Rodriguez, Sebastian / Linares, Jorge                                                                                                                                                       |
+| **Sprint 2 Review Summary**    | Se ha mejorado varios puntos con respecto al reporte según las observaciones que mencionó el profesor. Además, se creó la primera versión de nuestra landing page.                                                                                |
+| **Sprint 2 Retrospective Summary** | Hubo un correcto progreso, aunque con muchas correcciones por realizar se avanzó como se esperaba. Consideramos que la landing page realizada cumple con lo esperado, sin embargo, hubieron unos detalles faltantes.                      |
+| **Sprint 2 Goal**              | Nuestra prioridad en este sprint es el mejoramiento de la información del reporte y añadir pequeñas adaptaciones a nuestra landing page. Además, implementar la primera versión de la aplicación Front End mediante el uso de CRUDS. Creemos que esto podrá dar una mejor presentación de las funcionalidades que posee nuestra propuesta y dar una mejor idea del diseño. Esto se confirmará cuando los usuarios destinarios puedan interactuar sin problema con la interfaz y generar una buena opinión. |
+| **Sprint 2 Velocity**          |                                                                                                                                                                                                                                                   |
+| **Sum of Story Points**        |                                                                                                                                                                                                                                                   |
+
+
 
 ### 🛠️ Pasos para el despliegue en GitHub Pages
 
