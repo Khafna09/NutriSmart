@@ -1622,43 +1622,43 @@ Se muestra el plan de comidas  y como se puede acceder al menu del día, además
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva1.png" alt="Diapositiva 1" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 1.PNG" alt="Diapositiva 1" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva2.png" alt="Diapositiva 2" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 2.PNG" alt="Diapositiva 2" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva3.png" alt="Diapositiva 3" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 3.PNG" alt="Diapositiva 3" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva4.png" alt="Diapositiva 4" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 4.PNG" alt="Diapositiva 4" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva5.png" alt="Diapositiva 5" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 5.PNG" alt="Diapositiva 5" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva6.png" alt="Diapositiva 6" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 6.PNG" alt="Diapositiva 6" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva7.png" alt="Diapositiva 7" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 7.png" alt="Diapositiva 7" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva8.png" alt="Diapositiva 8" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 8.PNG" alt="Diapositiva 8" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva9.png" alt="Diapositiva 9" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 9.PNG" alt="Diapositiva 9" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva10.png" alt="Diapositiva 10" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 10.PNG" alt="Diapositiva 10" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva11.png" alt="Diapositiva 11" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 11.PNG" alt="Diapositiva 11" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva12.png" alt="Diapositiva 12" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 12.PNG" alt="Diapositiva 12" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/Diapositiva13.png" alt="Diapositiva 12" width="700">
+  <img src="./imagenes/wireframes/Diapositiva 13.PNG" alt="Diapositiva 12" width="700">
 </p>
 
 [Visualizar Wireframes](https://www.figma.com/design/KWitz9XDY9535vAPW8lKwQ/wireframes-open?node-id=0-1&t=h91ByfffqyVCYW4X-1)
