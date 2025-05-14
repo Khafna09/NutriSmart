@@ -731,12 +731,16 @@ El siguiente User Task Matrix presenta las principales tareas que tanto jóvenes
 
 #### 2.3.5. As-is Scenario Mapping
 
+#### Resumen del proceso realizado:
+
+Para construir el escenario As-Is, el equipo identificó los cinco pasos clave que ambos segmentos objetivo (usuarios jóvenes adultos y nutricionistas) atraviesan actualmente sin el uso de la plataforma NutriSmart: registro, recepción del plan, monitoreo, apoyo y celebración de avances.
+
 <p align="center">
-  <img src="./imagenes/As-Is Scenario Mapping User 1.png" alt="As-Is Scenario Map 1" width="700">
+  <img src="./imagenes/As-Is Scenario Map User 1.png" alt="As-Is Scenario Map 1" width="700">
 </p>
 
 <p align="center">
-  <img src="./imagenes/As-Is Scenario Mapping User 2.png" alt="As-Is Scenario Map 2" width="700">
+  <img src="./imagenes/As-Is Scenario Map User 2.png" alt="As-Is Scenario Map 2" width="700">
 </p>
 
 [Visualizar As-Is Scenario Mapping](https://miro.com/app/board/uXjVIALnKsE=/?share_link_id=880694224194)
