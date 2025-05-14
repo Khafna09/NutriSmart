@@ -65,6 +65,15 @@
 Todas las actividades asignadas para la entrega de la TB1 han sido completadas y se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: https://github.com/G-3-Open-Source. En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: https://github.com/G-3-Open-Source/NutriSmart
 Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el trabajo colaborativo.
 
+**Insights Readme**
+<p align="center">
+    <img src="imagenes/insights-readme.png" alt="insights-readme" width="600px"/>
+</p>
+
+**Insights Landing Page**
+<p align="center">
+    <img src="imagenes/insights- landing page.png" alt="insights-landing page" width="600px"/>
+</p>
 
 ## Tabla de Contenidos
 
@@ -695,13 +704,13 @@ El siguiente User Task Matrix presenta las principales tareas que tanto jóvenes
 *Segmento 1: Jóvenes adultos*
 
 <p align="center">
-  <img src="./imagenes/Empathy Map-Usuario 1.png" alt="Empathy Map 1" width="700">
+  <img src="./imagenes/Empathy Map-Usuario 2.png" alt="Empathy Map 2" width="700">
 </p>
 
 *Segmento 2: Nutricionistas*
 
 <p align="center">
-  <img src="./imagenes/Empathy Map-Usuario 2.png" alt="Empathy Map 2" width="700">
+  <img src="./imagenes/Empathy Map-Usuario 1.png" alt="Empathy Map 1" width="700">
 </p>
 
 #### 2.3.5. As-is Scenario Mapping
@@ -764,20 +773,20 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |:---------------|:-------|:------------|:------------------------|:-------------------------|
-| US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis finanzas personales. | Escenario 1: **Given** que soy un nuevo usuario, **When** completo mi información inicial, **Then** la app me mostrará sugerencias alimenticias adaptadas. <br><br> Escenario 2: **Given** que omito algunos datos en el registro inicial, **When** ingreso a la sección de perfil y completo la información faltante, **Then** la app actualizará y personalizará mis sugerencias alimenticias. | EP-01 |
+| US-01 | Registro de Usuario | Como usuario quiero crear un perfil con mis datos personales para recibir recomendaciones personalizadas. | Escenario 1: **Given** que soy un nuevo usuario, **When** completo mi información inicial, **Then** la app me mostrará sugerencias alimenticias adaptadas. <br><br> Escenario 2: **Given** que omito algunos datos en el registro inicial, **When** ingreso a la sección de perfil y completo la información faltante, **Then** la app actualizará y personalizará mis sugerencias alimenticias. | EP-01 |
 | US-02 | Personalización de Objetivos | Como usuario, quiero configurar mis objetivos de salud para recibir sugerencias alineadas a mis metas. | Escenario 1: **Given** que soy un usuario registrado, **When** configuro mis objetivos de salud, **Then** recibiré recomendaciones nutricionales personalizadas. <br><br> Escenario 2: **Given** que mis objetivos de salud cambian con el tiempo, **When** actualizo mis metas en el perfil, **Then** la app me sugerirá nuevos planes alineados automáticamente. | EP-01 |
 | US-03 | Selección de Preferencias Alimenticias | Como usuario, quiero seleccionar mis preferencias alimenticias para recibir sugerencias compatibles. | Escenario 1: **Given** que soy un usuario registrado, **When** selecciono mis preferencias alimenticias, **Then** las recomendaciones se adaptarán a mis gustos. <br><br> Escenario 2: **Given** que cambio mis preferencias alimenticias, **When** actualizo mis opciones en la app, **Then** las sugerencias se recalibrarán automáticamente. | EP-01 |
 | US-04 | Registro de Consumo Diario | Como usuario, quiero registrar mis comidas diarias para llevar un control de mi alimentación. | Escenario 1: **Given** que soy un usuario activo, **When** registro una nueva comida, **Then** la app actualizará mi historial de alimentación. <br><br> Escenario 2: **Given** que me olvido de registrar una comida, **When** ingreso después de un tiempo, **Then** la app me permitirá registrar comidas retroactivas. | EP-01 |
 | US-05 | Visualización de Progreso | Como usuario, quiero visualizar mi progreso nutricional para motivarme a mantener mis hábitos. | Escenario 1: **Given** que he registrado mis consumos, **When** accedo a la sección de progreso, **Then** podré ver estadísticas sobre mi alimentación. <br><br> Escenario 2: **Given** que he tenido días sin registrar comidas, **When** visualizo mi progreso, **Then** el sistema indicará los días sin datos para mantener la precisión. | EP-01 |
-| US-06 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar. | Escenario 1: **Given** que accedo a la landing page, **When** hago scroll a la sección de beneficios, **Then** visualizo tarjetas con los puntos destacados. | EP-05 |
+| US-06 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar. | Escenario 1: **Given** que accedo a la landing page, **When** hago scroll a la sección de beneficios, **Then** visualizo tarjetas con los puntos destacados. | EP-12 |
 | US-07 | Ajuste de Plan Nutricional | Como usuario, quiero ajustar mi plan nutricional si cambian mis necesidades o preferencias. | Escenario 1: **Given** que detecto cambios en mis necesidades, **When** solicito un ajuste, **Then** la app recalculará mis recomendaciones. <br><br> Escenario 2: **Given** que mi historial muestra inconsistencias, **When** pido actualizar el plan, **Then** la app me guiará para ajustar objetivos y preferencias. | EP-02 |
-| US-08 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios para confiar en la app. | Escenario 1: **Given** que llegó a la sección de testimonios, **When** visualizó las citas de usuarios, **Then** puedo ver nombre, foto y experiencia de cada uno. | EP-02 |
-| US-09 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page se vea bien en cualquier dispositivo para poder explorarla cómodamente. | Escenario 1: **Given** que accedo desde un dispositivo móvil, **When** cargo la landing, **Then** el diseño se adapta correctamente. <br><br> Escenario 2: **Given** que accedo desde una computadora, **When** navego la landing, **Then** los elementos se ajustan al tamaño de pantalla. | EP-09 |
-| US-10 | Conocer la propuesta de valor | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia. | Escenario 1: **Given** que ingreso a la landing, **When** visualizo la parte superior, **Then** leo un título claro y un subtítulo explicativo. | EP-03 |
-| US-11 | Navegar por los beneficios principales | Como visitante, quiero navegar fácilmente por la sección de beneficios para conocer todas las ventajas. | Escenario 1: **Given** que hago scroll en la página, **When** paso por cada bloque de beneficios, **Then** veo textos e imágenes que explican las funcionalidades. | EP-04 |
-| US-12 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones de la landing para explorar el contenido rápidamente | Escenario 1: **Given** que hago clic en un enlace del menú superior, **When** este se refiere a una sección de la misma página, **Then** soy dirigido automáticamente a dicha sección. | EP-03 |
-| US-13 | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior para empezar a usar la app. | Escenario 1: **Given** que hago clic en el botón "Iniciar sesión", **When** este me redirige, **Then** llego a la página de login. <br><br> Escenario 2: **Given** que hago clic en "Registrarse", **When** este me redirige, **Then** llego al formulario de registro. | EP-03 |
-| US-14 | Navegar desde el footer | Como visitante, quiero que los enlaces del pie de página funcionen correctamente para poder acceder a información adicional sobre la app. | Escenario 1: **Given** que hago clic en un enlace del footer, **When** este está correctamente configurado, **Then** soy redirigido a la sección o página correspondiente (por ejemplo, "Política de privacidad", "Contacto", etc.). | EP-03 |
+| US-08 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios para confiar en la app. | Escenario 1: **Given** que llegó a la sección de testimonios, **When** visualizó las citas de usuarios, **Then** puedo ver nombre, foto y experiencia de cada uno. | EP-12 |
+| US-09 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page se vea bien en cualquier dispositivo para poder explorarla cómodamente. | Escenario 1: **Given** que accedo desde un dispositivo móvil, **When** cargo la landing, **Then** el diseño se adapta correctamente. <br><br> Escenario 2: **Given** que accedo desde una computadora, **When** navego la landing, **Then** los elementos se ajustan al tamaño de pantalla. | EP-13 |
+| US-10 | Conocer la propuesta de valor | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia. | Escenario 1: **Given** que ingreso a la landing, **When** visualizo la parte superior, **Then** leo un título claro y un subtítulo explicativo. | EP-12 |
+| US-11 | Navegar por los beneficios principales | Como visitante, quiero navegar fácilmente por la sección de beneficios para conocer todas las ventajas. | Escenario 1: **Given** que hago scroll en la página, **When** paso por cada bloque de beneficios, **Then** veo textos e imágenes que explican las funcionalidades. | EP-12 |
+| US-12 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones de la landing para explorar el contenido rápidamente | Escenario 1: **Given** que hago clic en un enlace del menú superior, **When** este se refiere a una sección de la misma página, **Then** soy dirigido automáticamente a dicha sección. | EP-12 |
+| US-13 | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior para empezar a usar la app. | Escenario 1: **Given** que hago clic en el botón "Iniciar sesión", **When** este me redirige, **Then** llego a la página de login. <br><br> Escenario 2: **Given** que hago clic en "Registrarse", **When** este me redirige, **Then** llego al formulario de registro. | EP-14 |
+| US-14 | Navegar desde el footer | Como visitante, quiero que los enlaces del pie de página funcionen correctamente para poder acceder a información adicional sobre la app. | Escenario 1: **Given** que hago clic en un enlace del footer, **When** este está correctamente configurado, **Then** soy redirigido a la sección o página correspondiente (por ejemplo, "Política de privacidad", "Contacto", etc.). | EP-12 |
 | US-15 | Envío de Sugerencias Semanales | Como usuario, quiero recibir sugerencias semanales de menús adaptados a mis objetivos. | Escenario 1: **Given** que estoy suscrito a las notificaciones, **When** inicia una nueva semana, **Then** recibiré un resumen con menús sugeridos. <br><br> Escenario 2: **Given** que mis objetivos cambian, **When** actualizo mi perfil, **Then** las próximas sugerencias reflejarán esos cambios. | EP-03 |
 | US-16 | Alertas de Alimentos No Recomendados | Como usuario, quiero recibir alertas si registro alimentos no recomendados según mi perfil. | Escenario 1: **Given** que registro un alimento restringido, **When** lo agrego a mi consumo, **Then** la app me alertará del posible conflicto. <br><br> Escenario 2: **Given** que ignoro una alerta, **When** persista la situación, **Then** la app me sugerirá alternativas saludables. | EP-05 |
 | US-17 | Exportación de Datos | Como usuario, quiero exportar mis datos de progreso para respaldo o análisis externo. | Escenario 1: **Given** que tengo suficiente historial, **When** solicito exportarlo, **Then** recibiré un archivo descargable. <br><br> Escenario 2: **Given** que configuro exportaciones automáticas, **When** lleguen los plazos definidos, **Then** la app enviará los datos sin intervención manual. | EP-06 |
@@ -922,25 +931,24 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 
 | Story ID | Título                          |
 |----------|----------------------------------|
-| US-19    | Conocer la propuesta de valor |
-| US-19    | Navegar entre secciones desde la barra |
-| US-19    | Ver resumen de beneficios |
-| US-19    | Navegar por los beneficios principales |
-| US-19    | Visualizar testimonios |
-| US-19    | Navegar desde el footer |
+| US-10   | Conocer la propuesta de valor |
+| US-12    | Navegar entre secciones desde la barra |
+| US-06    | Ver resumen de beneficios |
+| US-11    | Navegar por los beneficios principales |
+| US-08    | Visualizar testimonios |
+| US-14    | Navegar desde el footer |
 
 #### Épica 13: Diseño Responsivo y Experiencia Multidispositivo
 
 | Story ID | Título                          |
 |----------|----------------------------------|
-| US-19    | Acceder desde distintos dispositivos |
+| US-09    | Acceder desde distintos dispositivos |
 
 #### Épica 14: Accesos a Plataforma (Login / Registro)
 
 | Story ID | Título                          |
 |----------|----------------------------------|
-| US-19    | Acceder al registro o inicio de sesión |
-| US-19    | Acceder al registro o inicio de sesión |
+| US-13    | Acceder al registro o inicio de sesión |
 
 ### 3.3. Impact Mapping
 
@@ -1969,7 +1977,7 @@ LINK DEPLOY LANDING PAGE: https://g-3-open-source.github.io/landing-page/
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 Durante el Sprint 1, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave del landing page. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo.
 <p align="center">
-  <img src="./imagenes/contribution-landing.png" alt="contribution" width="750">
+  <img src="./imagenes/contribuidores img.png" alt="contribution" width="750">
 </p>
 
 <p align="center">
@@ -1988,6 +1996,12 @@ Durante el Sprint 1, el equipo de desarrollo trabajó de manera colaborativa par
 
 ## Bibliografía
 
+Ministerio de Salud. (2023, 15 de mayo). Minsa: Nutricionistas advierten que 7 de cada 10 peruanos sufre de exceso de peso. Gobierno del Perú. https://www.gob.pe/institucion/minsa/noticias/720469-minsa-nutricionistas-advierten-que-7-de-cada-10-peruanos-sufre-de-exceso-de-peso
+
+Gómez Vega, R. (2024, 7 de octubre). La otra cara de la exitosa comida peruana. El País. https://elpais.com/america/2024-10-07/la-otra-cara-de-la-exitosa-comida-peruana.html%E2%80%8B
+
 <hr>
 
 ## Anexos
+
+- Deployment Landing: [Landing Deployment](https://g-3-open-source.github.io/landing-page/)
