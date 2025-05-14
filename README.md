@@ -248,120 +248,118 @@ NutriSmart es una plataforma web que permite a los usuarios crear planes de comi
 
 #### 1.2.1. Antecedentes y problemática
 **What**  
-¿Cuál es el problema? 
-- La falta de personalización auténtica en las herramientas de planificación nutricional genera planes genéricos que no consideran las condiciones de salud, preferencias ni el contexto de vida de los usuarios, lo que provoca baja adherencia, frustración y abandono de los hábitos saludables, lo que indirectamente contribuye al aumento de una cultura no saludable en la aliemtnación y provocando aún más problemas en la salud.
-
-¿Cuál es la relación con la persona en cuestión?  
-- NutriSmart está diseñada exactamente para este perfil: desde quienes buscan bajar de peso o ganar masa muscular hasta pacientes con condiciones crónicas. Profesionales de la nutrición y la salud pueden incorporarla como un recurso adicional para diseñar y monitorizar dietas personalizadas, mejorando la adherencia de sus pacientes.  
+- El problema radica en que las herramientas actuales de planificación de comidas generan planes genéricos que no contemplan las condiciones de salud, las preferencias personales ni el contexto de vida de cada usuario, lo cual desemboca en una baja adherencia, frustración y eventual abandono de los hábitos saludables. 
 
 **When**  
-¿Cuándo sucede el problema?  
-- El reto de planificar comidas personalizadas surge de forma continua, pero se agudiza en etapas clave: tras un diagnóstico médico (por ejemplo, diabetes o hipertensión), al iniciar un programa de pérdida o ganancia de peso, y después de la pandemia, debido al aumento de la conciencia sobre la salud y la necesidad de herramientas remotas de autocuidado.  
-
-¿Cuándo utiliza el cliente el producto?  
-- Diariamente, al elaborar la lista de la compra o decidir el menú de la semana; y en momentos puntuales de reajuste cuando varían sus objetivos, cambian hábitos o aparecen nuevas restricciones alimenticias.  
+ 
+- La falta de personalización es un reto constante, pero se intensifica en momentos clave: tras un diagnóstico médico (por ejemplo, diabetes o hipertensión), al iniciar procesos de pérdida o ganancia de peso, y especialmente posterior a la pandemia, cuando la demanda de soluciones remotas de autocuidado y seguimiento nutricional creció significativamente.
 
 **Where**  
-¿Dónde está el cliente cuando usa el producto?  
-- En casa, planificando las comidas semanales desde el computador o el móvil; en el supermercado, consultando sustitutos adecuados según su plan; o en consulta con su nutriólogo, compartiendo y revisando los menús propuestos.  
+
+- Este problema emerge en la rutina diaria de las personas: al planificar la lista de compras, cuando cocinan en casa o durante las consultas nutricionales. Asimismo, se siente con fuerza en los entornos clínicos, donde los profesionales deben adaptar dietas sin un sistema que integre datos en tiempo real ni las preferencias culturales o económicas de sus pacientes..  
 
 ¿Dónde surge el problema?  
 - En la rutina cotidiana de cada persona: al cocinar, hacer la compra o acudir a citas médicas, se percibe la falta de una guía clara y ajustada a necesidades cambiantes.  
 
 **Who**  
-¿Quiénes se ven involucrados en el problema?  
-- Usuarios con objetivos personales de salud (control de peso, fuerza muscular, mejora del rendimiento deportivo) o personas con restricciones médicas (diabetes, hipertensión, enfermedades cardiovasculares, intolerancias o alergias) y profesionales de la salud (nutriólogos, dietistas, médicos) que buscan optimizar el seguimiento de sus pacientes.  
+- Se ven afectados principalmente dos grupos: por un lado, los usuarios finales, que pueden ser personas con objetivos de salud (pérdida de peso, ganancia muscular, mejora del rendimiento) o con restricciones médicas (diabetes, hipertensión, alergias e intolerancias); y, por otro, los profesionales de la salud (nutriólogos, dietistas y médicos), quienes carecen de una herramienta ágil y versátil para diseñar y monitorear dietas realmente personalizadas. 
 
 **Why**  
-¿Cuáles son las causas del problema?  
-- Las apps existentes tienden a ofrecer plantillas estándar sin adaptar porciones ni considerar comorbilidades; hay falta de integración de datos biométricos y de preferencias reales del usuario; y existe escaso uso de algoritmos inteligentes para sugerir sustituciones o ajustar menús en tiempo real.  
+
+- Este problema existe porque las aplicaciones actuales se basan en plantillas estándar, no adaptan las porciones ni consideren comorbilidades; además, adolecen de una integración de datos biométricos (peso, talla, exámenes clínicos) y de un registro real de los hábitos y preferencias de cada usuario, y sólo usan de manera limitada algoritmos que puedan ajustar automáticamente los menús conforme cambian las necesidades. 
 
 **How**  
-¿En qué condiciones los clientes usan nuestro producto?  
-- Con conexión a Internet, desde dispositivos móviles o escritorio, tras completar un perfil detallado (edad, peso, altura, objetivos, alergias, hábitos alimenticios y datos clínicos relevantes) e interactuando con un sistema de recomendaciones inteligentes que actualiza las propuestas según la evolución de sus métricas y feedback diario.  
+
+- Los usuarios terminan empleando sistemas rígidos que generan menús inadecuados, lo que desincentiva el seguimiento sostenido. Por su parte, los profesionales de la salud deben recurrir a hojas de cálculo o notas manuales, careciendo de un flujo de información automatizado que facilite la actualización de los planes de alimentación según la evolución de sus pacientes..  
 
 **How much**  
-- En el Perú, el exceso de peso es una crisis de salud pública:  
-Según la Encuesta Demográfica y de Salud Familiar 2021, el 36,9 % de las personas de 15 años a más presenta sobrepeso y el 25,8 % sufre obesidad, lo que equivale a unos 15 millones de peruanos (62 % de la población adulta) afectados por estas condiciones. La aplicación está diseñada para poder llevar una alimentación saludable de la manera más cómoda posible y así fomentar la adherencia a este tipos de dietas y uso de la aplicación.
+- En el Perú, el exceso de peso es un problema de salud pública de gran magnitud: según la Encuesta Demográfica y de Salud Familiar ENDES 2021, el 62.7 % de las personas de 15 años o más presentan exceso de peso, de las cuales el 36.9 % tiene sobrepeso y el 25.8 % obesidad, lo que equivale a aproximadamente 15 millones de peruanos afectados
 
 #### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-Nuestro servicio ofrece una plataforma para que personas con metas de salud o restricciones alimenticias y profesionales de la salud creen planes de alimentación personalizados. Buscamos facilitar el acceso a una nutrición adaptada a cada usuario.
+Nuestro servicio de plataforma de planes de alimentación personalizados fue diseñado para ayudar a personas con metas de salud y restricciones dietéticas, así como a profesionales de la salud, a crear y gestionar dietas individualizadas.
 
-Hemos observado que muchos usuarios perciben que los planes alimenticios ofrecidos no se ajustan realmente a sus necesidades específicas, lo que reduce la adherencia y el uso continuo de la plataforma contribuyendo a ocasionar una mala salud.
+Hemos observado que muchos usuarios consideran que los planes ofrecidos no se ajustan realmente a sus necesidades específicas, lo cual está provocando baja adherencia al seguimiento de la dieta, disminución en la frecuencia de uso de la plataforma y, en última instancia, un impacto negativo en su estado de salud.
 
-¿Cómo podríamos mejorar la personalización de los planes alimenticios para que los usuarios se sientan comprendidos y motivados a seguir sus objetivos de salud?
+¿Cómo podríamos abordar estos problemas en los planes alimenticios para que los usuarios puedan mejorar su adherencia a este tipo de planes y estilos de vida?
 
 #### 1.2.2.2. Lean UX Assumptions
 
 **Assumptions Worksheet**
 
-**¿Quién es el usuario?**
-El usuario de NutriSmart es cualquier persona interesada en mejorar su alimentación y bienestar a través de una dieta personalizada. Este grupo incluye desde jóvenes que desean adquirir hábitos saludables, adultos que buscan alcanzar objetivos específicos como bajar de peso o ganar masa muscular, hasta personas con condiciones médicas que requieren una alimentación controlada, como diabetes, hipertensión o intolerancias alimentarias. Además, NutriSmart también está pensado para profesionales de la salud como nutricionistas que necesitan herramientas para diseñar y monitorear planes alimenticios adaptados a sus pacientes.
+### Supuestos del Negocio – NutriSmart
 
-**¿Qué problemas busca resolver nuestro producto?**
-NutriSmart busca resolver la dificultad que tienen muchas personas para planificar sus comidas de manera efectiva y alineada con sus necesidades personales. Muchas veces, los planes nutricionales son genéricos y no consideran restricciones, preferencias o metas individuales, lo que disminuye la motivación y la adherencia a una dieta. NutriSmart resuelve estos problemas brindando una plataforma automatizada, amigable y personalizada que genera planes alimenticios ajustados a cada usuario.
+1. **Creo que mis clientes tienen la necesidad de:**  
+   Contar con planes de alimentación realmente personalizados que consideren sus objetivos de salud, preferencias, restricciones médicas, contexto cultural y estilo de vida, para mejorar su bienestar y adherencia a hábitos saludables.
 
-**¿Qué características son importantes?**
-Entre las características clave de NutriSmart se encuentran la generación automática de planes de comida personalizados, la inclusión de objetivos de salud y preferencias alimenticias, así como la gestión de excepciones o restricciones. También es importante que la interfaz sea sencilla e intuitiva, permitiendo a los usuarios modificar sus planes, hacer seguimiento de su progreso.
+2. **Estas necesidades pueden resolverse con:**  
+   NutriSmart, una plataforma web inteligente y amigable que genera, adapta y hace seguimiento de planes de comida personalizados, integrando datos biométricos, preferencias y restricciones, y ofreciendo análisis y recordatorios.
 
-**¿Dónde encaja nuestro producto en su trabajo o vida?**
-NutriSmart se integra de forma natural en la vida cotidiana del usuario al facilitarle la planificación alimentaria y la toma de decisiones respecto a su dieta. Puede ser utilizado al comenzar el día para revisar el menú sugerido, al momento de hacer compras para elegir los alimentos recomendados, o incluso al cocinar, para seguir una receta dentro del plan nutricional sea por uno mismo o recomendado por algún profesional.
+3. **Mis clientes iniciales son (o serán):**  
+   - Usuarios finales: Jóvenes y adultos peruanos que quieren adquirir hábitos saludables, bajar de peso, ganar masa muscular o controlar condiciones médicas (diabetes, hipertensión, alergias e intolerancias).  
+   - Profesionales de la salud: Nutricionistas, dietistas y médicos que necesitan herramientas digitales para diseñar, monitorear y ajustar dietas de forma más eficiente.
 
-**¿Cuándo y cómo es usado nuestro producto?**
-NutriSmart es utilizado de manera diaria, tanto al inicio del día para revisar el plan de comidas, como en momentos clave como la preparación de alimentos o la planificación de compras semanales. El acceso a la plataforma se da principalmente a través de navegadores web en computadoras, laptops o dispositivos móviles.
+4. **El principal valor que un cliente quiere obtener de mi servicio es:**  
+   Personalización real de su dieta diaria según sus metas, gustos y restricciones.  
+   **También pueden obtener estos beneficios adicionales:**  
+   Educación alimentaria, ahorro de tiempo en la planificación, recordatorios, recomendaciones de recetas y seguimiento de progreso.
 
-**¿Cómo debe verse nuestro producto y cómo comportarse?**
-NutriSmart debe presentar una apariencia moderna, amigable y profesional, con un diseño limpio y bien organizado que transmita confianza y facilidad de uso. La interfaz debe ser responsiva, adaptándose bien a distintos dispositivos, y debe facilitar una navegación fluida.
+5. **Adquiriré la mayoría de mis clientes a través de:**  
+   - Marketing digital en redes sociales (contenido educativo, tips de nutrición).  
+   - Alianzas y recomendaciones de profesionales de la salud (consultorios, clínicas).  
+   - Colaboraciones con influencers del ámbito fitness y bienestar.
 
-**¿Qué creen que necesitan nuestros clientes?**  
-**"Mis clientes necesitan...**  
-Una forma práctica y personalizada de mejorar su alimentación."
+6. **Ganaré dinero mediante:**  
+   - Modelo freemium: acceso gratuito a funciones básicas.  
+   - Suscripciones mensuales premium para acceso a análisis detallados, integración de datos biométricos y funciones avanzadas.  
+   - Alianzas con centros de salud y nutricionistas (paquetes institucionales).
 
-**¿Cómo podemos resolver estas necesidades?**  
-**"Estas necesidades se pueden resolver con...**  
-Una plataforma que genere planes nutricionales adaptados a cada usuario."
+7. **Mi principal competencia en el mercado será:**  
+   Otras apps de nutrición o control de calorías genéricas, plantillas de dietas en línea y métodos tradicionales de consulta.  
+   **Superaremos a la competencia debido a:**  
+   Nuestro enfoque en personalización profunda, adaptada al contexto local peruano, y a la integración de datos clínicos y preferencias culturales.
 
-**¿Quiénes son nuestros clientes iniciales?**  
-**"Mis clientes iniciales son (o serán)...**  
-Personas con metas de salud específicas, como bajar de peso, mejorar su condición médica o adquirir buenos hábitos alimenticios."
+8. **El mayor riesgo de mi producto es:**  
+   Que los usuarios no perciban la plataforma como suficientemente diferenciada o no logren adherirse al plan.  
+   **Lo resolveremos mediante:**  
+   Actualizaciones continuas del algoritmo, test A/B, encuestas de satisfacción y canal de feedback directo.
 
-**¿Qué valor buscan los clientes?**  
-**"El valor #1 que un cliente quiere de mi servicio es...**  
-La personalización real de una dieta diaria según objetivos, gustos y restricciones."
+9. **Otras suposiciones que, si se demuestran falsas, harán que nuestro negocio fracase:**  
+   - Que los usuarios estén dispuestos a pagar por planes personalizados.  
+   - Que los profesionales de la salud adopten herramientas digitales en su práctica.  
+   - Que la cultura local valore (y pague por) soluciones tecnológicas de nutrición.
 
-**¿Qué beneficios adicionales pueden obtener los clientes?**  
-**"El cliente también puede obtener estos beneficios adicionales...**  
-Educación alimentaria, seguimiento del progreso, recordatorios y recomendaciones de recetas."
 
-**¿Cómo vamos a adquirir clientes?**  
-**"Voy a adquirir la mayoría de mis clientes a través de...**  
-Redes sociales, recomendaciones de profesionales de salud y marketing digital."
+### Supuestos del Cliente – NutriSmart
 
-**¿Cómo generamos ingresos?**  
-**"Haré dinero a través de...**  
-Suscripciones mensuales premium y alianzas con centros de salud o nutricionistas."
+1. **¿Quién es el cliente?**  
+   Personas peruanas (jóvenes y adultos) interesadas en mejorar su alimentación y salud—incluyendo quienes buscan bajar de peso, ganar masa muscular o controlar enfermedades—y profesionales de la salud (nutricionistas, dietistas, médicos).
 
-**¿Quiénes son nuestros competidores?**  
-**"Mi competencia principal en el mercado será...**  
-Otras apps de nutrición similares o de control de calorías."
+2. **¿Dónde encaja nuestro producto en su vida?**  
+   En su rutina diaria: al comenzar el día para revisar el menú sugerido, al planificar la lista de compras, al cocinar siguiendo recetas del plan, y en las consultas con profesionales para ajustar dietas.
 
-**¿Por qué vamos a vencer a la competencia?**  
-**"Los venceremos debido a...**  
-La capacidad de adaptación precisa a las condiciones médicas y preferencias del usuario."
+3. **¿Qué problemas soluciona nuestro producto?**  
+   - Planes genéricos que no consideran restricciones, preferencias ni comorbilidades.  
+   - Baja motivación y adherencia por falta de contexto.  
+   - Dificultad para ajustar dietas según el progreso o exámenes clínicos.  
+   - Ausencia de una herramienta ágil para profesionales que diseñan dietas.
 
-**¿Cuál es el mayor riesgo de producto?**  
-**"Mi mayor riesgo de producto es...**  
-Que los usuarios no sientan que el plan es lo suficientemente personalizado o útil."
+4. **¿Cuándo y cómo se utiliza nuestro producto?**  
+   - Uso diario: revisar plan al iniciar el día, registrar alimentos y progreso.  
+   - Semanal o mensual: ajustar objetivos y compras.  
+   - Acceso vía navegador en computadora o dispositivo móvil, cuando planifican comidas o ingresan datos biométricos.
 
-**¿Cómo resolveremos el riesgo?**  
-**"Resolveremos esto a través de...**  
-Mejoras constantes en el algoritmo y feedback continuo de los usuarios."
+5. **¿Qué características son importantes?**  
+   - Generación automática de planes personalizados.  
+   - Inclusión de objetivos de salud, preferencias y restricciones.  
+   - Gestión de excepciones (alergias, intolerancias).  
+   - Interfaz sencilla e intuitiva con recordatorios, reportes y recomendaciones de recetas.
 
-**¿Qué otras suposiciones tenemos?**  
-**"¿Suponemos que los usuarios están dispuestos a pagar por planes personalizados?**  
-Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilidad del producto."
+6. **¿Cómo debe verse y comportarse nuestro producto?**  
+   - Con un diseño moderno, limpio y profesional que transmita confianza.  
+   - Responsive, con navegación fluida en distintos dispositivos.  
+   - Feedback claro (gráficos de progreso, alertas), y opción de modificar planes con un par de clics.
 
 **Lean & Hypothesis - Driven Development**
 
@@ -382,6 +380,24 @@ Sí, afectaría directamente la viabilidad del modelo freemium y la sostenibilid
 **3ra Hipótesis**  
 **Creemos que** integrar recordatorios diarios y consejos personalizados aumentará el uso frecuente de la aplicación.  
 **Sabremos que estamos teniendo éxito cuando** veamos que el número de sesiones activas por usuario aumente en un 30% en el primer mes tras activar los recordatorios personalizados.
+
+---
+
+**4ta Hipótesis**  
+**Creemos que**  ofrecer una experiencia de registro simple y guiada, incluyendo objetivos, restricciones y preferencias alimenticias, mejorará la tasa de finalización del onboarding.  
+**Sabremos que estamos teniendo éxito cuando** al menos el 75% de los nuevos usuarios completen el proceso de registro y generen su primer plan en menos de 10 minutos.
+
+---
+
+**5ta Hipótesis**  
+**Creemos que**  ofrecer una versión gratuita con funcionalidades básicas incentivará la prueba de la plataforma y facilitará la conversión a planes premium.  
+**Sabremos que esto es cierto cuando** al menos el 10% de los usuarios activos en la versión gratuita se conviertan a usuarios premium dentro de los primeros 30 días.
+
+---
+
+**6ta Hipótesis**  
+**Creemos que** una interfaz moderna, intuitiva y responsive aumentará la satisfacción del usuario y disminuirá la fricción en el uso diario.  
+**Sabremos que esto es cierto cuando** logremos una puntuación promedio de al menos 4/5 en encuestas de experiencia de usuario en el primer mes de uso.
 
 #### 1.2.2.4. Lean UX Canvas
 <p align="center">
@@ -1543,76 +1559,164 @@ Mobile:
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes.
+A continuación se muestra la sección de los wireframes que muestran el registro, siguiendo eun orden que ocmienza en la página de bienvenida que leugo lleva hacia el posible inicio de sesión o registro, en caso del registro la personalziación de objetivos y restricciones médicas.
 <p align="center">
-  <img src="./imagenes/wireframes/wireframe1.png" alt="Context Diagram" width="700">
+  <img src="./imagenes/wireframes/wireframe1.png" alt="Context Diagram" width="800">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/wireframe2.png" alt="Context Diagram" width="700">
+  <img src="./imagenes/wireframes/wireframe2.png" alt="Context Diagram" width="800">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/wireframe3.png" alt="Context Diagram" width="700">
+  <img src="./imagenes/wireframes/wireframe3.png" alt="Context Diagram" width="500">
 </p>
+
+
+Se muestra la sección de como el usuario ingresa desde la pantalla principal a registrar su comida del día.
+
 <p align="center">
-  <img src="./imagenes/wireframes/wireframe4.png" alt="Context Diagram" width="700">
+  <img src="./imagenes/wireframes/wireframe4.png" alt="Context Diagram" width="800">
+</p>
+
+Meidante el acceso a una de las opciones princiaples se accede a los reocrdatorios donde el usuario podrá establer sus recordatorios de comida con opción escribir una nota.
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe5.png" alt="Context Diagram" width="800">
+</p>
+
+Accediendo a la opción de sugerencias se meustran tips diuarios reocmendados a las comidas del día de hoy donde le usuario puede informarse.
+
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe6.png" alt="Context Diagram" width="800">
+</p>
+
+Esta opción "snack del día" muestra dos opciones de snack que se puede elegir de manera diaria, todo acomodado según  los objetivos personalziados.
+
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe7.png" alt="Context Diagram" width="800">
+</p>
+
+A continuación se muestran las opciones del perfil de usuario al cual se accede al presionar en el nombre en la pantalla de inicio. Donde se podran configurar de nuevo los datos, horario, ritmo del plan, gestión de restricciones médicas, días libres, etc.
+
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe8.png" alt="Context Diagram" width="800">
+</p>
+
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe9.png" alt="Context Diagram" width="800">
+</p>
+
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe10.png" alt="Context Diagram" width="800">
+</p>
+
+Se muestran las pantalla para las preferencias alimenticias y el progreso actual del usuario.
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe11.png" alt="Context Diagram" width="800">
+</p>
+
+Se muestra el plan de comidas  y como se puede acceder al menu del día, además de mostrar el progreso semanal ode resetear el plan de comidas semanal. Además, al acceder a cada día se muestra las comidas y una opción para generar un nuevo plato.
+<p align="center">
+  <img src="./imagenes/wireframes/wireframe12.png" alt="Context Diagram" width="800">
+</p><p align="center">
+  <img src="./imagenes/wireframes/wireframe13.png" alt="Context Diagram" width="800">
 </p>
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 <p align="center">
-  <img src="./imagenes/wireframes/wflows1.png" alt="Context Diagram" width="700">
+  <img src="./imagenes/wireframes/Diapositiva1.png" alt="Diapositiva 1" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/wflows2.png" alt="Context Diagram" width="700">
+  <img src="./imagenes/wireframes/Diapositiva2.png" alt="Diapositiva 2" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/wflows3.png" alt="Context Diagram" width="700">
+  <img src="./imagenes/wireframes/Diapositiva3.png" alt="Diapositiva 3" width="700">
 </p>
 <p align="center">
-  <img src="./imagenes/wireframes/wflows4.png" alt="Context Diagram" width="700">
+  <img src="./imagenes/wireframes/Diapositiva4.png" alt="Diapositiva 4" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/Diapositiva5.png" alt="Diapositiva 5" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/Diapositiva6.png" alt="Diapositiva 6" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/Diapositiva7.png" alt="Diapositiva 7" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/Diapositiva8.png" alt="Diapositiva 8" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/Diapositiva9.png" alt="Diapositiva 9" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/Diapositiva10.png" alt="Diapositiva 10" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/Diapositiva11.png" alt="Diapositiva 11" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/Diapositiva12.png" alt="Diapositiva 12" width="700">
+</p>
+<p align="center">
+  <img src="./imagenes/wireframes/Diapositiva13.png" alt="Diapositiva 12" width="700">
 </p>
 
+[Visualizar Wireframes](https://www.figma.com/design/KWitz9XDY9535vAPW8lKwQ/wireframes-open?node-id=0-1&t=h91ByfffqyVCYW4X-1)
 
 #### 4.4.3. Web Applications Mock-ups
-| Pantalla de comienzo      | Registro o inicio de sesion |
-|-----------------|------------|
-| Esta es la pantalla de inicio que se muestra luego de instalar la app.| A continuación se visualiza la pantalla de registro o inicio de sesión, según sea el caso. |
-| <img src="./imagenes/mockups/start screen.png" height="500">| <img src="./imagenes/mockups/login and registration screen.png" height="500">|
+Se comienza con la pantalla de bienvenida donde nos da el inicio del proceso. Luego nos redirige a un apartado para iniciar sesió o registrarnos, en caso de tneer una cuenta ingresamos.
+<p align="center">
+  <img src="./imagenes/mockups/mockups1.png" alt="Context Diagram" width="850">
+</p>
+En caso de registro, ingresamos nuestros datos y posteriormente se nos pedirá mayor información para comenzar con el proceso de personalización, donde se definirán nuestro objetivos, preferencias y restricciones dentro del progrmaa que deseamos seguir
+<p align="center">
+  <img src="./imagenes/mockups/mockups2.png" alt="Context Diagram" width="850">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/mockups3.png" alt="Context Diagram" width="850">
+</p>
+
+En caso quisieramos personalizar aún más, tenemos más opciones dentro del perfil de usuario.
+<p align="center">
+  <img src="./imagenes/mockups/mockups4.png" alt="Context Diagram" width="850">
+</p>
+Existen las opciones como "Días libres" que permite no aplicar l plan en días que escojamos, "Ritmo deseado" que adpata el ritmo del paln según los objetivo configurados, "Gestión médica y alimetaria" donde se configuran restricciones médicas, estilo de comer, etc, y una opción para personalizar un horario de las comidas con sus recordatorios específicos.
+<p align="center">
+  <img src="./imagenes/mockups/mockups5.png" alt="Context Diagram" width="850">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/mockups6.png" alt="Context Diagram" width="850">
+</p>
 
 
-En el caso del registro se siguen los siguientes pasos: 
-| Datos personales    | Objetivos  | Restricciones |  Preferencias alimenticias                                       |
-|---------|-----------|-----------|-------------|
-| Se registran sus datos como correo, nombre, edad, talla, peso, etc.    | Luego se escogen los objetivos que se planean alcanzar.                   | Seguidamente se establecen restricciones en la dieta.                  | Finalmente se eligen preferencias alimenticias.                        |
-| <img src="./imagenes/mockups/register 1.png" height="500"> | <img src="./imagenes/mockups/register 2.png" height="500"> | <img src="./imagenes/mockups/register 3.png" height="500">  | <img src="./imagenes/mockups/register 4.png" height="500"> |
-
-Luego del registro se redirigen a un pantalla de inicio desde donde se podera acceder a las capacidades de la aplicación
-
-| Pantalla de inicio | Perfil de usuario | Customizar horario | Gestión médica y alimenticia | Ritmo del plan | Días libres |
-|--------------------|-------------------|---------------------|------------------------------|----------------|-------------|
-| Pantalla donde el usuario puede navegar hacia todas las funciones. | Se encuentran todos los datos registrados del usuario con opción a modificar. | Estableces las horas de las comidas. | Se agregan posibles restricciones o condiciones médicas y la preferencia alimenticia. | Escoges el ritmo de cómo seguirás el plan. | Escoges los días en los que no deseas seguir el plan. |
-| <img src="./imagenes/mockups/homeScreen.png" height="500"> | <img src="./imagenes/mockups/User profile.png" height="500"> | <img src="./imagenes/mockups/Customize schedule.png" height="500"> | <img src="./imagenes/mockups/Medical and dietary management.png" height="500"> | <img src="./imagenes/mockups/Plan pace.png" height="500"> | <img src="./imagenes/mockups/Free days.png" height="500"> |
-
-Desde la pantalla de inicio se puede observar el progreso dentro del plan y logros obtenidos hasta el momento
-
-| Progreso | Preferencias | Registrar comida |
-|----------|--------------|------------------|
-| Se puede visualizar el progreso, logros, un seguimiento de todo lo que se lleva y hasta opiniones de usuarios que llevan un plan similar. | Permite agregar platos e ingredientes preferidos para ser implementados en la generación del plan de comida. | Permite registrar las comidas del día. |
-| <img src="./imagenes/mockups/progress.png" height="500"> | <img src="./imagenes/mockups/preferences.png" height="500"> | <img src="./imagenes/mockups/register meal.png" height="500"> |
+Asimismo, dentro de la opciones generales está "Editar Preferencias", donde podemos escoger recetas favoritas, platos de nuestro elección y hasta ingredientes. Además, poder visualizar nuestro pogreso completo y registrar las comidas que vamos en el día.
+<p align="center">
+  <img src="./imagenes/mockups/mockups7.png" alt="Context Diagram" width="850">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/mockups8.png" alt="Context Diagram" width="850">
+</p>
 
 
-Dentro de la opciones en la pantalla principal en modo de botones se encuentran las siguientes
+Dentro del menú principal en la pantalla se muestran 4 opciones importantes, comenzando por 3, "Recordatorios de comida", donde se puede colocar recordatorios específicos con notas en caso de tener indicaciones específicas, "Sugerencias" donde se muestran tips diarios adpatados a las comida del día y una opción que está disponible si se activa la cual es "Snack del día", esta se ofrece como una comida extra la cual tiene 2 opciones a escoger con su información nutricional y se adapta al menú diario.
 
-| Recordatorios | Sugerencias | Snack del día |
-|---------------|-------------|----------------|
-| Permite colocar recordatorios de ciertas comidas, dejar una nota y establecer la categoría. | Ofrece sugerencias diarias según la dieta del día. | Dependiendo de la configuración, se te sugiere un snack diario adecuado a tus metas. |
-| <img src="./imagenes/mockups/reminder.png" height="500"> | <img src="./imagenes/mockups/suggestions.png" height="500"> | <img src="./imagenes/mockups/snack.png" height="500"> |
-
-Finalmente lo que caracteriza principalmente a la app
-
-| Plan de comidas |
-|-----------------|
-| Se puede ver todo el plan de comida de la semana, los ingredientes, el progreso semanal y ver el menú de cada día y de cada comida, teniendo la opción de ver los ingredientes, generar una nueva receta o descargarla. |
-| <img src="./imagenes/mockups/plan.png" height="600"> |
-
+<p align="center">
+  <img src="./imagenes/mockups/mockups9.png" alt="Context Diagram" width="850">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/mockups10.png" alt="Context Diagram" width="850">
+</p>
+ 
+La última opción es "Plan de Comidas" donde se podrá ver detalladaamente el progreso del menú de la semana y oobservar el menú  de cada día con opciones a cambiarlo y descargar recetas.
+<p align="center">
+  <img src="./imagenes/mockups/mockups11.png" alt="Context Diagram" width="850">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/mockups12.png" alt="Context Diagram" width="850">
+</p>
+<p align="center">
+  <img src="./imagenes/mockups/mockups13.png" alt="Context Diagram" width="850">
+</p>
 [Visualizar Mock-ups](https://www.figma.com/design/TkYxU9SsbzOMjkQ9CICbZj/Untitled?t=D5G1DDhUzIfRsUZ5-1)
 
 #### 4.4.4. Web Applications User Flow Diagrams
@@ -1645,7 +1749,7 @@ En el botón de plan de comidas nos redirige a toda la información actual, dond
   <img src="./imagenes/prototipo.png" alt="Context Diagram" width="700">
 </p>
 
-[Video del prototipo](https://youtu.be/3qfVkOcF9-o)
+[Video del prototipo](https://youtu.be/GbC9_aU_WrU)
 
 ### 4.6. Domain-Driven Software Architecture
 
