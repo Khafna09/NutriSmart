@@ -2058,12 +2058,25 @@ En esta reunión de planificación del Sprint 1, el equipo de desarrollo se reun
 | **Sum of Story Points**        |                                                                                                                                                                                                                                     |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
-**Sprint 1**
-| Aspecto del Proyecto | Líder Principal | Colaboradores |
-|----------------------|-----------------|---------------|
-| Frontend (React - Landing Page) |Rodriguez, Sebastian / Linares, Jorge | Todo el equipo |
-| Despliegue de Landing Page (GitHub Pages) | Linares, Jorge | Rodriguez, Sebastian |
-| Documentación Técnica del Sprint (Informe, Diagramas, Diseño) | Todo el equipo | Todo el equipo |
+
+
+Durante el Sprint 1 se han identificado los siguientes aspectos clave del proyecto:
+
+- **Frontend (React - Landing Page):** implementación visual e interactiva de la página principal.
+- **Despliegue:** publicación de la aplicación mediante GitHub Pages.
+- **Documentación Técnica:** elaboración de entregables como informe técnico, diagramas y mockups de diseño.
+
+Para asegurar una comunicación clara y una asignación efectiva de responsabilidades, se ha desarrollado la matriz **Leadership-and-Collaboration Matrix (LACX)**. Esta define quién lidera cada aspecto (L) y quién colabora (C), lo cual orientará la selección de tareas durante el Sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username       | Frontend (React - Landing Page) | Despliegue (GitHub Pages) | Documentación Técnica |
+|-------------------------------------|------------------------|----------------------------------|----------------------------|------------------------|
+| Rodriguez, Sebastian                | Shiftinnnnn          | L                                | C                          | C                      |
+| Linares, Jorge                      | jlinares30          | L                                | L                          | C                      |
+| Rios, Hector                        | Khafna09             | C                                | C                          | L                      |
+| Prieto, Leonardo                    | Wuux1             | C                                | C                          | C                      |
+| Paredes, Fabrizio                   | psfa29            | C                                | C                          | L                      |
+
+
 
 ##### 5.2.1.3. Sprint Backlog 1
 El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page que permita mostrar los aspectos clave del proyecto a los usuarios, garantizando una experiencia de navegación básica y funcionalidades esenciales como la visualización de beneficios, planes de suscripción y reseñas. Para este sprint, el equipo se ha organizado en tareas detalladas, siguiendo las historias de usuario, y se ha asignado el trabajo de forma equitativa para cumplir con los tiempos estimados.
