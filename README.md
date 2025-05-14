@@ -780,11 +780,11 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 ### 3.1. To-Be Scenario Mapping
 
 <p align="center">
-  <img src="./imagenes/Scenario To-Be User 1.png" alt="To-Be Scenario Map 1" width="700">
+  <img src="./imagenes/Scenario Map To-Be User 1.png" alt="To-Be Scenario Map 1" width="700">
 </p>
 
 <p align="center">
-  <img src="./imagenes/Scenario To-Be User 2.png" alt="To-Be Scenario Map 2" width="700">
+  <img src="./imagenes/Scenario Map To-Be User 2.png" alt="To-Be Scenario Map 2" width="700">
 </p>
 
 [Visualizar To-Be Scenario Mapping](https://miro.com/app/board/uXjVIALu3iU=/?share_link_id=13046513899)
