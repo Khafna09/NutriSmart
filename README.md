@@ -2045,6 +2045,8 @@ El backend no se despliega en GitHub Pages; se prevé su implementación en un e
 ##### 5.2.1.1. Sprint Planning 1
 En esta reunión de planificación del Sprint 1, el equipo de desarrollo se reunió virtualmente para definir los objetivos, las tareas y los resultados esperados del primer sprint. Este sprint se enfocará en desarrollar y desplegar la página de inicio del proyecto y se llevará a cabo durante dos semanas. El objetivo es proporcionar una base sólida para el despliegue en GitHub Pages, garantizando que el producto inicial esté accesible y funcional.
 
+La reunión tuvo lugar de manera virtual a través de Discord, y fue preparada por Paredes, Fabrizio; Ríos, Héctor; Prieto, Leonardo; Rodríguez, Sebastián; y Linares, Jorge.
+
 | **Sprint #**                   | Sprint 1                                                                                                                                                                                                                                          |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sprint Planning Background** |                                                                                                                                                                                                                                                   |
@@ -2054,8 +2056,8 @@ En esta reunión de planificación del Sprint 1, el equipo de desarrollo se reun
 | **Sprint 1 Review Summary**    | En este caso recién se realizará el primer sprint                                                                                                                                                                                                 |
 | **Sprint 1 Retrospective Summary** | En este caso recién se realizará el primer sprint                                                                                                                                                                                             |
 | **Sprint 1 Goal**              | Nuestro enfoque está en desplegar el landing page. Creemos que proporcionará una plataforma de lanzamiento accesible y funcional para el proyecto a los stakeholders. Esto se confirmará cuando el sitio esté accesible a través de GitHub Pages. |
-| **Sprint 1 Velocity**          | El sprint está planificado para completarse en 14 días (2 semanas).                                                                                                                                                                               |
-| **Sum of Story Points**        |                                                                                                                                                                                                                                     |
+| **Sprint 1 Velocity**          | Durante este sprint podemos recibir   14 storie point                                                                                                                                                                            |
+| **Sum of Story Points**        |          Nuestro equipo realizó los 14 storie points planeados                                                                                                                                                                                                                           |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 
