@@ -843,6 +843,16 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-48 | Acceso a Contenido Educativo | Como usuario, quiero acceder a artículos y videos educativos sobre nutrición. | Escenario 1: **Given** que quiero aprender más, **When** busco en la sección educativa, **Then** podré consumir contenidos relacionados a mis intereses. <br><br> Escenario 2: **Given** que marco contenidos favoritos, **When** regreso a la sección, **Then** podré encontrarlos fácilmente. | EP-02 |
 | US-49 | Envío de Notificaciones Push Inteligentes | Como usuario, quiero recibir notificaciones push basadas en mi comportamiento. | Escenario 1: **Given** que hay patrones relevantes, **When** la app detecta eventos, **Then** enviará notificaciones personalizadas. <br><br> Escenario 2: **Given** que configuro la app para notificaciones inteligentes, **When** se active una condición, **Then** recibiré avisos específicos sin saturarme. | EP-05 |
 | US-50 | Configuración de Recordatorios Personalizados | Como usuario, quiero crear recordatorios personalizados en la app. | Escenario 1: **Given** que necesito recordatorios específicos, **When** configuro uno nuevo, **Then** podré definir texto, horario y frecuencia. <br><br> Escenario 2: **Given** que edito un recordatorio, **When** actualizo los campos, **Then** los cambios se guardarán automáticamente. | EP-04 |
+| US-51 | Evaluación de Progreso Nutricional | Como usuario, quiero recibir una evaluación mensual de mis progresos para saber cómo voy avanzando en mis metas. | Escenario 1: **Given** que ha pasado un mes desde que empecé, **When** consulto mi evaluación, **Then** la app mostrará un informe de progreso. <br><br> Escenario 2: **Given** que no he registrado datos suficientes, **When** abro la evaluación, **Then** la app me avisará que necesita más información. | EP-03 |
+| US-52 | Acceso a Planes Premium Personalizados | Como usuario, quiero acceder a planes premium que ofrezcan asesorías y recomendaciones personalizadas. | Escenario 1: **Given** que me suscribo al plan premium, When ingreso a la app, **Then** tendré acceso a funcionalidades exclusivas. <br><br> Escenario 2: Given que cancelo la suscripción, **When** finaliza el ciclo, Then perderé el acceso a los servicios premium. | EP-01 |
+| US-53 | Recomendaciones Basadas en Perfil Nutricional | Como usuario, quiero recibir recomendaciones de hábitos y recetas en función de mi perfil y objetivos. | Escenario 1: **Given** que tengo un objetivo de ganancia muscular, **When** recibo recomendaciones, **Then** estarán alineadas a ese objetivo. <br><br> Escenario 2: Given que cambio mis objetivos, When consulto nuevamente, Then las recomendaciones se actualizarán. | EP-05 |
+| US-54 | Alertas Automáticas de Desviación Nutricional | Como usuario, quiero que la app me alerte cuando mis registros se desvíen significativamente de mi plan, para corregir mis hábitos a tiempo. | Escenario 1: **Given** que mis datos muestran un consumo calórico 20% mayor al plan, **When** registro mi comida, **Then** recibiré una alerta indicando la desviación. <br><br> Escenario 2: **Given** que mis registros están alineados al plan, **When** reviso alertas, **Then** no se mostrará ninguna advertencia. | EP-05 |
+| US-55 | Comparación de Resultados con Usuarios Similares | Como usuario, quiero comparar mi progreso con el de otros usuarios con características similares. | Escenario 1: **Given** que tengo una edad y meta específica, **When** consulto comparativas, **Then** veré tendencias de usuarios con parámetros similares. <br><br> Escenario 2: **Given** que no quiero compararme, **When** desactivo esta opción, **Then** la app no me mostrará comparaciones. | EP-02 |
+| TS-56 | Agregar Alergia mediante API RESTful | Como desarrollador, quiero agregar una alergia mediante la API para que pueda almacenarse y ser utilizada en funcionalidades de personalización. | Escenario 1: **Given** que el endpoint "/api/v1/alergias_ingredientes" está disponible, **When** se envía una solicitud con nombre y descripción, **Then** se recibe un 201 y un recurso Alergia con id y datos. <br><br> Escenario 2: **Given** que se envía una alergia con nombre ya registrado, **When** se envía la solicitud, **Then** se recibe un 400 con mensaje de restricción de nombre duplicado. | EP-15 |
+| TS-57 | Agregar Recomendaciones mediante API RESTful | Como desarrollador, quiero agregar recomendaciones mediante la API para que pueda ser asociado a recetas, alergias e ingredientes y plan de comida. | Escenario 1: **Given** que el endpoint "/api/v1/recomendaciones" está disponible, **When** se envía una recomendación de plan de comida o recetas, **Then** se recibe un 201 con el recurso Recomendación creado. <br><br> Escenario 2: **Given** que se envía una recomendación con nombre duplicado, **When** se realiza la petición, **Then** se recibe un 400 con mensaje de duplicado. | EP-15 |
+| TS-58 | Crear Receta mediante API RESTful | Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas. | Escenario 1: **Given** que el endpoint "/api/v1/recetas" está disponible, **When** se envían nombre, instrucciones e ingredientes, **Then** se recibe un 201 con el recurso Receta creado. <br><br> Escenario 2: **Given** que la receta incluye ingredientes no existentes, **When** se realiza la petición, **Then** se recibe un 400 con mensaje de error. | EP-15 |
+| TS-59 | Crear Plan de Comida mediante API RESTful | Como desarrollador, quiero crear un plan de comida mediante la API para que los usuarios reciban una guía diaria de alimentación.| Escenario 1: **Given** que el endpoint "/api/v1/planes-comida" está disponible, **When** se envía usuarioId, fechas y recetas, **Then** se recibe un 201 con el recurso Plan creado. <br><br> Escenario 2: **Given** que las fechas enviadas son inválidas, **When** se hace la solicitud, **Then** se recibe un 400 con mensaje de error. | EP-15 |
+| TS-60 | Registrar Seguimiento mediante API RESTful | Como desarrollador, quiero registrar eventos de seguimiento nutricional mediante la API para que los profesionales puedan monitorear avances. | Escenario 1: **Given** que el endpoint "/api/v1/seguimiento" está disponible, **When** se envía usuarioId, fecha, peso, medidas y observaciones, **Then** se recibe un 201 con el seguimiento. <br><br> Escenario 2: **Given** que el usuario no existe, **When** se hace la solicitud, **Then** se recibe un 404 con mensaje de usuario no encontrado. | EP-15 |
 
 #### Épica 1: Gestión de Perfil y Personalización Inicial
 
@@ -854,6 +864,7 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-04    | Seleccionar comidas favoritas     |
 | US-05    | Indicar restricciones dietéticas  |
 | US-43    | Ajustar dieta por enfermedad reciente |
+| US-52    | Acceso a Planes Premium Personalizados |
 
 #### Épica 2: Planificación y Visualización de Dietas
 
@@ -865,6 +876,7 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-38    | Ver vista previa de menús semanales |
 | US-40    | Acceder a historial de dietas anteriores |
 | US-48    | Programar compras con lista automática |
+| US-55    | Ajuste Automático de Plan Nutricional |
 
 #### Épica 3: Tracking y Seguimiento Diario
 
@@ -878,6 +890,7 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-21    | Registrar síntomas o efectos físicos |
 | US-34    | Registrar comidas fuera del plan  |
 | US-37    | Visualizar progreso en gráficos   |
+| US-51    | Evaluación de Progreso Nutricional |
 
 #### Épica 4: Motivación y Gamificación
 
@@ -898,6 +911,8 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-27    | Recibir alertas cuando no se cumple el plan |
 | US-45    | Recibir resumen diario basado en actividad |
 | US-49    | Recibir alertas de dieta desbalanceada |
+| US-53    | Recomendaciones Basadas en Perfil Nutricional |
+| US-54    | Alertas Automáticas de Desviación Nutricional |
 
 #### Épica 6: Interacción con el Soporte Humano
 
@@ -969,6 +984,17 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | Story ID | Título                          |
 |----------|----------------------------------|
 | US-13    | Acceder al registro o inicio de sesión |
+
+#### Épica 15: Gestión Integral de Información Nutricional
+
+| Story ID | Título                          |
+|----------|----------------------------------|
+| TS-56    | Registrar alergia e ingrediente desde API |
+| TS-57    | Registrar recomendaciones desde API |
+| TS-58    | Crear receta desde API |
+| TS-59    | Crear plan de comida desde API |
+| TS-60    | Añadir registro de seguimiento nutricional vía API |
+
 
 ### 3.3. Impact Mapping
 
