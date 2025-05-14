@@ -226,16 +226,6 @@ Soy responsable, me gusta involucrarme activamente en los proyectos, aportar ide
 
 Me considero una persona trabajadora y comprometida, que coopera de manera efectiva con su equipo y siempre está dispuesta a brindar apoyo. Con estas habilidades, busco aportar valor al proyecto y contribuir activamente a lograr una presentación final sólida y exitosa.
 
-
-
-<!-- - Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/" alt="foto-fabrizio" width="170px"/>
-</p>
-
-Descripcion -->
-
 - Sebastian Rodriguez Macedo - u202310199 (Ingeniería de Software)
 
 <p align="center">
@@ -587,18 +577,11 @@ Giorgio es un nutricionista recién egresado que ya atiende pacientes y valora m
 <br>
 
 <p align="center">
-  <img src="./imagenes/entrevistas/entrevista5.png" alt="entrevista-2" width="400">
+  <img src="./imagenes/entrevistas/entrevista5.png" alt="entrevista-5" width="400">
 </p>
 
-Carlos es un nutricionista con experiencia que aplica en su vida diaria los principios que promueve a sus pacientes. Considera que una buena alimentación es clave para rendir bien física y mentalmente. Se mantiene actualizado casi a diario mediante artículos, papers y apps. Usa Excel, Nutrium, Dietowin y WhatsApp para elaborar y seguir planes, aunque reconoce que estas herramientas no siempre son las más prácticas. Le cuesta personalizar completamente los planes por falta de tiempo y a veces por la poca claridad de los pacientes. Para hacer seguimiento, pide fotos o mensajes, pero no siempre obtiene respuestas. Cree que las apps pueden ser muy útiles si son fáciles de usar y no abruman. Le gustaría una plataforma donde los pacientes registren sus comidas, él pueda monitorear el progreso y ajustar planes sin necesidad de citas presenciales. Estaría dispuesto a recomendar NutriSmart si es intuitiva, protege la información y realmente le ahorra tiempo.
+Carlos es un nutricionista con experiencia que aplica en su vida diaria los principios que promueve a sus pacientes. Considera que una buena alimentación es clave para rendir bien física y mentalmente. Se mantiene actualizado casi a diario mediante artículos, papers y apps. Usa Excel, Nutrium, Dietowin y WhatsApp para elaborar y seguir planes, aunque reconoce que estas herramientas no siempre son las más prácticas. Le cuesta personalizar completamente los planes por falta de tiempo y a veces por la poca claridad de los pacientes. Para hacer seguimiento, pide fotos o mensajes, pero no siempre obtiene respuestas. Cree que las apps pueden ser muy útiles si son fáciles de usar y no abruman. Le gustaría una plataforma donde los pacientes registren sus comidas, él pueda monitorear el progreso y ajustar planes sin necesidad de citas presenciales. Estaría dispuesto a recomendar Alimentate+ si es intuitiva, protege la información y realmente le ahorra tiempo.
 
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Sebastian Rodriguez Macedo          |
-| **Entrevistado**  | Carlos Gabriel Mendoza Cardenas               |
-| **Edad**          | 23 años                                    |
-| **Duración**      | 3:23 minutos                               |
-| **Enlace**        | [Ver entrevista](https://youtu.be/FAg-Pdhs4_g) |
 
 
 #### 2.2.3. Análisis de entrevistas
@@ -645,8 +628,7 @@ Carlos es un nutricionista con experiencia que aplica en su vida diaria los prin
 - Verifica la adherencia pidiendo fotos o mensajes por WhatsApp, pero le gustaría tener una forma más automatizada y ordenada de hacerlo.
 - Considera que las apps pueden ser de gran ayuda si son intuitivas y no tienen procesos complicados que abrumen a los pacientes.
 - Valora funcionalidades como registro simple de comidas, feedback automático, análisis de progreso, recordatorios, chat seguro y ajustes remotos a los planes.
-- Estaría dispuesto a recomendar NutriSmart si le ahorra tiempo, es clara, protege los datos del paciente, y permite integrar otras herramientas de salud o fitness.
-  
+- Estaría dispuesto a recomendar Alimentate+ si le ahorra tiempo, es clara, protege los datos del paciente, y permite integrar otras herramientas de salud o fitness.
 
 ### 2.3. Needfinding
 
@@ -1992,19 +1974,24 @@ El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page q
 | US-19          | Como funciona la app           | W-04   | Crear sección "Como funciona"      | Desarrollar una sección cómo funciona la app                             | 2                      |     Leonardo    | To do      |
 | US-19         | Visualización del CTA          | W-03   | Crear sección de CTA y de footer   | Implementar una sección de CTA y footer.                                 | 2                      |    Héctor       | To do      |
 
+##### **5.2.1.4. Development Evidence for Sprint Review**
 
-##### 5.2.1.4. Development Evidence for Sprint Review
-Durante este sprint, se implementaron y estilizaron correctamente las secciones fundamentales de la landing page de NutriSmart. El progreso se evidenció en los siguientes commits registrados en GitHub:
+Durante este sprint, se avanzó significativamente en la construcción de la landing page del proyecto **NutriSmart**. Se implementaron y estilizaron correctamente todas las secciones fundamentales de la interfaz de presentación. Los avances fueron gestionados mediante control de versiones en GitHub, y se detallan a continuación los principales commits realizados:
 
 | **Repository**               | **Branch** | **Commit Id**                            | **Commit Message**                                  | **Commit Message Body**                                                  | **Commited on (Date)** |
 |------------------------------|------------|------------------------------------------|-----------------------------------------------------|---------------------------------------------------------------------------|--------------------------|
 | G-3-Open-Source/landing-page | develop    | a1b2c3d4e5f6g7h8i9j0                      | feat: implementación de navbar y hero section       | Implementa navegación superior y sección principal del landing.          | 25/04/2025               |
-| G-3-Open-Source/landing-page | develop    | a2b3c4d5e6f7g8h9i0j1                      | feat: se agregan beneficios destacados              | Diseño de sección Para ti.                     | 25/04/2025               |
-| G-3-Open-Source/landing-page | develop    | b1c2d3e4f5g6h7i8j9k0                      | feat: seccion de como funciona la app           | Sección que muestra el funcionamiento de la app.                   | 25/04/2025               |
-| G-3-Open-Source/landing-page | develop    | b2c3d4e5f6g7h8i9j0k1                      | feat: sección de reseñas                             | Reseñas                                                             | 25/04/2025               |
-| G-3-Open-Source/landing-page | develop    | b2c3d4e5f6g7h8i9j0k1                      | feat: sección de cta y footer final             | cta + contacto y enlaces sociales en el footer.               | 25/04/2025               |
+| G-3-Open-Source/landing-page | develop    | a2b3c4d5e6f7g8h9i0j1                      | feat: se agregan beneficios destacados              | Diseño de sección Para ti.                                               | 25/04/2025               |
+| G-3-Open-Source/landing-page | develop    | b1c2d3e4f5g6h7i8j9k0                      | feat: sección de cómo funciona la app               | Sección que muestra el funcionamiento de la app.                         | 25/04/2025               |
+| G-3-Open-Source/landing-page | develop    | b2c3d4e5f6g7h8i9j0k1                      | feat: sección de reseñas                            | Implementación de testimonios de usuarios.                               | 25/04/2025               |
+| G-3-Open-Source/landing-page | develop    | b2c3d4e5f6g7h8i9j0k1                      | feat: sección de cta y footer final                 | CTA + sección de contacto y enlaces sociales en el footer.               | 25/04/2025               |
 
-##### 5.2.1.5. Execution Evidence for Sprint Review
+---
+
+##### **5.2.1.5. Execution Evidence for Sprint Review**
+
+Como resultado de este sprint, se logró completar la estructura visual y funcional de la landing page de NutriSmart. A continuación, se presentan capturas de pantalla de cada una de las secciones implementadas, las cuales fueron desarrolladas con un enfoque responsivo y coherente con la identidad visual del proyecto:
+
 <p align="center">
   <img src="./imagenes/hero.png" alt="hero Section" width="750">
 </p>
@@ -2020,6 +2007,7 @@ Durante este sprint, se implementaron y estilizaron correctamente las secciones 
 <p align="center">
   <img src="./imagenes/cta.png" alt="cta Section" width="750">
 </p>
+
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Durante este sprint, se ha completado el desarrollo y la documentación de la landing page. Esta sección resume los logros alcanzados en relación con la documentación de servicios web asociados a la landing page. Aunque la landing page en sí misma es una interfaz de usuario estático.
