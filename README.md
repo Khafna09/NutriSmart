@@ -2326,6 +2326,32 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
+Para nuestro despliegue en el FrontEnd, lo hemos realizado en Firebase.
+
+<p align="center">
+  <img src="./imagenes/firebase1.png" alt="firebase1" width="750">
+</p>
+
+Nos dirigimos a la opcion de "go to console" que nos enviara a esta pantalla
+
+<p align="center">
+  <img src="./imagenes/firebase2.png" alt="firebase2" width="750">
+</p>
+
+Luego entramos en el proyecto que tenemos creado, o creamos uno si no lo tenemos
+
+<p align="center">
+  <img src="./imagenes/firebase3.png" alt="firebase3" width="750">
+</p>
+
+Una vez entramos al proyecto, nos dirigimos a la opción de compilación y luego hosting, donde nos dejara desplegar nuestro FrondEnd
+
+<p align="center">
+  <img src="./imagenes/firebase4.png" alt="firebase4" width="750">
+</p>
+
+Finalmente visualizamos nuestro FrondEnd desplegado
+
 #### Pasos para el despliegue en GitHub Pages
 
 #### 1. Instalación de la dependencia `gh-pages`
