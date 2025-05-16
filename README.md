@@ -2263,9 +2263,6 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 #### 5.2.2.4 Development Evidence for Sprint Review
 
 #### 5.2.2.5 Execution Evidence for Sprint Review.
-
-
-#### 5.2.2.7 Software Deployment Evidence for Sprint Review
 <p align="center">
   <img src="./imagenes/bounded-context-recommendation.png" alt="Trello" width="750">
 </p>
@@ -2275,12 +2272,30 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 <p align="center">
   <img src="./imagenes/deployFabri.png" alt="Trello" width="750">
 </p>  
+
 - Front End : [Front End Deployment](https://tracking-bounded-context.web.app/trackinggoals/trackinggoals-management)
+
 <p align="center">
   <img src="./imagenes/deployHector.png" alt="Trello" width="750">
 </p> 
 
 - Front End : [Front End Deployment](https://ingredientscrud-b159a.web.app/ingredients/ingredients)
+
+<p align="center">
+  <img src="./imagenes/deployJorge.png" alt="Trello" width="750">
+</p>   
+
+- Front End : [Front End Deployment](https://frontend-app-cd1e8.web.app/meal-plan)
+
+<p align="center">
+  <img src="./imagenes/deployLeonardo.png" alt="Trello" width="750">
+</p>   
+
+- Front End : [Front End Deployment](https://recetas-crud.web.app/)
+
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
 #### Pasos para el despliegue en GitHub Pages
 
 #### 1. Instalación de la dependencia `gh-pages`
