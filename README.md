@@ -2204,6 +2204,25 @@ Durante el Sprint 1 se completó exitosamente el despliegue de la landing page d
 | **Sprint 2 Goal**              | Nuestra prioridad en este sprint es el mejoramiento de la información del reporte y añadir pequeñas adaptaciones a nuestra landing page. Además, implementar la primera versión de la aplicación Front End mediante el uso de CRUDS. Creemos que esto podrá dar una mejor presentación de las funcionalidades que posee nuestra propuesta y dar una mejor idea del diseño. Esto se confirmará cuando los usuarios destinarios puedan interactuar sin problema con la interfaz y generar una buena opinión. |
 | **Sprint 2 Velocity**          |                                                                                                                                                                                                                                                   |
 | **Sum of Story Points**        |                                                                                                                                                                                                                                                   |
+
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+En este Sprint, el equipo se enfocó en el desarrollo y despliegue de las vistas principales de la aplicación web frontend, así como en la integración con una Fake API para simular la interacción con el backend. Los aspectos principales considerados en este Sprint incluyen el diseño e implementación de componentes del frontend, la configuración de la internacionalización para la landing page, y la integración de las vistas con la Fake API. A continuación, se presenta la matriz Leadership-and-Collaboration Matrix (LACX), que detalla los roles de liderazgo y colaboración asignados a cada miembro del equipo para los aspectos clave del Sprint.
+
+| **Team Member**       | **GitHub Username** | **Frontend Component Development** <br> Leader (L)/Collaborator(C) | **Frontend Deployment** <br> Leader (L)/Collaborator(C) | **Internationalization Setup** <br> Leader (L)/Collaborator(C) | **Fake API Integration** <br> Leader (L)/Collaborator(C) |
+|:---------------------:|:-------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|
+| Rodriguez, Sebastian                | Shiftinnnnn          | L                                | C                          |             C                      |               C                   |
+| Linares, Jorge                      | jlinares30          | L                                | L                          | C                      |               C                    |
+| Rios, Hector                        | Khafna09             | C                                | C                          | L                      |               C                   |
+| Prieto, Leonardo                    | Wuux1             | C                                | C                          | C                      |               C                    |
+| Paredes, Fabrizio                   | psfa29            | C                                | C                          | L                      |               L               |
+
+
+En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar una comunicación clara y efectiva dentro del equipo, promoviendo la eficiencia en la ejecución de las tareas relacionadas con el alcance del Sprint.
+
+
+
 #### 5.2.2.3 Sprint Backlog 2
 
 Esta sección describe de forma resumida el objetivo principal del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. A continuación, se incluye una captura del tablero del sprint gestionado en la herramienta Trello, junto con el enlace público correspondiente. También se presenta una tabla que detalla las User Stories asignadas al sprint, los Work-items o tareas asociadas, y las actividades adicionales requeridas para cumplir con los objetivos establecidos.
