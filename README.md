@@ -1924,8 +1924,8 @@ El proyecto utiliza Git como sistema de control de versiones distribuido. Para a
 | Producto              | Repositorio            | URL                                                                 |
 |-----------------------|------------------------|----------------------------------------------------------------------|
 | Landing Page          | landing-page    |[https://github.com/G-3-Open-Source/landing-page.git](https://github.com/G-3-Open-Source/landing-page.git)                                                                      |
-| Web Services          |     |  |
-| Front Web Application |       |  |
+| Web Services          |  Web-service   | [https://github.com/G-3-Open-Source/Web-service.git](https://github.com/G-3-Open-Source/Web-service.git)  |
+| Front Web Application |  Fronted-web     | [https://github.com/G-3-Open-Source/Frontend-web.git](https://github.com/G-3-Open-Source/Frontend-web.git)  |
 
 
 **Implementación de Git Flow**
