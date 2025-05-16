@@ -188,7 +188,7 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 | <div style="width:150px">Criterio específico</div> | <div style="width:250px">Acciones Realizadas</div> | <div style="width:250px">Conclusiones</div> |
 |-------------------|-------------------|------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br>TP1: Realicé el Bounded context de tracking y tracking goals, además de las correcciones del tb1  **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo.**Héctor Ríos TP:** Realicé las correciones de las observaciones señaladas del profesor, así como el desarrollo de mi Crud correspondiente y su deploy  <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista. **TP1:** Realicé una vista del front-end para el apartado de Recommendations y correcciones.  <br><br> **Leonardo Prieto TB1:** Realicé toda la sección del Needfinding, en esto se encuentra, el User Persona, User Task Matrix, User journey map, Empathy Map y el As-Is Scenario Map. También realicé el Ubiquitous Language y por ultimo hice todo el capitulo  III <br><br> **Jorge Linares TB1:** Realicé toda la sección de los diagramas de contexto, componentes, contenedores, clases y base de datos. Elaboracion de la primera parte de la landing page y despliegue de la misma en github pages, de esta forma completando la parte final del informe del sprint numero 1 y todas las evidencias del trabajo colaborativo del equipo en los repositorios de github.| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. **TP:** Como conclusión para esta presentación, cada integrante realizó sus partes correspondientes así como sus correcciones, manteniendo así el objetivo del proyecto|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br>TP1: Realicé el Bounded context de tracking y tracking goals, además de las correcciones del tb1  **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo.**Héctor Ríos TP:** Realicé las correciones de las observaciones señaladas del profesor, así como el desarrollo de mi Crud correspondiente y su deploy  <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista. **TP1:** Realicé una vista del front-end para el apartado de Recommendations y correcciones.  <br><br> **Leonardo Prieto TB1:** Realicé toda la sección del Needfinding, en esto se encuentra, el User Persona, User Task Matrix, User journey map, Empathy Map y el As-Is Scenario Map. También realicé el Ubiquitous Language y por ultimo hice todo el capitulo III. **TP1:** Realicé las mejoras solicitadas a lo anterior, una vista del front-end para el apartado de Recetas y el Sprint Backlog 2 con el Trello <br><br> **Jorge Linares TB1:** Realicé toda la sección de los diagramas de contexto, componentes, contenedores, clases y base de datos. Elaboracion de la primera parte de la landing page y despliegue de la misma en github pages, de esta forma completando la parte final del informe del sprint numero 1 y todas las evidencias del trabajo colaborativo del equipo en los repositorios de github.| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. **TP:** Como conclusión para esta presentación, cada integrante realizó sus partes correspondientes así como sus correcciones, manteniendo así el objetivo del proyecto|
 
 <hr>
 
@@ -2239,10 +2239,30 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
   <img src="./imagenes/Trello.png" alt="Trello" width="750">
 </p>
 
+| User Story ID | User Story | Work-Item / Task ID | Work-Item / Task Title / Description | Estimation (Hours) | Status |
+|---------------|------------|----------------------|----------------------------------------|---------------------|--------|
+| US-02 | Configuración de objetivos nutricionales | TS201 | Implementar endpoint que reciba calorías, macros y fecha de inicio. | 1 | done |
+| US-02 | Configuración de objetivos nutricionales | TS202 | Implementar endpoint para devolver la configuración actual de objetivos de un usuario. | 0.5 | done |
+| US-02 | Configuración de objetivos nutricionales | TS203 | Implementar endpoint para modificar valores dentro de los objetivos definidos. | 1 | done |
+| US-07 | Edición de planes nutricionales | TS213 | Implementar endpoint para actualizar un plan nutricional existente. | 0.5 | done |
+| US-07 | Edición de planes nutricionales | TS214 | Diseñar y conectar formulario de edición de plan en frontend. | 1 | done |
+| US-07 | Edición de planes nutricionales | TS215 | Validar campos modificables y proteger el acceso al endpoint. | 1 | done |
+| US-15 | Gestión de recomendaciones personalizadas | TS210 | Implementar endpoint para crear recomendaciones con validación de campos obligatorios. | 1 | done |
+| US-15 | Gestión de recomendaciones personalizadas | TS211 | Implementar endpoint para listar recomendaciones con filtros y ordenamiento. | 0.5 | done |
+| US-15 | Gestión de recomendaciones personalizadas | TS212 | Implementar endpoint para obtener recomendaciones semanales agrupadas por momento del día. | 1 | done |
+| US-26 | Gestión de recetas e ingredientes | TS216 | Implementar endpoint donde se muestren nombres de recetas e ingredientes. | 1 | done |
+| US-26 | Gestión de recetas e ingredientes | TS217 | Implementar la columna de ingredientes y recetas en la base de datos. | 0.5 | done |
+| US-26 | Gestión de recetas e ingredientes | TS218 | Implementar creación, edición y eliminación de recetas con ingredientes. | 1 | done |
+| US-34 | Registro y visualización de objetivos nutricionales | TS207 | Implementar el registro de objetivos diarios de calorías, macros, proteínas, etc. consumidas. | 1 | done |
+| US-34 | Registro y visualización de objetivos nutricionales | TS208 | Implementación de endpoint para visualizar los datos de los objetivos. | 0.5 | done |
+| US-34 | Registro y visualización de objetivos nutricionales | TS209 | Implementación de la edición de los objetivos. | 1 | done |
+| TS-56 | Gestión de alergias alimentarias | TS204 | Implementar endpoint donde se muestren los ingredientes que pueden producir alergias. | 0.5 | done |
+| TS-56 | Gestión de alergias alimentarias | TS205 | Implementar la columna de alergias en la base de datos. | 1 | done |
+| TS-56 | Gestión de alergias alimentarias | TS206 | Implementar el proceso para agregar y editar las alergias de los alimentos. | 1 | done |
+
 #### 5.2.2.4 Development Evidence for Sprint Review
 
 #### 5.2.2.5 Execution Evidence for Sprint Review.
-
 
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
