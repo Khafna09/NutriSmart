@@ -848,16 +848,17 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | US-53 | Recomendaciones Basadas en Perfil Nutricional | Como usuario, quiero recibir recomendaciones de hábitos y recetas en función de mi perfil y objetivos. | Escenario 1: **Given** que tengo un objetivo de ganancia muscular, **When** recibo recomendaciones, **Then** estarán alineadas a ese objetivo. <br><br> Escenario 2: Given que cambio mis objetivos, When consulto nuevamente, Then las recomendaciones se actualizarán. | EP-05 |
 | US-54 | Alertas Automáticas de Desviación Nutricional | Como usuario, quiero que la app me alerte cuando mis registros se desvíen significativamente de mi plan, para corregir mis hábitos a tiempo. | Escenario 1: **Given** que mis datos muestran un consumo calórico 20% mayor al plan, **When** registro mi comida, **Then** recibiré una alerta indicando la desviación. <br><br> Escenario 2: **Given** que mis registros están alineados al plan, **When** reviso alertas, **Then** no se mostrará ninguna advertencia. | EP-05 |
 | US-55 | Comparación de Resultados con Usuarios Similares | Como usuario, quiero comparar mi progreso con el de otros usuarios con características similares. | Escenario 1: **Given** que tengo una edad y meta específica, **When** consulto comparativas, **Then** veré tendencias de usuarios con parámetros similares. <br><br> Escenario 2: **Given** que no quiero compararme, **When** desactivo esta opción, **Then** la app no me mostrará comparaciones. | EP-02 |
-| TS-56 | Agregar Alergia mediante API RESTful | Como desarrollador, quiero agregar una alergia mediante la API para que pueda almacenarse y ser utilizada en funcionalidades de personalización. | Escenario 1: **Given** que el endpoint "/api/v1/alergias_ingredientes" está disponible, **When** se envía una solicitud con nombre y descripción, **Then** se recibe un 201 y un recurso Alergia con id y datos. <br><br> Escenario 2: **Given** que se envía una alergia con nombre ya registrado, **When** se envía la solicitud, **Then** se recibe un 400 con mensaje de restricción de nombre duplicado. | EP-15 |
-| TS-57 | Agregar Recomendaciones mediante API RESTful | Como desarrollador, quiero agregar recomendaciones mediante la API para que pueda ser asociado a recetas, alergias e ingredientes y plan de comida. | Escenario 1: **Given** que el endpoint "/api/v1/recomendaciones" está disponible, **When** se envía una recomendación de plan de comida o recetas, **Then** se recibe un 201 con el recurso Recomendación creado. <br><br> Escenario 2: **Given** que se envía una recomendación con nombre duplicado, **When** se realiza la petición, **Then** se recibe un 400 con mensaje de duplicado. | EP-15 |
-| TS-58 | Crear Receta mediante API RESTful | Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas. | Escenario 1: **Given** que el endpoint "/api/v1/recetas" está disponible, **When** se envían nombre, instrucciones e ingredientes, **Then** se recibe un 201 con el recurso Receta creado. <br><br> Escenario 2: **Given** que la receta incluye ingredientes no existentes, **When** se realiza la petición, **Then** se recibe un 400 con mensaje de error. | EP-15 |
-| TS-59 | Crear Plan de Comida mediante API RESTful | Como desarrollador, quiero crear un plan de comida mediante la API para que los usuarios reciban una guía diaria de alimentación.| Escenario 1: **Given** que el endpoint "/api/v1/planes-comida" está disponible, **When** se envía usuarioId, fechas y recetas, **Then** se recibe un 201 con el recurso Plan creado. <br><br> Escenario 2: **Given** que las fechas enviadas son inválidas, **When** se hace la solicitud, **Then** se recibe un 400 con mensaje de error. | EP-15 |
-| TS-60 | Registrar Seguimiento mediante API RESTful | Como desarrollador, quiero registrar eventos de seguimiento nutricional mediante la API para que los profesionales puedan monitorear avances. | Escenario 1: **Given** que el endpoint "/api/v1/seguimiento" está disponible, **When** se envía usuarioId, fecha, peso, medidas y observaciones, **Then** se recibe un 201 con el seguimiento. <br><br> Escenario 2: **Given** que el usuario no existe, **When** se hace la solicitud, **Then** se recibe un 404 con mensaje de usuario no encontrado. | EP-15 |
-| TS-61    | Configurar Entorno de Desarrollo        | Como desarrollador, quiero configurar mi entorno de desarrollo local para poder trabajar en el proyecto.                               | **Given** el desarrollador tiene acceso al repositorio del proyecto, **When** sigue las instrucciones de configuración, **Then** debería poder ejecutar la aplicación localmente. | EP-15  |
-| TS-62    | Implementar Endpoint para Registro de Usuario | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema.                                        | **Given** el endpoint /api/v1/auth/sign-up esté disponible, **When** se envía una solicitud POST con los datos del usuario, **Then** el sistema responde con estado 201.       | EP-15  |
-| TS-63    | Generación de Reportes de Progreso      | Como desarrollador, quiero crear una funcionalidad que genere reportes de progreso mensuales para que el usuario vea sus avances.       | **Given** que existe un historial de consumo y actividad, **When** se solicita el reporte mensual, **Then** el sistema genera un archivo con gráficos y métricas nutricionales. | EP-15  |
-| TS-64    | Módulo de Recomendaciones Dinámicas     | Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | **Given** que el usuario ha registrado cambios recientes, **When** accede a las recomendaciones, **Then** el sistema ajusta dinámicamente las sugerencias.                     | EP-15  |
-| TS-65    | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | **Given** que el usuario tiene recordatorios configurados, **When** llega la hora o el evento configurado, **Then** el sistema envía una notificación push o correo.           | EP-15  |
+| US-56 | Intercambio de idiomas en Landing Page | Como visitante internacional, quiero poder cambiar el idioma de la landing page desde un selector de idioma, para comprender fácilmente la información sin barreras lingüísticas. | **Given** que estoy en la landing page de la aplicación, **When** accedo al menú o ícono del selector de idioma, **Then** debería poder elegir entre varios idiomas disponibles y ver el contenido traducido automáticamente. | EP-12 |
+| TS-57 | Agregar Alergia mediante API RESTful | Como desarrollador, quiero agregar una alergia mediante la API para que pueda almacenarse y ser utilizada en funcionalidades de personalización. | Escenario 1: **Given** que el endpoint "/api/v1/alergias_ingredientes" está disponible, **When** se envía una solicitud con nombre y descripción, **Then** se recibe un 201 y un recurso Alergia con id y datos. <br><br> Escenario 2: **Given** que se envía una alergia con nombre ya registrado, **When** se envía la solicitud, **Then** se recibe un 400 con mensaje de restricción de nombre duplicado. | EP-15 |
+| TS-58 | Agregar Recomendaciones mediante API RESTful | Como desarrollador, quiero agregar recomendaciones mediante la API para que pueda ser asociado a recetas, alergias e ingredientes y plan de comida. | Escenario 1: **Given** que el endpoint "/api/v1/recomendaciones" está disponible, **When** se envía una recomendación de plan de comida o recetas, **Then** se recibe un 201 con el recurso Recomendación creado. <br><br> Escenario 2: **Given** que se envía una recomendación con nombre duplicado, **When** se realiza la petición, **Then** se recibe un 400 con mensaje de duplicado. | EP-15 |
+| TS-59 | Crear Receta mediante API RESTful | Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas. | Escenario 1: **Given** que el endpoint "/api/v1/recetas" está disponible, **When** se envían nombre, instrucciones e ingredientes, **Then** se recibe un 201 con el recurso Receta creado. <br><br> Escenario 2: **Given** que la receta incluye ingredientes no existentes, **When** se realiza la petición, **Then** se recibe un 400 con mensaje de error. | EP-15 |
+| TS-60 | Crear Plan de Comida mediante API RESTful | Como desarrollador, quiero crear un plan de comida mediante la API para que los usuarios reciban una guía diaria de alimentación.| Escenario 1: **Given** que el endpoint "/api/v1/planes-comida" está disponible, **When** se envía usuarioId, fechas y recetas, **Then** se recibe un 201 con el recurso Plan creado. <br><br> Escenario 2: **Given** que las fechas enviadas son inválidas, **When** se hace la solicitud, **Then** se recibe un 400 con mensaje de error. | EP-15 |
+| TS-61 | Registrar Seguimiento mediante API RESTful | Como desarrollador, quiero registrar eventos de seguimiento nutricional mediante la API para que los profesionales puedan monitorear avances. | Escenario 1: **Given** que el endpoint "/api/v1/seguimiento" está disponible, **When** se envía usuarioId, fecha, peso, medidas y observaciones, **Then** se recibe un 201 con el seguimiento. <br><br> Escenario 2: **Given** que el usuario no existe, **When** se hace la solicitud, **Then** se recibe un 404 con mensaje de usuario no encontrado. | EP-15 |
+| TS-62    | Configurar Entorno de Desarrollo        | Como desarrollador, quiero configurar mi entorno de desarrollo local para poder trabajar en el proyecto.                               | **Given** el desarrollador tiene acceso al repositorio del proyecto, **When** sigue las instrucciones de configuración, **Then** debería poder ejecutar la aplicación localmente. | EP-15  |
+| TS-63    | Implementar Endpoint para Registro de Usuario | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema.                                        | **Given** el endpoint /api/v1/auth/sign-up esté disponible, **When** se envía una solicitud POST con los datos del usuario, **Then** el sistema responde con estado 201.       | EP-15  |
+| TS-64    | Generación de Reportes de Progreso      | Como desarrollador, quiero crear una funcionalidad que genere reportes de progreso mensuales para que el usuario vea sus avances.       | **Given** que existe un historial de consumo y actividad, **When** se solicita el reporte mensual, **Then** el sistema genera un archivo con gráficos y métricas nutricionales. | EP-15  |
+| TS-65    | Módulo de Recomendaciones Dinámicas     | Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | **Given** que el usuario ha registrado cambios recientes, **When** accede a las recomendaciones, **Then** el sistema ajusta dinámicamente las sugerencias.                     | EP-15  |
+| TS-66    | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | **Given** que el usuario tiene recordatorios configurados, **When** llega la hora o el evento configurado, **Then** el sistema envía una notificación push o correo.           | EP-15  |
 
 #### Épica 1: Gestión de Perfil y Personalización Inicial
 
@@ -1023,63 +1024,64 @@ Este será el lenguaje que se utilizará para distintos elementos de la aplicaci
 | 6  | US-12  | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones.               | 2            |
 | 7  | US-13  | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior.             | 3            |
 | 8  | US-14  | Navegar desde el footer              | Como visitante, quiero que los enlaces del pie de página funcionen correctamente.                | 2            |
-| 9  | US-01  | Registro de Usuario                  | Como usuario quiero crear un perfil con mis datos personales para recibir recomendaciones.       | 5            |
-| 10 | US-04  | Registro de Consumo Diario           | Como usuario, quiero registrar mis comidas diarias para llevar un control de mi alimentación.    | 5            |
-| 11 | US-25  | Acceso como Invitado                 | Como usuario, quiero acceder como invitado para explorar funcionalidades básicas.                | 3            |
-| 12 | US-22  | Control de Sesiones Activas          | Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad.                     | 5            |
-| 13 | US-23  | Recuperación de Contraseña           | Como usuario, quiero recuperar mi contraseña en caso de olvido.                                  | 3            |
-| 14 | US-24  | Autenticación en Dos Pasos           | Como usuario, quiero habilitar autenticación en dos pasos para proteger mi cuenta.              | 5            |
-| 15 | US-21  | Configuración de Privacidad          | Como usuario, quiero configurar qué datos comparto para proteger mi privacidad.                  | 3            |
-| 16 | US-02  | Personalización de Objetivos         | Como usuario, quiero configurar mis objetivos de salud para recibir sugerencias alineadas.       | 5            |
-| 17 | US-03  | Selección de Preferencias Alimenticias | Como usuario, quiero seleccionar mis preferencias alimenticias para recibir sugerencias compatibles. | 5        |
-| 18 | US-05  | Visualización de Progreso            | Como usuario, quiero visualizar mi progreso nutricional para motivarme.                          | 5            |
-| 19 | US-07  | Ajuste de Plan Nutricional           | Como usuario, quiero ajustar mi plan nutricional si cambian mis necesidades.                     | 5            |
-| 20 | US-15  | Envío de Sugerencias Semanales       | Como usuario, quiero recibir sugerencias semanales de menús adaptados.                           | 5            |
-| 21 | US-16  | Alertas de Alimentos No Recomendados | Como usuario, quiero recibir alertas si registro alimentos no recomendados.                      | 5            |
-| 22 | US-17  | Exportación de Datos                 | Como usuario, quiero exportar mis datos de progreso para respaldo o análisis.                    | 5            |
-| 23 | US-18  | Notificaciones de Actividad          | Como usuario, quiero recibir notificaciones sobre actualizaciones relevantes.                    | 5            |
-| 24 | US-19  | Creación de Grupos de Apoyo          | Como usuario, quiero unirme a grupos con objetivos similares para motivación.                    | 8            |
-| 25 | US-20  | Encuestas de Satisfacción            | Como usuario, quiero responder encuestas para dar retroalimentación.                             | 3            |
-| 26 | US-26  | Búsqueda de Recetas                  | Como usuario, quiero buscar recetas saludables dentro de la app.                                 | 5            |
-| 27 | US-27  | Filtrado de Recetas                  | Como usuario, quiero filtrar recetas por tipo de dieta o restricción.                            | 5            |
-| 28 | US-28  | Favoritos de Recetas                 | Como usuario, quiero guardar recetas favoritas.                                                  | 3            |
-| 29 | US-29  | Visualización de Valor Nutricional   | Como usuario, quiero ver el valor nutricional de las recetas.                                    | 5            |
-| 30 | US-30  | Seguimiento de Hidratación           | Como usuario, quiero registrar mi consumo diario de agua.                                        | 3            |
-| 31 | US-50  | Cambiar Tema (Oscuro/Claro)          | Como usuario, quiero elegir entre modo oscuro y claro para mayor comodidad visual.               | 2            |
-| 32 | US-51  | Visualización de Datos en Tiempo Real | Como usuario, quiero ver actualizaciones en tiempo real de mis registros para tener control inmediato. | 5       |
-| 33 | US-52  | Recomendaciones basadas en ubicación | Como usuario, quiero ver sugerencias según mi ubicación geográfica para adaptarme mejor.         | 5            |
-| 34 | US-53  | Tutorial Interactivo Inicial         | Como usuario, quiero un tutorial al comenzar para entender cómo funciona la app.                 | 3            |
-| 35 | US-54  | Modo Offline                         | Como usuario, quiero usar funcionalidades básicas sin conexión para registrar datos si no tengo Internet. | 8     |
-| 36 | US-55  | Comparte tu progreso con otros       | Como usuario, quiero compartir mi progreso con amigos o redes sociales para sentirme motivado y recibir apoyo. | 3   |
-| 37 | TS-56  | 	Agregar Alergia mediante API RESTful                | Como desarrollador, quiero agregar una alergia mediante la API para que pueda almacenarse y ser utilizada en funcionalidades de personalización.                                               | 5            |
-| 38 | TS-57  | Agregar Recomendaciones mediante API RESTful       | Como desarrollador, quiero agregar recomendaciones mediante la API para que pueda ser asociado a recetas, alergias e ingredientes y plan de comida.                                         | 8            |
-| 39 | TS-58  | Crear Receta mediante API RESTful     | Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas.                                 | 5            |
-| 40 | TS-59  | Crear Plan de Comida mediante API RESTful           | Como desarrollador, quiero crear un plan de comida mediante la API para que los usuarios reciban una guía diaria de alimentación.                                                         | 5            |
-| 41 | TS-60  | Registrar Seguimiento mediante API RESTful | Como desarrollador, quiero registrar eventos de seguimiento nutricional mediante la API para que los profesionales puedan monitorear avances.                                             | 5            |
-| 42 | TS-61  | Configurar Entorno de Desarrollo | Como desarrollador, quiero configurar mi entorno de desarrollo local para poder trabajar en el proyecto. | 5 |
-| 43 | TS-62  | Implementar Endpoint para Registro de Usuario | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | 5 |
-| 44 | TS-63  | Generación de Reportes de Progreso | Como desarrollador, quiero crear una funcionalidad que genere reportes de progreso mensuales para que el usuario vea sus avances. | 8 |
-| 45 | TS-64  | Módulo de Recomendaciones Dinámicas | Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | 8 |
-| 46 | TS-65  | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | 8 |
-| 47 | US-31  | Sincronización con Apps de Salud     | Como usuario, quiero sincronizar mis datos con apps como Google Fit o Apple Health para tener información integrada. | 8  |
-| 48 | US-32  | Visualización de Tendencias          | Como usuario, quiero ver gráficas de evolución nutricional semanal o mensual para analizar mi progreso. | 5        |
-| 49 | US-33  | Comparativa con Objetivos            | Como usuario, quiero comparar mi ingesta diaria con mis objetivos para ajustar mi comportamiento. | 5            |
-| 50 | US-34  | Consejos Personalizados              | Como usuario, quiero recibir consejos según mis datos y hábitos para mejorar mi nutrición.       | 5            |
-| 51 | US-35  | Visualización de Historial           | Como usuario, quiero revisar mis registros anteriores para identificar patrones.                 | 3            |
-| 52 | US-36  | Desafíos Nutricionales               | Como usuario, quiero participar en retos nutricionales para mantenerme motivado.                 | 5            |
-| 53 | US-37  | Recomendaciones por Temporada        | Como usuario, quiero ver recetas o alimentos recomendados según la temporada del año.            | 3            |
-| 54 | US-38  | Visualización de Macronutrientes     | Como usuario, quiero visualizar proteínas, carbohidratos y grasas en mi dieta para balancearla mejor. | 5       |
-| 55 | US-39  | Información sobre Aditivos           | Como usuario, quiero ver si los alimentos contienen aditivos o ingredientes nocivos para tomar decisiones informadas. | 3  |
-| 56 | US-40  | Logros Desbloqueables                | Como usuario, quiero desbloquear logros al cumplir metas para sentirme recompensado.             | 3            |
-| 57 | US-41  | Visualización de Ingredientes        | Como usuario, quiero ver los ingredientes de cada receta para saber si se ajustan a mis preferencias. | 3       |
-| 58 | US-42  | Calificación de Recetas              | Como usuario, quiero calificar recetas para ayudar a otros usuarios.                             | 3            |
-| 59 | US-43  | Compartir Recetas                    | Como usuario, quiero compartir recetas con otros usuarios o fuera de la app para difundir buenas prácticas. | 5     |
-| 60 | US-44  | Chat de Soporte                      | Como usuario, quiero contactar al equipo de soporte si tengo dudas o problemas.                  | 5            |
-| 61 | US-45  | Visualización de Ingredientes Sustitutos | Como usuario, quiero ver sustitutos de ingredientes no compatibles con mi dieta.              | 5            |
-| 62 | US-46  | Personalización de Notificaciones    | Como usuario, quiero ajustar qué notificaciones recibo para evitar sobrecarga.                   | 3            |
-| 63 | US-47  | Tips Rápidos en la Home              | Como usuario, quiero ver tips rápidos de nutrición cada vez que entro para aprender en poco tiempo. | 2        |
-| 64 | US-48  | Estado de Cuenta                     | Como usuario, quiero ver el estado de mi cuenta (plan, vencimiento, suscripción) para mantenerme informado. | 2       |
-| 65 | US-49  | Configuración de Idioma              | Como usuario, quiero cambiar el idioma de la app para usarla en mi idioma nativo.               | 2            |
+| 9 |  US-56  | Intercambiar idiomas | Como visitante internacional, quiero poder cambiar el idioma de la landing page desde un selector de idioma, para comprender fácilmente la información sin barreras lingüísticas. | 5 |
+| 10  | US-01  | Registro de Usuario                  | Como usuario quiero crear un perfil con mis datos personales para recibir recomendaciones.       | 5            |
+| 11 | US-04  | Registro de Consumo Diario           | Como usuario, quiero registrar mis comidas diarias para llevar un control de mi alimentación.    | 5            |
+| 12 | US-25  | Acceso como Invitado                 | Como usuario, quiero acceder como invitado para explorar funcionalidades básicas.                | 3            |
+| 13 | US-22  | Control de Sesiones Activas          | Como usuario, quiero ver y cerrar mis sesiones activas para mayor seguridad.                     | 5            |
+| 14 | US-23  | Recuperación de Contraseña           | Como usuario, quiero recuperar mi contraseña en caso de olvido.                                  | 3            |
+| 15 | US-24  | Autenticación en Dos Pasos           | Como usuario, quiero habilitar autenticación en dos pasos para proteger mi cuenta.              | 5            |
+| 16 | US-21  | Configuración de Privacidad          | Como usuario, quiero configurar qué datos comparto para proteger mi privacidad.                  | 3            |
+| 17 | US-02  | Personalización de Objetivos         | Como usuario, quiero configurar mis objetivos de salud para recibir sugerencias alineadas.       | 5            |
+| 18 | US-03  | Selección de Preferencias Alimenticias | Como usuario, quiero seleccionar mis preferencias alimenticias para recibir sugerencias compatibles. | 5        |
+| 19 | US-05  | Visualización de Progreso            | Como usuario, quiero visualizar mi progreso nutricional para motivarme.                          | 5            |
+| 20 | US-07  | Ajuste de Plan Nutricional           | Como usuario, quiero ajustar mi plan nutricional si cambian mis necesidades.                     | 5            |
+| 21 | US-15  | Envío de Sugerencias Semanales       | Como usuario, quiero recibir sugerencias semanales de menús adaptados.                           | 5            |
+| 22 | US-16  | Alertas de Alimentos No Recomendados | Como usuario, quiero recibir alertas si registro alimentos no recomendados.                      | 5            |
+| 23 | US-17  | Exportación de Datos                 | Como usuario, quiero exportar mis datos de progreso para respaldo o análisis.                    | 5            |
+| 24 | US-18  | Notificaciones de Actividad          | Como usuario, quiero recibir notificaciones sobre actualizaciones relevantes.                    | 5            |
+| 25 | US-19  | Creación de Grupos de Apoyo          | Como usuario, quiero unirme a grupos con objetivos similares para motivación.                    | 8            |
+| 26 | US-20  | Encuestas de Satisfacción            | Como usuario, quiero responder encuestas para dar retroalimentación.                             | 3            |
+| 27 | US-26  | Búsqueda de Recetas                  | Como usuario, quiero buscar recetas saludables dentro de la app.                                 | 5            |
+| 28 | US-27  | Filtrado de Recetas                  | Como usuario, quiero filtrar recetas por tipo de dieta o restricción.                            | 5            |
+| 29 | US-28  | Favoritos de Recetas                 | Como usuario, quiero guardar recetas favoritas.                                                  | 3            |
+| 30 | US-29  | Visualización de Valor Nutricional   | Como usuario, quiero ver el valor nutricional de las recetas.                                    | 5            |
+| 31 | US-30  | Seguimiento de Hidratación           | Como usuario, quiero registrar mi consumo diario de agua.                                        | 3            |
+| 32 | US-50  | Configuración de Recordatorios Personalizados         | Como usuario, quiero crear recordatorios personalizados en la app.               | 2            |
+| 33 | US-51  | Evaluación de Progreso Nutricional | Como usuario, quiero recibir una evaluación mensual de mis progresos para saber cómo voy avanzando en mis metas. | 5       |
+| 34 | US-52  | Acceso a Planes Premium Personalizados | Como usuario, quiero acceder a planes premium que ofrezcan asesorías y recomendaciones personalizadas.         | 5            |
+| 35 | US-53  | Recomendaciones Basadas en Perfil Nutricional        | Como usuario, quiero recibir recomendaciones de hábitos y recetas en función de mi perfil y objetivos.             | 3            |
+| 36 | US-54  | Alertas Automáticas de Desviación Nutricional                         | Como usuario, quiero que la app me alerte cuando mis registros se desvíen significativamente de mi plan, para corregir mis hábitos a tiempo. | 8     |
+| 37 | US-55  | Comparación de Resultados con Usuarios Similares      | Como usuario, quiero comparar mi progreso con el de otros usuarios con características similares. | 3   |
+| 38 | TS-56  | 	Agregar Alergia mediante API RESTful                | Como desarrollador, quiero agregar una alergia mediante la API para que pueda almacenarse y ser utilizada en funcionalidades de personalización.                                               | 5            |
+| 39 | TS-57  | Agregar Recomendaciones mediante API RESTful       | Como desarrollador, quiero agregar recomendaciones mediante la API para que pueda ser asociado a recetas, alergias e ingredientes y plan de comida.                                         | 8            |
+| 40 | TS-58  | Crear Receta mediante API RESTful     | Como desarrollador, quiero crear una receta mediante la API para que los usuarios puedan acceder a preparaciones personalizadas.                                 | 5            |
+| 41 | TS-59  | Crear Plan de Comida mediante API RESTful           | Como desarrollador, quiero crear un plan de comida mediante la API para que los usuarios reciban una guía diaria de alimentación.                                                         | 5            |
+| 42 | TS-60  | Registrar Seguimiento mediante API RESTful | Como desarrollador, quiero registrar eventos de seguimiento nutricional mediante la API para que los profesionales puedan monitorear avances.                                             | 5            |
+| 43 | TS-61  | Configurar Entorno de Desarrollo | Como desarrollador, quiero configurar mi entorno de desarrollo local para poder trabajar en el proyecto. | 5 |
+| 44 | TS-62  | Implementar Endpoint para Registro de Usuario | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | 5 |
+| 45 | TS-63  | Generación de Reportes de Progreso | Como desarrollador, quiero crear una funcionalidad que genere reportes de progreso mensuales para que el usuario vea sus avances. | 8 |
+| 46 | TS-64  | Módulo de Recomendaciones Dinámicas | Como desarrollador, quiero implementar un módulo que actualice las recomendaciones nutricionales automáticamente según los registros del usuario. | 8 |
+| 47 | TS-65  | Sistema de Notificaciones Personalizadas | Como desarrollador, quiero programar notificaciones personalizadas para recordar a los usuarios sus comidas, metas o revisiones pendientes. | 8 |
+| 48 | US-31  | Sincronización con Apps de Salud     | Como usuario, quiero sincronizar mis datos con apps como Google Fit o Apple Health para tener información integrada. | 8  |
+| 49 | US-32  | Visualización de Tendencias          | Como usuario, quiero ver gráficas de evolución nutricional semanal o mensual para analizar mi progreso. | 5        |
+| 50 | US-33  | Comparativa con Objetivos            | Como usuario, quiero comparar mi ingesta diaria con mis objetivos para ajustar mi comportamiento. | 5            |
+| 51 | US-34  | Consejos Personalizados              | Como usuario, quiero recibir consejos según mis datos y hábitos para mejorar mi nutrición.       | 5            |
+| 52 | US-35  | Visualización de Historial           | Como usuario, quiero revisar mis registros anteriores para identificar patrones.                 | 3            |
+| 53 | US-36  | Desafíos Nutricionales               | Como usuario, quiero participar en retos nutricionales para mantenerme motivado.                 | 5            |
+| 54 | US-37  | Recomendaciones por Temporada        | Como usuario, quiero ver recetas o alimentos recomendados según la temporada del año.            | 3            |
+| 55 | US-38  | Visualización de Macronutrientes     | Como usuario, quiero visualizar proteínas, carbohidratos y grasas en mi dieta para balancearla mejor. | 5       |
+| 56 | US-39  | Información sobre Aditivos           | Como usuario, quiero ver si los alimentos contienen aditivos o ingredientes nocivos para tomar decisiones informadas. | 3  |
+| 57 | US-40  | Logros Desbloqueables                | Como usuario, quiero desbloquear logros al cumplir metas para sentirme recompensado.             | 3            |
+| 58 | US-41  | Visualización de Ingredientes        | Como usuario, quiero ver los ingredientes de cada receta para saber si se ajustan a mis preferencias. | 3       |
+| 59 | US-42  | Calificación de Recetas              | Como usuario, quiero calificar recetas para ayudar a otros usuarios.                             | 3            |
+| 60 | US-43  | Compartir Recetas                    | Como usuario, quiero compartir recetas con otros usuarios o fuera de la app para difundir buenas prácticas. | 5     |
+| 61 | US-44  | Chat de Soporte                      | Como usuario, quiero contactar al equipo de soporte si tengo dudas o problemas.                  | 5            |
+| 62 | US-45  | Visualización de Ingredientes Sustitutos | Como usuario, quiero ver sustitutos de ingredientes no compatibles con mi dieta.              | 5            |
+| 63 | US-46  | Personalización de Notificaciones    | Como usuario, quiero ajustar qué notificaciones recibo para evitar sobrecarga.                   | 3            |
+| 64 | US-47  | Tips Rápidos en la Home              | Como usuario, quiero ver tips rápidos de nutrición cada vez que entro para aprender en poco tiempo. | 2        |
+| 65 | US-48  | Estado de Cuenta                     | Como usuario, quiero ver el estado de mi cuenta (plan, vencimiento, suscripción) para mantenerme informado. | 2       |
+| 66 | US-49  | Configuración de Idioma              | Como usuario, quiero cambiar el idioma de la app para usarla en mi idioma nativo.               | 2            |
 
 <hr>
 
@@ -2202,10 +2204,23 @@ Durante el Sprint 1 se completó exitosamente el despliegue de la landing page d
 | **Sprint 2 Goal**              | Nuestra prioridad en este sprint es el mejoramiento de la información del reporte y añadir pequeñas adaptaciones a nuestra landing page. Además, implementar la primera versión de la aplicación Front End mediante el uso de CRUDS. Creemos que esto podrá dar una mejor presentación de las funcionalidades que posee nuestra propuesta y dar una mejor idea del diseño. Esto se confirmará cuando los usuarios destinarios puedan interactuar sin problema con la interfaz y generar una buena opinión. |
 | **Sprint 2 Velocity**          |                                                                                                                                                                                                                                                   |
 | **Sum of Story Points**        |                                                                                                                                                                                                                                                   |
+#### 5.2.2.3 Sprint Backlog 2
 
+Esta sección describe de forma resumida el objetivo principal del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. A continuación, se incluye una captura del tablero del sprint gestionado en la herramienta Trello, junto con el enlace público correspondiente. También se presenta una tabla que detalla las User Stories asignadas al sprint, los Work-items o tareas asociadas, y las actividades adicionales requeridas para cumplir con los objetivos establecidos.
 
+Este es nuestro link de invitación a nuestro Trello:
 
-### 🛠️ Pasos para el despliegue en GitHub Pages
+https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d12bd1771aB036B8B2/si730-4328-produck-backlog-grupo-03
+
+<p align="center">
+  <img src="./imagenes/Trello.png" alt="Trello" width="750">
+</p>
+
+#### 5.2.2.4 Development Evidence for Sprint Review
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+#### Pasos para el despliegue en GitHub Pages
 
 #### 1. Instalación de la dependencia `gh-pages`
 
@@ -2222,7 +2237,7 @@ Luego se añadieron los scripts de despliegue dentro del bloque scripts:
   "deploy": "gh-pages -d build"
 }
 ```
-💡 Reemplaza <usuario> y <nombre-repo> con tu nombre de usuario y nombre del repositorio.
+Reemplaza <usuario> y <nombre-repo> con tu nombre de usuario y nombre del repositorio.
 
 3. Ejecución del despliegue
 Para realizar el despliegue, se ejecutó el siguiente comando:
