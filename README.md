@@ -188,7 +188,7 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 | <div style="width:150px">Criterio específico</div> | <div style="width:250px">Acciones Realizadas</div> | <div style="width:250px">Conclusiones</div> |
 |-------------------|-------------------|------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br> **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo.**Héctor Ríos TP:** Realicé las correciones de las observaciones señaladas del profesor, así como el desarrollo de mi Crud correspondiente y su deploy  <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista. **TP1:** Realicé una vista del front-end para el apartado de Recommendations y correcciones.  <br><br> **Leonardo Prieto TB1:** Realicé toda la sección del Needfinding, en esto se encuentra, el User Persona, User Task Matrix, User journey map, Empathy Map y el As-Is Scenario Map. También realicé el Ubiquitous Language y por ultimo hice todo el capitulo  III <br><br> **Jorge Linares TB1:** Realicé toda la sección de los diagramas de contexto, componentes, contenedores, clases y base de datos. Elaboracion de la primera parte de la landing page y despliegue de la misma en github pages, de esta forma completando la parte final del informe del sprint numero 1 y todas las evidencias del trabajo colaborativo del equipo en los repositorios de github.| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. **TP:** Como conclusión para esta presentación, cada integrante realizó sus partes correspondientes así como sus correcciones, manteniendo así el objetivo del proyecto|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Fabrizio Paredes TB1:** Realicé el General Style Guidelines, Web Style Guidelines, Landing page mockup y entrevista para el segmento de nutricionista. <br><br>TP1: Realicé el Bounded context de tracking y tracking goals, además de las correcciones del tb1  **Héctor Ríos TB1:** Realicé la sección del startup profile, solution profile y segmentos objetivo dentro del capítulo I. Asimismo, la sección de competidores y las entrevistas correspondientes al primer segmento. Además, participé en la elaboración de los wireframes y mockups anterior al prototipo.**Héctor Ríos TP:** Realicé las correciones de las observaciones señaladas del profesor, así como el desarrollo de mi Crud correspondiente y su deploy  <br><br> **Sebastian Rodriguez TB1:** Realicé la seccion de Information Architecture, en el desarrollo del Landing Page y en realizar los Landing Page Wirframe y una entrevista para el segmento de nutricionista. **TP1:** Realicé una vista del front-end para el apartado de Recommendations y correcciones.  <br><br> **Leonardo Prieto TB1:** Realicé toda la sección del Needfinding, en esto se encuentra, el User Persona, User Task Matrix, User journey map, Empathy Map y el As-Is Scenario Map. También realicé el Ubiquitous Language y por ultimo hice todo el capitulo  III <br><br> **Jorge Linares TB1:** Realicé toda la sección de los diagramas de contexto, componentes, contenedores, clases y base de datos. Elaboracion de la primera parte de la landing page y despliegue de la misma en github pages, de esta forma completando la parte final del informe del sprint numero 1 y todas las evidencias del trabajo colaborativo del equipo en los repositorios de github.| **TB1:** Como conclusión para esta presentación, cada integrante cumplió con sus actividades en el tiempo y participó activamente en las reuniones, manteniendo una correcta comunicación, dando como resultado en este avance una base sólida para continuar el proyecto. **TP:** Como conclusión para esta presentación, cada integrante realizó sus partes correspondientes así como sus correcciones, manteniendo así el objetivo del proyecto|
 
 <hr>
 
@@ -2243,14 +2243,24 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 
 #### 5.2.2.5 Execution Evidence for Sprint Review.
 
+
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
 <p align="center">
   <img src="./imagenes/bounded-context-recommendation.png" alt="Trello" width="750">
 </p>
 
 - Front End : [Front End Deployment](https://bounded-context-recommendation.web.app/nutrismart/recommendation)
 
-#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+<p align="center">
+  <img src="./imagenes/deployFabri.png" alt="Trello" width="750">
+</p>  
+- Front End : [Front End Deployment](https://tracking-bounded-context.web.app/trackinggoals/trackinggoals-management)
+<p align="center">
+  <img src="./imagenes/deployHector.png" alt="Trello" width="750">
+</p> 
 
+- Front End : [Front End Deployment](https://ingredientscrud-b159a.web.app/ingredients/ingredients)
 #### Pasos para el despliegue en GitHub Pages
 
 #### 1. Instalación de la dependencia `gh-pages`
