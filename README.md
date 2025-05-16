@@ -2262,6 +2262,36 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 
 #### 5.2.2.4 Development Evidence for Sprint Review
 
+| Repository | Branch               | Commit ID                              | Commit Message                                                          | Commit Message Body                          | Committed on (Date) |
+|------------|----------------------|----------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------|---------------------|
+| NutriSmart | develop              | 619019015f9ac95153cf21281636f9e3d9661e99 | Merge pull request #13 from G-3-Open-Source/feature/paredes             | No description provided.                      | 2025-05-16          |
+| NutriSmart | feature/paredes      | e0ceee5b71135971faccb16a1de09d20cb23ec18 | added links for repositories                                             | No description provided.                      | 2025-05-16          |
+| NutriSmart | develop              | b4818c22ec195a8c59534c9159868281dabdb1c5 | Merge pull request #12 from G-3-Open-Source/feature/paredes             | No description provided.                      | 2025-05-15          |
+| NutriSmart | feature/paredes      | 7a46f1642a4255336614d66f49dd66adfaa844b7 | added 5.2.2.2. Aspect Leaders and Collaborators                          | No description provided.                      | 2025-05-15          |
+| NutriSmart | feature/prieto       | 59f422a3640d30ae84b833a1be500fcbfc09f102 | feat: adding sprint backlog 2 part 1                                      | No description provided.                      | 2025-05-15          |
+| NutriSmart | feature/prieto       | ae62ee28dd140cec4a88b0b6f7d8a6fed1731cdc | fix: adding more user stories & produck backlog                           | No description provided.                      | 2025-05-15          |
+| NutriSmart | feature/prieto       | 038f56483edf89eefc180f5d34cc250d1d663160 | fix: fixing produck backlog                                               | No description provided.                      | 2025-05-14          |
+| NutriSmart | feature/prieto       | 6ad38aee0459c1a9d8709aaa603b6d85dea59d77 | fix: fixing to-be scenario map                                            | No description provided.                      | 2025-05-14          |
+| NutriSmart | feature/prieto       | c0e991189659081cb76e97d6c71412ee4bb7dbb7 | fix: adding more user stories                                             | No description provided.                      | 2025-05-14          |
+| NutriSmart | feature/prieto       | c9e9ac5477a37c42e1870cb6fd34f40525dce1a2 | fix: fixing as-is scenario map                                            | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | 7f5cd81ed8c4ac612ca82d8bc625f3165ab31cdc | feat: aading sprint planning 2                                            | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | bf541e65f475da5b5df5536de7446a36779bd7ee | fix: sprint planning                                                      | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | 287b7ce6d8f65608230ba5d4b6b79d37b8184901 | Merge pull request #11 from G-3-Open-Source/feature/paredes              | No description provided.                      | 2025-05-14          |
+| NutriSmart | feature/paredes      | cc7a873859dbf86a3cdb940c71fa32ead59bd9   | fixed aspect leaders and collaborators                                    | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | 7b53956a7f7e9735a0bc4e36a1db9da022849b56 | fix image                                                                 | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | 7ad1bdcb1f6dd1ea83b78cbe1ac58e05ec382fee | Merge branch 'develop' of https://github.com/G-3-Open-Source/NutriSmart  | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | d8e1c1e5d688724ede3f6bf74632971d5428c81b | fix: update image prototype                                               | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | 065cc3d562a12d71d6f27fbf1ecd5059cf2eca10 | fix: update imagens                                                       | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | 339c7c06ee6fcfeaa75bada86881e8a1dbcfc082 | fix: imagens                                                              | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | 0991ad3df9747a7f1f58665516fd339197fcf6dc | fix: adding images                                                        | No description provided.                      | 2025-05-14          |
+| NutriSmart | develop              | d760dc1600c65c6c4e038c1302e1bdcf050f7c14 | fix: correcting observations                                              | No description provided.                      | 2025-05-14          |
+| NutriSmart | feature/rodriguez    | d9f43f113cfebddb180b49fb01c9e20f167d5988 | Merge pull request #10 from G-3-Open-Source/feature/rodriguez            | No description provided.                      | 2025-05-14          |
+| NutriSmart | feature/rodriguez    | 55257810e8c4d812c48d6f251b9161715fb19299 | fix: Se agregaron correcciones en los puntos 5.2.1.4. y 5.2.1.5.          | No description provided.                      | 2025-05-14          |
+| NutriSmart | feature/paredes      | 66655d9c9edffa7636cc9b52f323867062f9ce06 | Merge pull request #9 from G-3-Open-Source/feature/paredes               | No description provided.                      | 2025-05-14          |
+| NutriSmart | feature/paredes      | c4bc69d27038caeaca97171560c8a9acaf9316a6 | fixed Source Code Managment and Source Code Style Guide & Conventions     | No description provided.                      | 2025-05-14          |
+| NutriSmart | feature/rodriguez    | 9b02a4977cf5787979260f0f25a70f8715862753 | Merge branch 'develop' into feature/rodriguez                            | No description provided.                      | 2025-05-13          |
+
+
 #### 5.2.2.5 Execution Evidence for Sprint Review.
 <p align="center">
   <img src="./imagenes/bounded-context-recommendation.png" alt="Trello" width="750">
