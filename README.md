@@ -2313,7 +2313,7 @@ Durante la realización de este sprint se logró elaborar los CRUDS correspondie
   <img src="./imagenes/deployHector.png" alt="Trello" width="750">
 </p> 
 
-- Front End : [Front End Deployment](https://ingredientscrud-b159a.web.app/ingredients/ingredients)
+- Front End : [Front End Deployment](https://ingredientscrud-73b60.web.app/ingredients/ingredients)
 
 <p align="center">
   <img src="./imagenes/deployJorge.png" alt="Trello" width="750">
