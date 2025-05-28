@@ -2197,6 +2197,8 @@ Durante el Sprint 1 se completó exitosamente el despliegue de la landing page d
 ---
 #### 5.2.2. Sprint 2
 ##### 5.2.2.1. Sprint Planning 2
+El propósito de este segundo sprint es consolidar las mejoras realizadas al reporte inicial, respondiendo a las observaciones del profesor, y avanzar con la construcción funcional de la aplicación. Nos enfocaremos en ajustar y optimizar la landing page desarrollada en el sprint anterior, así como en implementar la primera versión del Front End, incorporando funcionalidades CRUD básicas. Esto permitirá comenzar a visualizar la interacción del usuario con la propuesta y validar aspectos clave del diseño y la experiencia de uso.
+
 | **Sprint #**                   | Sprint 2                                                                                                                                                                                                                                          |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sprint Planning Background** |                                                                                                                                                                                                                                                   |
@@ -2206,8 +2208,8 @@ Durante el Sprint 1 se completó exitosamente el despliegue de la landing page d
 | **Sprint 2 Review Summary**    | Se ha mejorado varios puntos con respecto al reporte según las observaciones que mencionó el profesor. Además, se creó la primera versión de nuestra landing page.                                                                                |
 | **Sprint 2 Retrospective Summary** | Hubo un correcto progreso, aunque con muchas correcciones por realizar se avanzó como se esperaba. Consideramos que la landing page realizada cumple con lo esperado, sin embargo, hubieron unos detalles faltantes.                      |
 | **Sprint 2 Goal**              | Nuestra prioridad en este sprint es el mejoramiento de la información del reporte y añadir pequeñas adaptaciones a nuestra landing page. Además, implementar la primera versión de la aplicación Front End mediante el uso de CRUDS. Creemos que esto podrá dar una mejor presentación de las funcionalidades que posee nuestra propuesta y dar una mejor idea del diseño. Esto se confirmará cuando los usuarios destinarios puedan interactuar sin problema con la interfaz y generar una buena opinión. |
-| **Sprint 2 Velocity**          |                                                                                                                                                                                                                                                   |
-| **Sum of Story Points**        |                                                                                                                                                                                                                                                   |
+| **Sprint 2 Velocity**          |   Se estimarón un total de 30                                                                                                                                                                                                                                                |
+| **Sum of Story Points**        |      Nuestro equipo puedo alcanzó 30                                                                                                                                                                                                                                             |
 
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
@@ -2293,6 +2295,8 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 
 
 #### 5.2.2.5 Execution Evidence for Sprint Review.
+Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas de Recomendaciones, Seguimiento de obejtivos, Ingredientes, Planes de comida y Recetas. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindadnod así una nueva perspectiva del producto que se estádesarrollando.
+
 <p align="center">
   <img src="./imagenes/bounded-context-recommendation.png" alt="Trello" width="750">
 </p>
@@ -2315,6 +2319,7 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
   <img src="./imagenes/deployJorge.png" alt="Trello" width="750">
 </p>   
 
+
 - Front End : [Front End Deployment](https://frontend-app-cd1e8.web.app/meal-plan)
 
 <p align="center">
@@ -2322,6 +2327,26 @@ https://trello.com/invite/b/6824e33b9bd2f440eb106a0e/ATTI320a3e4aa23b496c694910d
 </p>   
 
 - Front End : [Front End Deployment](https://recetas-crud.web.app/)
+#### 5.2.2.6
+Durante este sprint, se avanzó significativamente en la implementación de los primeros servicios web necesarios para la funcionalidad básica del Front End. Se desarrollaron e integraron operaciones CRUD que permiten la interacción con los datos de manera dinámica. Esta sección resume los logros alcanzados en relación con la documentación técnica de estos servicios, detallando su estructura, endpoints, métodos utilizados y la forma en que se conectan con la interfaz de usuario. Estos avances marcan un paso importante en la transición desde una interfaz estática hacia una aplicación funcional y orientada al usuario.
+
+### 📋 Tabla de Endpoints Documentados (Sprint 2)
+
+| Endpoint           | Acción                                            | Método HTTP | Sintaxis de llamada        | Parámetros                                                                                 | Ejemplo de Response                                                                                                             | URL Documentación             |
+|--------------------|---------------------------------------------------|--------------|-----------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| `/ingredients`     | Obtener ingredientes                              | `GET`        | `/ingredients/ingredients`  | Ninguno                                                                                     | `[{"id": 4, "name": "Egg", "category": "Protein", "calories": 78, "carbs": 0.6, "proteins": 6, "fats": 5, "allergies": "eggs", "recipes": 4}]` | `http://localhost:3000/docs` |
+| `/ingredients`     | Crear nuevos ingredientes                         | `POST`       | `/ingredients/ingredients`  | `name` (string), `category` (string), `calories` (int), `carbs` (float), `proteins` (int), `fats` (int), `allergies` (string), `recipes` (int) | `{"id": 4, "name": "Egg", "category": "Protein", "calories": 78, "carbs": 0.6, "proteins": 6, "fats": 5, "allergies": "eggs", "recipes": 4}` | `http://localhost:3000/docs` |
+| `/endpoint-2`      |                                                   | `GET`        | `/endpoint-2`               |                                                                                             |                                                                                                                                  |                               |
+| `/endpoint-2`      |                                                   | `POST`       | `/endpoint-2`               |                                                                                             |                                                                                                                                  |                               |
+| `/endpoint-3`      |                                                   | `GET`        | `/endpoint-3`               |                                                                                             |                                                                                                                                  |                               |
+| `/endpoint-3`      |                                                   | `POST`       | `/endpoint-3`               |                                                                                             |                                                                                                                                  |                               |
+| `/endpoint-4`      |                                                   | `GET`        | `/endpoint-4`               |                                                                                             |                                                                                                                                  |                               |
+| `/endpoint-4`      |                                                   | `POST`       | `/endpoint-4`               |                                                                                             |                                                                                                                                  |                               |
+| `/endpoint-5`      |                                                   | `GET`        | `/endpoint-5`               |                                                                                             |                                                                                                                                  |                               |
+| `/endpoint-5`      |                                                   | `POST`       | `/endpoint-5`               |                                                                                             |                                                                                                                                  |                               |
+| `/endpoint-6`      |                                                   | `GET`        | `/endpoint-6`               |                                                                                             |                                                                                                                                  |                               |
+| `/endpoint-6`      |                                                   | `POST`       | `/endpoint-6`               |                                                                                             |                                                                                                                                  |                               |
+
 
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
