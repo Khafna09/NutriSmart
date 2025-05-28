@@ -282,11 +282,11 @@ NutriSmart es una plataforma web que permite a los usuarios crear planes de comi
 #### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-Nuestro servicio de plataforma de planes de alimentación personalizados fue diseñado para ayudar a personas con metas de salud y restricciones dietéticas, así como a profesionales de la salud, a crear y gestionar dietas individualizadas.
+Los usuarios con metas de salud y restricciones dietéticas, así como los profesionales de la salud encargados de diseñar y monitorear dietas individualizadas, enfrentan dificultades para encontrar y gestionar planes de alimentación que realmente se ajusten a sus necesidades específicas.
 
-Hemos observado que muchos usuarios consideran que los planes ofrecidos no se ajustan realmente a sus necesidades específicas, lo cual está provocando baja adherencia al seguimiento de la dieta, disminución en la frecuencia de uso de la plataforma y, en última instancia, un impacto negativo en su estado de salud.
+Hemos observado que muchos de estos usuarios sienten que los planes ofrecidos no consideran sus condiciones médicas (diabetes, hipertensión, alergias e intolerancias), sus preferencias culturales o su contexto económico, lo cual provoca baja adherencia al seguimiento, reducción en la frecuencia de uso de la plataforma y, finalmente, un impacto negativo en su estado de salud.
 
-¿Cómo podríamos abordar estos problemas en los planes alimenticios para que los usuarios puedan mejorar su adherencia a este tipo de planes y estilos de vida?
+¿Cómo podríamos enfocar los planes alimenticios para mejorar la adherencia de los usuarios y sostener hábitos saludables a largo plazo?
 
 #### 1.2.2.2. Lean UX Assumptions
 
