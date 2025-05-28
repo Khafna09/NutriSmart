@@ -2347,6 +2347,14 @@ Durante este sprint, se avanzó significativamente en la implementación de los 
 | `/endpoint-6`      |                                                   | `GET`        | `/endpoint-6`               |                                                                                             |                                                                                                                                  |                               |
 | `/endpoint-6`      |                                                   | `POST`       | `/endpoint-6`               |                                                                                             |                                                                                                                                  |                               |
 
+Ingredients Get y Post
+<p align="center">
+  <img src="./imagenes/ingredients_get.png" alt="firebase1" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/ingredients_post.png" alt="firebase1" width="750">
+</p>
 
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
