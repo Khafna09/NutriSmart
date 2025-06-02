@@ -2336,10 +2336,10 @@ Durante este sprint, se avanzó significativamente en la implementación de los 
 |--------------------|---------------------------------------------------|--------------|-----------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | `/ingredients`     | Obtener ingredientes                              | `GET`        | `/ingredients/ingredients`  | Ninguno                                                                                     | `[{"id": 4, "name": "Egg", "category": "Protein", "calories": 78, "carbs": 0.6, "proteins": 6, "fats": 5, "allergies": "eggs", "recipes": 4}]` | https://ingredientscrud-73b60.web.app/ingredients/ingredients |
 | `/ingredients`     | Crear nuevos ingredientes                         | `POST`       | `/ingredients/ingredients`  | `name` (string), `category` (string), `calories` (int), `carbs` (float), `proteins` (int), `fats` (int), `allergies` (string), `recipes` (int) | `{"id": 4, "name": "Egg", "category": "Protein", "calories": 78, "carbs": 0.6, "proteins": 6, "fats": 5, "allergies": "eggs", "recipes": 4}` | `http://localhost:3000/docs` |
-| `/endpoint-2`      |                                                   | `GET`        | `/endpoint-2`               |                                                                                             |                                                                                                                                  |                               |
-| `/endpoint-2`      |                                                   | `POST`       | `/endpoint-2`               |                                                                                             |                                                                                                                                  |                               |
-| `/endpoint-3`      |                                                   | `GET`        | `/endpoint-3`               |                                                                                             |                                                                                                                                  |                               |
-| `/endpoint-3`      |                                                   | `POST`       | `/endpoint-3`               |                                                                                             |                                                                                                                                  |                               |
+| `/tracking`      |   Obtener trackings                                                | `GET`        | `/tracking/tracking`               |                                                                                  Ninguno           |     `{ "id": 1,"date": "2025-05-14","time_of_day": "breakfast","quantity": 1,"notes": "Desayuno saludable con avena","recipe_id": 15,"user_id": 100,"calories": 350,"created_at": "2025-05-14T08:15:00Z"}`                                                                                                                              |                 https://tracking-bounded-context.web.app/trackinggoals/trackinggoals-management              |
+| `/tracking`      | Crear trackings                                                  | `POST`       | `/tracking/tracking`               |                                                                      `id` (int), `date` (string), `time_of_day` (string), `quantity` (int), `notes` (string), `recipe_id` (int), `user_id` (int), `calories` (int), `created_at`(string)                   |                                                                                            `{ "id": 1,"date": "2025-05-14","time_of_day": "breakfast","quantity": 1,"notes": "Desayuno saludable con avena","recipe_id": 15,"user_id": 100,"calories": 350,"created_at": "2025-05-14T08:15:00Z"}`                                   |                       https://tracking-bounded-context.web.app/trackinggoals/trackinggoals-management        |
+| `/tracking_goals`      |    Obtener trackings goals                                               | `GET`        | `/tracking_goals/tracking_goals`               |  Ninguno                                                                                            |                                                                                                           `{"id": 1,"user_id": 101,"daily_calories": 2200,"daily_protein": 150,"daily_carbs": 250,"daily_fat": 70}`                      |                    https://tracking-bounded-context.web.app/trackinggoals/trackinggoals-management             |
+| `/tracking_goals`      |     Crear tracking goals                                              | `POST`       | `/tracking_goals/tracking_goals`               |      `id` (int), `user_id` (int), `daily_calories` (int), `daily_protein` (int), `daily_carbs` (int), `daily_fat` (int)                                                                                       |                                                                                               `{"id": 1,"user_id": 101,"daily_calories": 2200,"daily_protein": 150,"daily_carbs": 250,"daily_fat": 70}`                                   |                         https://tracking-bounded-context.web.app/trackinggoals/trackinggoals-management        |
 | `/endpoint-4`      |                                                   | `GET`        | `/endpoint-4`               |                                                                                             |                                                                                                                                  |                               |
 | `/endpoint-4`      |                                                   | `POST`       | `/endpoint-4`               |                                                                                             |                                                                                                                                  |                               |
 | `/endpoint-5`      |                                                   | `GET`        | `/endpoint-5`               |                                                                                             |                                                                                                                                  |                               |
@@ -2354,6 +2354,24 @@ Ingredients Get y Post
 
 <p align="center">
   <img src="./imagenes/ingredients_post.png" alt="firebase1" width="750">
+</p>
+
+Tracking Get y Post
+<p align="center">
+  <img src="./imagenes/tracking_get.png" alt="firebase1" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/tracking_post.png" alt="firebase1" width="750">
+</p>
+
+Tracking_goals Get y Post
+<p align="center">
+  <img src="./imagenes/trackinggoals_get.png" alt="firebase1" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/trackinggoals_post.png" alt="firebase1" width="750">
 </p>
 
 
