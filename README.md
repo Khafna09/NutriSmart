@@ -2455,6 +2455,40 @@ Durante el Sprint 1, el equipo de desarrollo trabajó de manera colaborativa par
 
 <hr>
 
+---
+#### 5.2.3. Sprint 3
+##### 5.2.3.1. Sprint Planning 3
+El propósito de este tercer sprint es consolidar las mejoras realizadas al reporte inicial, respondiendo a las observaciones del profesor, y avanzar con la construcción funcional de la aplicación. Nos enfocaremos en ajustar y optimizar nuestro frontend desarrollado en el sprint anterior, así como en implementar la primera versión del backend, incorporandolo mediante el enfoque DDD. Esto permitirá comenzar la implementación entre el frontend y el backend.
+
+| **Sprint #**                   | Sprint 3                                                                                                                                                                                                                                          |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                   |
+| **Date**                       | 16/06/2025                                                                                                                                                                                                                                        |
+| **Location**                   | El desarrollo de la reunión se realizó virtualmente por medio de Discord                                                                                                                                                                          |
+| **Prepared By**                | Paredes, Fabrizio / Ríos, Héctor / Prieto, Leonardo / Rodriguez, Sebastian / Linares, Jorge                                                                                                                                                       |
+| **Sprint 3 Review Summary**    | Se ha mejorado varios puntos con respecto al reporte según las observaciones que mencionó el profesor. Además, se hizo la unión del frontend y creó la primera versión de nuestro backend.                                                                                |
+| **Sprint 3 Retrospective Summary** | Hubo un correcto progreso, aunque con algunas correcciones por realizar se avanzó como se esperaba. Consideramos que nuestro frontend cumple con lo esperado, sin embargo, falta mejorar aún más el backend.                      |
+| **Sprint 3 Goal**              | Nuestra prioridad en este sprint es el mejoramiento de la información del reporte y añadir pequeñas correciones a nuestra frontend. Además, implementar la primera versión del backend de nuestra aplicación usando el enfoque DDD. Creemos que esto podrá dar una mejor funcionalidad respecto al guardado de datos que posee nuestra propuesta y organizar todo mucho mejor en la base de datos. Esto se confirmará cuando nuestra base de datos se cree de forma correcta. |
+| **Sprint 3 Velocity**          |   Se estimarón un total de (falta)                                                                                                                                                                                                                                                |
+| **Sum of Story Points**        |      Nuestro equipo alcanzó (falta)                                                                                                                                                                                                                                             |
+
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+En este Sprint, el equipo se enfocó en el desarrollo de una primera versión del backend, así como la integración de las distintas vistas del frontend en una sola y una mejora de diseño en este mismo. Los aspectos principales considerados en este Sprint incluyen el diseño e implementación de los bounded context en el backend mediante el enfoque DDD, la mejora visual del frontend, y la integración de todas las vistas a una sola del frontend. A continuación, se presenta la matriz Leadership-and-Collaboration Matrix (LACX), que detalla los roles de liderazgo y colaboración asignados a cada miembro del equipo para los aspectos clave del Sprint.
+
+| **Team Member**       | **GitHub Username** | **Backend Component Development** <br> Leader (L)/Collaborator(C) | **Visual improvement to the frontend** <br> Leader (L)/Collaborator(C) | **Frontend Integration** <br> Leader (L)/Collaborator(C) | **Backend Integration** <br> Leader (L)/Collaborator(C) |
+|:---------------------:|:-------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|
+| Rodriguez, Sebastian                | Shiftinnnnn          | C                                | C                          |             C                      |               L                   |
+| Linares, Jorge                      | jlinares30          | L                                | C                          | L                      |               C                    |
+| Rios, Hector                        | Khafna09             | C                                | C                          | L                      |               C                   |
+| Prieto, Leonardo                    | Wuux1             | C                                | L                          | C                      |               C                    |
+| Paredes, Fabrizio                   | psfa29            | L                                | C                          | C                      |               L               |
+
+
+En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar una comunicación clara y efectiva dentro del equipo, promoviendo la eficiencia en la ejecución de las tareas relacionadas con el alcance del Sprint.
+
+
 ## Conclusiones
 
 - Durante el desarrollo de NutriSmart, se ha logró identificar y comprender en profundidad a nuestros segmento objetivo: personas adultas peruanas afectadas por el sobrepeso y la obesidad, personas con objetivos de salud o de simplemente llevar un estilo de vida más saludable. Esta comprensión ha permitido adaptar la aplicación para fomentar hábitos alimenticios saludables de forma práctica, cómoda y accesible, con el fin de mejorar la salud y la calidad de vida de los usuarios.
