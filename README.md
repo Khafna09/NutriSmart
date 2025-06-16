@@ -2473,7 +2473,7 @@ El propósito de este tercer sprint es consolidar las mejoras realizadas al repo
 | **Sum of Story Points**        |      Nuestro equipo alcanzó (falta)                                                                                                                                                                                                                                             |
 
 
-##### 5.2.2.2. Aspect Leaders and Collaborators
+##### 5.2.3.2. Aspect Leaders and Collaborators
 
 En este Sprint, el equipo se enfocó en el desarrollo de una primera versión del backend, así como la integración de las distintas vistas del frontend en una sola y una mejora de diseño en este mismo. Los aspectos principales considerados en este Sprint incluyen el diseño e implementación de los bounded context en el backend mediante el enfoque DDD, la mejora visual del frontend, y la integración de todas las vistas a una sola del frontend. A continuación, se presenta la matriz Leadership-and-Collaboration Matrix (LACX), que detalla los roles de liderazgo y colaboración asignados a cada miembro del equipo para los aspectos clave del Sprint.
 
