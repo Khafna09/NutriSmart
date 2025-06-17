@@ -2488,6 +2488,57 @@ En este Sprint, el equipo se enfocó en el desarrollo de una primera versión de
 
 En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar una comunicación clara y efectiva dentro del equipo, promoviendo la eficiencia en la ejecución de las tareas relacionadas con el alcance del Sprint.
 
+##### 5.2.3.3. Sprint Backlog 3.
+
+##### 5.2.3.4. Development Evidence for Sprint Review.
+
+##### 5.2.3.5. Execution Evidence for Sprint Review.
+
+##### 5.2.3.6. Service Documentation Evidence for Sprint Review.
+
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+##### 5.2.3.8. Team Colaborators Insights durign Sprint.
+
+#### 5.3. Validation Interviews.
+
+##### 5.3.1 Diseño de Entrevistas.
+
+Con el objetivo de validar la interfaz desarrollada hasta el momento, se realizaron entrevistas y sesiones de revisión con usuarios para obtener retroalimentación sobre el diseño, usabilidad y funcionalidades del frontend.
+
+#### Preguntas generales:
+
+1. ¿Cúal es tu nombre y cuantos años tienes?
+
+2. ¿Tienes experiencia previa usando aplicaciones web similares?
+
+3. ¿Cuál es tu nivel de familiaridad con aplicaciones de tipo gestión o administración de contenido?
+
+#### Preguntas sobre el frontend:
+
+1. ¿Qué te parece en general el diseño y la presentación del frontend?
+
+2. ¿La navegación entre las secciones te pareció clara y fácil de usar?
+
+3. ¿Los textos, botones e íconos son comprensibles y cumplen su función?
+
+4. ¿Te pareció intuitiva la interfaz? ¿Pudiste entender fácilmente cómo interactuar con ella sin ayuda externa?
+
+5. ¿Hay elementos que consideras innecesarios o que no aportan valor a la experiencia?
+
+6. ¿Sientes que el diseño responde bien a diferentes tamaños de pantalla?
+
+7. ¿Qué mejorarías o agregarías a este frontend para que sea más completo o útil?
+
+8. ¿Cambiarías algo en la distribución, colores, tipografías o iconografía del sitio?
+
+9. ¿Te gustaría ver más animaciones, confirmaciones visuales u otros elementos interactivos al realizar acciones?
+
+10. ¿Hubo algún momento en que te sentiste confundido o no sabías qué hacer a continuación?
+
+##### 5.3.1 Registro de Entrevistas.
+
+##### 5.3.1 Evaluaciones según heuristicas.
 
 ## Conclusiones
 
